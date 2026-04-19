@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farmacia JN — Punto de Venta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #070d1a;
+      --surface: #0e1a2e;
+      --surface2: #162440;
+      --accent: #00e5ff;
+      --accent2: #00ff99;
+      --danger: #ff4d6d;
+      --text: #e8f0fe;
+      --muted: #7a8ba8;
+      --border: rgba(0,229,255,0.15);
+      --shadow: 0 4px 24px rgba(0,0,0,0.5);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Nunito', sans-serif;
+      min-height: 100vh;
+      background-image: radial-gradient(ellipse at 20% 0%, rgba(0,229,255,0.06) 0%, transparent 60%),
+                        radial-gradient(ellipse at 80% 100%, rgba(0,255,153,0.04) 0%, transparent 60%);
+    }
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    header .logo {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--accent);
+      letter-spacing: 1px;
+    }
+    header .logo span { color: var(--accent2); }
+    header .vendedor {
+      margin-left: auto;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    header .vendedor strong { color: var(--text); }
+
+    .container { padding: 16px; max-width: 600px; margin: 0 auto; }
+
+    /* Buscador */
+    .search-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px 16px;
+      margin-bottom: 12px;
+      position: relative;
+    }
+    .search-box label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--accent);
+      font-weight: 700;
+      display: block;
+      margin-bottom: 8px;
+    }
+    .search-row { display: flex; gap: 8px; }
+    .search-row input {
+      flex: 1;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 11px 14px;
+      color: var(--text);
+      font-size: 15px;
+      font-family: 'Nunito', sans-serif;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .search-row input:focus { border-color: var(--accent); }
+    .btn-scan {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 11px 14px;
+      color: var(--accent);
+      font-size: 20px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .btn-scan:active { background: var(--border); }
+
+    /* Sugerencias */
+    #sugerencias {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      margin-top: 6px;
+      overflow: hidden;
+      display: none;
+    }
+    .sug-item {
+      padding: 11px 14px;
+      cursor: pointer;
+      border-bottom: 1px solid var(--border);
+      transition: background 0.15s;
+    }
+    .sug-item:last-child { border-bottom: none; }
+    .sug-item:active { background: var(--border); }
+    .sug-nombre { font-size: 13px; font-weight: 600; }
+    .sug-meta { font-size: 11px; color: var(--muted); margin-top: 2px; }
+    .sug-precio { color: var(--accent2); font-weight: 700; }
+
+    /* Producto seleccionado */
+    #producto-panel {
+      background: var(--surface);
+      border: 1px solid var(--accent);
+      border-radius: 14px;
+      padding: 16px;
+      margin-bottom: 12px;
+      display: none;
+      animation: slideIn 0.2s ease;
+    }
+    @keyframes slideIn { from { opacity:0; transform:translateY(-8px); } to { opacity:1; transform:translateY(0); } }
+    .prod-nombre {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 17px;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 4px;
+    }
+    .prod-codigo { font-size: 11px; color: var(--muted); margin-bottom: 12px; }
+    .prod-controles {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+    .ctrl-group label {
+      font-size: 11px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      display: block;
+      margin-bottom: 5px;
+    }
+    .ctrl-group input, .ctrl-group select {
+      width: 100%;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 9px 12px;
+      color: var(--text);
+      font-size: 15px;
+      font-family: 'Nunito', sans-serif;
+      outline: none;
+    }
+    .ctrl-group input:focus { border-color: var(--accent); }
+    .precio-display {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: var(--surface2);
+      border-radius: 10px;
+      padding: 10px 14px;
+      margin-bottom: 12px;
+    }
+    .precio-display .label { font-size: 12px; color: var(--muted); }
+    .precio-display .valor { font-size: 20px; font-weight: 700; font-family: 'Rajdhani', sans-serif; color: var(--accent2); }
+    .btn-agregar {
+      width: 100%;
+      background: linear-gradient(135deg, var(--accent), #0099bb);
+      border: none;
+      border-radius: 10px;
+      padding: 13px;
+      color: #000;
+      font-size: 15px;
+      font-weight: 700;
+      font-family: 'Nunito', sans-serif;
+      cursor: pointer;
+      letter-spacing: 0.5px;
+      transition: opacity 0.2s, transform 0.1s;
+    }
+    .btn-agregar:active { opacity: 0.85; transform: scale(0.98); }
+
+    /* Scanner */
+    #scanner-container {
+      display: none;
+      margin-bottom: 12px;
+      border-radius: 14px;
+      overflow: hidden;
+      border: 2px solid var(--accent);
+      position: relative;
+    }
+    #scanner-container video { width: 100%; display: block; }
+    .scan-overlay {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      pointer-events: none;
+    }
+    .scan-line {
+      width: 70%;
+      height: 2px;
+      background: var(--accent);
+      box-shadow: 0 0 12px var(--accent);
+      animation: scanMove 1.5s ease-in-out infinite alternate;
+    }
+    @keyframes scanMove { from { transform: translateY(-40px); } to { transform: translateY(40px); } }
+
+    /* Tabla de ventas */
+    .tabla-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .tabla-header h2 {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 16px;
+      color: var(--accent);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    .badge-count {
+      background: var(--accent);
+      color: #000;
+      border-radius: 20px;
+      padding: 2px 10px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    #tabla-ventas {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+      margin-bottom: 12px;
+    }
+    .tabla-cols {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr 36px;
+      padding: 8px 14px;
+      background: var(--surface2);
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: var(--muted);
+      border-bottom: 1px solid var(--border);
+    }
+    .venta-row {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr 36px;
+      padding: 11px 14px;
+      border-bottom: 1px solid var(--border);
+      align-items: center;
+      font-size: 13px;
+      animation: fadeRow 0.2s ease;
+    }
+    @keyframes fadeRow { from { opacity:0; background: rgba(0,229,255,0.05); } to { opacity:1; } }
+    .venta-row:last-child { border-bottom: none; }
+    .venta-nombre { font-weight: 600; font-size: 12px; line-height: 1.3; }
+    .venta-cod { font-size: 10px; color: var(--muted); }
+    .venta-num { text-align: center; color: var(--muted); }
+    .venta-precio { text-align: center; }
+    .venta-importe { text-align: center; font-weight: 700; color: var(--accent2); }
+    .venta-desc-tag {
+      font-size: 9px;
+      background: rgba(0,255,153,0.15);
+      color: var(--accent2);
+      border-radius: 4px;
+      padding: 1px 5px;
+      display: inline-block;
+      margin-top: 2px;
+    }
+    .btn-del {
+      background: none;
+      border: none;
+      color: var(--danger);
+      font-size: 16px;
+      cursor: pointer;
+      padding: 4px;
+      line-height: 1;
+    }
+    #empty-msg {
+      padding: 24px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    /* Total y botones */
+    .total-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px;
+      margin-bottom: 12px;
+    }
+    .total-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .total-row.main {
+      font-size: 22px;
+      font-family: 'Rajdhani', sans-serif;
+      font-weight: 700;
+      color: var(--text);
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid var(--border);
+    }
+    .total-row.main .monto { color: var(--accent2); }
+
+    .btn-generar {
+      width: 100%;
+      background: linear-gradient(135deg, var(--accent2), #00bb66);
+      border: none;
+      border-radius: 12px;
+      padding: 15px;
+      color: #000;
+      font-size: 16px;
+      font-weight: 700;
+      font-family: 'Nunito', sans-serif;
+      cursor: pointer;
+      letter-spacing: 0.5px;
+      margin-bottom: 10px;
+      transition: opacity 0.2s, transform 0.1s;
+    }
+    .btn-generar:active { opacity: 0.85; transform: scale(0.98); }
+    .btn-limpiar {
+      width: 100%;
+      background: transparent;
+      border: 1px solid var(--danger);
+      border-radius: 12px;
+      padding: 12px;
+      color: var(--danger);
+      font-size: 14px;
+      font-weight: 600;
+      font-family: 'Nunito', sans-serif;
+      cursor: pointer;
+      margin-bottom: 20px;
+    }
+
+    /* Toast */
+    #toast {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%) translateY(80px);
+      background: var(--surface2);
+      border: 1px solid var(--accent);
+      color: var(--text);
+      padding: 12px 24px;
+      border-radius: 30px;
+      font-size: 14px;
+      font-weight: 600;
+      transition: transform 0.3s ease;
+      z-index: 999;
+      white-space: nowrap;
+    }
+    #toast.show { transform: translateX(-50%) translateY(0); }
+
+    /* Modal vendedor */
+    #modal-vendedor {
+      position: fixed;
+      inset: 0;
+      background: rgba(7,13,26,0.95);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      padding: 20px;
+    }
+    .modal-box {
+      background: var(--surface);
+      border: 1px solid var(--accent);
+      border-radius: 20px;
+      padding: 28px 24px;
+      width: 100%;
+      max-width: 340px;
+      text-align: center;
+    }
+    .modal-box .icon { font-size: 40px; margin-bottom: 12px; }
+    .modal-box h2 {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 22px;
+      color: var(--accent);
+      margin-bottom: 6px;
+    }
+    .modal-box p { font-size: 13px; color: var(--muted); margin-bottom: 18px; }
+    .modal-box input {
+      width: 100%;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 12px 14px;
+      color: var(--text);
+      font-size: 16px;
+      font-family: 'Nunito', sans-serif;
+      outline: none;
+      margin-bottom: 14px;
+      text-align: center;
+    }
+    .modal-box input:focus { border-color: var(--accent); }
+    .modal-box button {
+      width: 100%;
+      background: linear-gradient(135deg, var(--accent), #0099bb);
+      border: none;
+      border-radius: 10px;
+      padding: 13px;
+      color: #000;
+      font-size: 15px;
+      font-weight: 700;
+      font-family: 'Nunito', sans-serif;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Modal nombre vendedor -->
+<div id="modal-vendedor">
+  <div class="modal-box">
+    <div class="icon">💊</div>
+    <h2>Farmacia JN</h2>
+    <p>Ingresa tu nombre para comenzar</p>
+    <input type="text" id="input-vendedor" placeholder="Tu nombre..." maxlength="30">
+    <button onclick="iniciarSesion()">Entrar al sistema</button>
+  </div>
+</div>
+
+<header>
+  <div class="logo">FARMACIA <span>JN</span></div>
+  <div class="vendedor">Vendedor: <strong id="nombre-vendedor">—</strong></div>
+</header>
+
+<div class="container">
+
+  <!-- Buscador -->
+  <div class="search-box">
+    <label>🔍 Buscar producto</label>
+    <div class="search-row">
+      <input type="text" id="buscador" placeholder="Nombre o código de barras..." autocomplete="off" oninput="buscarProducto(this.value)">
+      <button class="btn-scan" onclick="toggleScanner()" id="btn-scan">📷</button>
+    </div>
+    <div id="sugerencias"></div>
+  </div>
+
+  <!-- Scanner -->
+  <div id="scanner-container">
+    <video id="video-scanner" playsinline></video>
+    <div class="scan-overlay"><div class="scan-line"></div></div>
+  </div>
+
+  <!-- Panel producto seleccionado -->
+  <div id="producto-panel">
+    <div class="prod-nombre" id="prod-nombre">—</div>
+    <div class="prod-codigo" id="prod-codigo">—</div>
+    <div class="prod-controles">
+      <div class="ctrl-group">
+        <label>Cantidad</label>
+        <input type="number" id="prod-cantidad" value="1" min="1" oninput="calcularImporte()">
+      </div>
+      <div class="ctrl-group">
+        <label>Precio</label>
+        <select id="prod-tipo-precio" onchange="calcularImporte()">
+          <option value="normal">Precio normal</option>
+          <option value="descuento">Con descuento</option>
+        </select>
+      </div>
+    </div>
+    <div class="precio-display">
+      <div>
+        <div class="label">Normal: <span id="lbl-precio-normal">$0</span></div>
+        <div class="label">Desc: <span id="lbl-precio-desc">$0</span></div>
+      </div>
+      <div>
+        <div class="label">Importe</div>
+        <div class="valor" id="lbl-importe">$0.00</div>
+      </div>
+    </div>
+    <button class="btn-agregar" onclick="agregarProducto()">➕ Agregar a la venta</button>
+  </div>
+
+  <!-- Tabla de ventas -->
+  <div class="tabla-header">
+    <h2>Venta actual</h2>
+    <span class="badge-count" id="badge-count">0</span>
+  </div>
+  <div id="tabla-ventas">
+    <div class="tabla-cols">
+      <div>Producto</div><div style="text-align:center">Cant</div>
+      <div style="text-align:center">Precio</div>
+      <div style="text-align:center">Importe</div>
+      <div></div>
+    </div>
+    <div id="filas-venta">
+      <div id="empty-msg">Agrega productos para comenzar</div>
+    </div>
+  </div>
+
+  <!-- Total -->
+  <div class="total-box">
+    <div class="total-row"><span>Subtotal</span><span id="lbl-subtotal">$0.00</span></div>
+    <div class="total-row"><span>Descuentos</span><span id="lbl-descuentos" style="color:var(--accent2)">-$0.00</span></div>
+    <div class="total-row main"><span>TOTAL</span><span class="monto" id="lbl-total">$0.00</span></div>
+  </div>
+
+  <button class="btn-generar" onclick="generarVenta()">✅ Generar venta y enviar</button>
+  <button class="btn-limpiar" onclick="limpiarVenta()">🗑 Limpiar venta</button>
+
+  <!-- Resumen del día -->
+  <div style="background:var(--surface);border:1px solid rgba(0,255,153,0.3);border-radius:14px;padding:16px;margin-bottom:12px;">
+    <div style="font-family:'Rajdhani',sans-serif;font-size:15px;color:var(--accent2);letter-spacing:1px;text-transform:uppercase;margin-bottom:12px;">📊 Resumen del día</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px;">
+      <div style="background:var(--surface2);border-radius:10px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:var(--muted);margin-bottom:4px;">Ventas realizadas</div>
+        <div style="font-family:'Rajdhani',sans-serif;font-size:24px;font-weight:700;color:var(--text)" id="lbl-num-ventas">0</div>
+      </div>
+      <div style="background:var(--surface2);border-radius:10px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:var(--muted);margin-bottom:4px;">Total del día</div>
+        <div style="font-family:'Rajdhani',sans-serif;font-size:24px;font-weight:700;color:var(--accent2)" id="lbl-total-dia">$0.00</div>
+      </div>
+    </div>
+    <div style="display:flex;justify-content:space-between;font-size:12px;color:var(--muted);margin-bottom:4px;">
+      <span>Ventas normales:</span><span id="lbl-total-normal-dia" style="color:var(--text)">$0.00</span>
+    </div>
+    <div style="display:flex;justify-content:space-between;font-size:12px;color:var(--muted);margin-bottom:14px;">
+      <span>Ventas c/descuento:</span><span id="lbl-total-desc-dia" style="color:var(--accent2)">$0.00</span>
+    </div>
+    <button onclick="hacerCorte()" style="width:100%;background:linear-gradient(135deg,#9b59b6,#6c3483);border:none;border-radius:10px;padding:13px;color:#fff;font-size:15px;font-weight:700;font-family:'Nunito',sans-serif;cursor:pointer;letter-spacing:0.5px;">
+      🔒 Hacer corte del día
+    </button>
+  </div>
+
+</div>
+
+<div id="toast">Producto agregado ✓</div>
+
+<script src="https://unpkg.com/@zxing/library@latest/umd/index.min.js"></script>
+<script src="pos.js"></script>
+</body>
+</html>
