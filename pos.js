@@ -1,6 +1,6 @@
 // ─── CONFIGURACIÓN ────────────────────────────────────────────────────────────
 // 👇 Pega aquí la URL de tu Google Apps Script después de desplegarlo
-const GOOGLE_SCRIPT_URL = "PEGA_AQUI_TU_URL_DE_GOOGLE_APPS_SCRIPT";
+const GOOGLE_SCRIPT_URL = https://script.google.com/macros/s/AKfycbxS27jK5fHWAaB_H4-1lRTYjbvMOmNr-ADhHxauH45Ch6NaIDjEJ7uEHQshsDOopRQ/exec;
 
 // ─── ESTADO ───────────────────────────────────────────────────────────────────
 let productos = [];
