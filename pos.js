@@ -1,6 +1,6 @@
 // ─── CONFIGURACIÓN ────────────────────────────────────────────────────────────
-// 👇 Pega aquí la URL de tu Google Apps Script después de desplegarlo
-const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxS27jK5fHWAaB_H4-1lRTYjbvMOmNr-ADhHxauH45Ch6NaIDjEJ7uEHQshsDOopRQ/exec" ;
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxS27jK5fHWAaB_H4-1lRTYjbvMOmNr-ADhHxauH45Ch6NaIDjEJ7uEHQshsDOopRQ/exec";
+const SUCURSAL = "Principal";
 
 // ─── ESTADO ───────────────────────────────────────────────────────────────────
 let productos = [];
@@ -11,11 +11,55 @@ let scannerActivo = false;
 let codeReader = null;
 let timeoutBusqueda;
 
+// ─── HISTORIAL DEL DÍA (persiste aunque se cierre la app) ────────────────────
+function cargarHistorial() {
+  try {
+    const hoy = new Date().toLocaleDateString("es-MX");
+    const guardado = localStorage.getItem("historial_dia");
+    if (guardado) {
+      const data = JSON.parse(guardado);
+      // Si es del mismo día, restaurar
+      if (data.fecha === hoy) {
+        ventasDia = data.ventas || [];
+        vendedor = data.vendedor || "";
+        if (vendedor) {
+          document.getElementById("nombre-vendedor").textContent = vendedor;
+          document.getElementById("modal-vendedor").style.display = "none";
+        }
+        actualizarResumenDia();
+        renderHistorialVentas();
+        console.log("Historial restaurado:", ventasDia.length, "ventas");
+        return;
+      }
+    }
+  } catch(e) {}
+  ventasDia = [];
+}
+
+function guardarHistorial() {
+  try {
+    const hoy = new Date().toLocaleDateString("es-MX");
+    localStorage.setItem("historial_dia", JSON.stringify({
+      fecha: hoy,
+      vendedor: vendedor,
+      ventas: ventasDia
+    }));
+  } catch(e) {}
+}
+
+let ventasDia = [];
+
 // ─── INICIO ───────────────────────────────────────────────────────────────────
 fetch('./data.json')
   .then(r => r.json())
-  .then(data => { productos = data; })
-  .catch(() => console.warn("No se pudo cargar data.json"));
+  .then(data => {
+    productos = data;
+    cargarHistorial();
+  })
+  .catch(() => {
+    console.warn("No se pudo cargar data.json");
+    cargarHistorial();
+  });
 
 function iniciarSesion() {
   const nombre = document.getElementById("input-vendedor").value.trim();
@@ -23,10 +67,13 @@ function iniciarSesion() {
   vendedor = nombre;
   document.getElementById("nombre-vendedor").textContent = nombre;
   document.getElementById("modal-vendedor").style.display = "none";
+  guardarHistorial();
 }
 
-document.getElementById("input-vendedor").addEventListener("keydown", e => {
-  if (e.key === "Enter") iniciarSesion();
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("input-vendedor").addEventListener("keydown", e => {
+    if (e.key === "Enter") iniciarSesion();
+  });
 });
 
 // ─── BÚSQUEDA ─────────────────────────────────────────────────────────────────
@@ -38,15 +85,11 @@ function buscarProducto(texto) {
 function _buscar(texto) {
   const t = texto.toLowerCase().trim();
   const div = document.getElementById("sugerencias");
-
   if (t.length < 1) { div.style.display = "none"; return; }
-
   const resultados = productos.filter(p =>
     p.PRODUCTO.toLowerCase().includes(t) || p.CODIGO.includes(t)
   ).slice(0, 6);
-
-  if (resultados.length === 0) { div.style.display = "none"; return; }
-
+  if (!resultados.length) { div.style.display = "none"; return; }
   div.innerHTML = resultados.map(p => `
     <div class="sug-item" onclick="seleccionarProducto('${p.CODIGO}')">
       <div class="sug-nombre">${p.PRODUCTO}</div>
@@ -63,7 +106,6 @@ function _buscar(texto) {
 function seleccionarProducto(codigo) {
   const p = productos.find(x => x.CODIGO === codigo);
   if (!p) return;
-
   productoActual = p;
   document.getElementById("prod-nombre").textContent = p.PRODUCTO;
   document.getElementById("prod-codigo").textContent = "Código: " + p.CODIGO;
@@ -81,9 +123,7 @@ function calcularImporte() {
   if (!productoActual) return;
   const cant = parseInt(document.getElementById("prod-cantidad").value) || 1;
   const tipo = document.getElementById("prod-tipo-precio").value;
-  const precio = tipo === "descuento"
-    ? parseFloat(productoActual.DESCUENTO)
-    : parseFloat(productoActual.PRECIO);
+  const precio = tipo === "descuento" ? parseFloat(productoActual.DESCUENTO) : parseFloat(productoActual.PRECIO);
   document.getElementById("lbl-importe").textContent = "$" + (cant * precio).toFixed(2);
 }
 
@@ -93,37 +133,30 @@ function agregarProducto() {
   const cant = parseInt(document.getElementById("prod-cantidad").value) || 1;
   const tipo = document.getElementById("prod-tipo-precio").value;
   const precioNormal = parseFloat(productoActual.PRECIO);
-  const precioDesc = parseFloat(productoActual.DESCUENTO);
-  const precioUsado = tipo === "descuento" ? precioDesc : precioNormal;
-  const importe = cant * precioUsado;
-
+  const precioUsado = tipo === "descuento" ? parseFloat(productoActual.DESCUENTO) : precioNormal;
   venta.push({
     codigo: productoActual.CODIGO,
     nombre: productoActual.PRODUCTO,
     cantidad: cant,
     precio: precioUsado,
-    precioNormal: precioNormal,
+    precioNormal,
     conDescuento: tipo === "descuento",
-    importe: importe
+    importe: cant * precioUsado
   });
-
   document.getElementById("producto-panel").style.display = "none";
   productoActual = null;
   renderTabla();
   mostrarToast("Producto agregado ✓");
 }
 
-// ─── TABLA DE VENTAS ──────────────────────────────────────────────────────────
 function renderTabla() {
   const div = document.getElementById("filas-venta");
-
-  if (venta.length === 0) {
+  if (!venta.length) {
     div.innerHTML = '<div id="empty-msg">Agrega productos para comenzar</div>';
     document.getElementById("badge-count").textContent = "0";
     actualizarTotales();
     return;
   }
-
   div.innerHTML = venta.map((item, i) => `
     <div class="venta-row">
       <div>
@@ -138,114 +171,178 @@ function renderTabla() {
       <button class="btn-del" onclick="eliminarFila(${i})">✕</button>
     </div>
   `).join("");
-
   document.getElementById("badge-count").textContent = venta.length;
   actualizarTotales();
 }
 
-function eliminarFila(i) {
-  venta.splice(i, 1);
-  renderTabla();
-}
+function eliminarFila(i) { venta.splice(i, 1); renderTabla(); }
 
 function actualizarTotales() {
-  const subtotal = venta.reduce((s, x) => s + (x.cantidad * x.precioNormal), 0);
+  const subtotal = venta.reduce((s, x) => s + x.cantidad * x.precioNormal, 0);
   const total = venta.reduce((s, x) => s + x.importe, 0);
-  const descuentos = subtotal - total;
-
   document.getElementById("lbl-subtotal").textContent = "$" + subtotal.toFixed(2);
-  document.getElementById("lbl-descuentos").textContent = "-$" + descuentos.toFixed(2);
+  document.getElementById("lbl-descuentos").textContent = "-$" + (subtotal - total).toFixed(2);
   document.getElementById("lbl-total").textContent = "$" + total.toFixed(2);
 }
 
 function limpiarVenta() {
-  if (venta.length === 0) return;
-  if (!confirm("¿Limpiar toda la venta?")) return;
-  venta = [];
-  renderTabla();
+  if (!venta.length) return;
+  if (!confirm("¿Limpiar la venta actual?")) return;
+  venta = []; renderTabla();
 }
 
-// ─── GENERAR VENTA → GOOGLE SHEETS ───────────────────────────────────────────
+// ─── GENERAR VENTA ────────────────────────────────────────────────────────────
 async function generarVenta() {
-  if (venta.length === 0) { mostrarToast("⚠️ Agrega productos primero"); return; }
+  if (!venta.length) { mostrarToast("⚠️ Agrega productos primero"); return; }
   if (!vendedor) { mostrarToast("⚠️ Ingresa tu nombre"); return; }
-
-  if (GOOGLE_SCRIPT_URL === "PEGA_AQUI_TU_URL_DE_GOOGLE_APPS_SCRIPT") {
-    alert("⚠️ Falta configurar la URL de Google Apps Script.\nSigue las instrucciones del archivo INSTRUCCIONES.txt");
-    return;
-  }
 
   const total = venta.reduce((s, x) => s + x.importe, 0);
   const ahora = new Date();
-  const fecha = ahora.toLocaleDateString("es-MX");
-  const hora = ahora.toLocaleTimeString("es-MX", { hour: "2-digit", minute: "2-digit" });
-
   const payload = {
+    sucursal: SUCURSAL,
     vendedor,
-    fecha,
-    hora,
+    fecha: ahora.toLocaleDateString("es-MX"),
+    hora: ahora.toLocaleTimeString("es-MX", { hour: "2-digit", minute: "2-digit" }),
     total: total.toFixed(2),
     items: venta.map(x => ({
-      codigo: x.codigo,
-      nombre: x.nombre,
-      cantidad: x.cantidad,
-      precio: x.precio.toFixed(2),
-      descuento: x.conDescuento ? "Sí" : "No",
+      codigo: x.codigo, nombre: x.nombre, cantidad: x.cantidad,
+      precio: x.precio.toFixed(2), descuento: x.conDescuento ? "Sí" : "No",
       importe: x.importe.toFixed(2)
     }))
   };
 
   const btn = document.querySelector(".btn-generar");
-  btn.textContent = "⏳ Enviando...";
-  btn.disabled = true;
+  btn.textContent = "⏳ Enviando..."; btn.disabled = true;
 
   try {
     await fetch(GOOGLE_SCRIPT_URL, {
-      method: "POST",
-      mode: "no-cors",
+      method: "POST", mode: "no-cors",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(payload)
     });
-
     mostrarToast("✅ Venta registrada en Google Sheets");
     ventaRegistrada(total.toFixed(2), [...venta]);
-    setTimeout(() => {
-      venta = [];
-      renderTabla();
-    }, 1500);
-
-  } catch (err) {
+    setTimeout(() => { venta = []; renderTabla(); }, 1500);
+  } catch(err) {
     mostrarToast("❌ Error al enviar. Verifica conexión.");
   } finally {
-    btn.textContent = "✅ Generar venta y enviar";
-    btn.disabled = false;
+    btn.textContent = "✅ Generar venta y enviar"; btn.disabled = false;
+  }
+}
+
+// ─── HISTORIAL DE VENTAS DEL DÍA ─────────────────────────────────────────────
+function ventaRegistrada(total, items) {
+  const ahora = new Date();
+  ventasDia.push({
+    hora: ahora.toLocaleTimeString("es-MX", { hour: "2-digit", minute: "2-digit" }),
+    total,
+    items
+  });
+  guardarHistorial();
+  actualizarResumenDia();
+  renderHistorialVentas();
+}
+
+function renderHistorialVentas() {
+  const div = document.getElementById("historial-ventas");
+  if (!div) return;
+
+  // Actualizar badge
+  const badge = document.getElementById("badge-historial");
+  if (badge) badge.textContent = ventasDia.length + (ventasDia.length === 1 ? " venta" : " ventas");
+
+  if (!ventasDia.length) {
+    div.innerHTML = '<p style="color:var(--muted);text-align:center;font-size:13px;padding:16px;">Sin ventas registradas aún</p>';
+    return;
+  }
+
+  // Mostrar ventas de más reciente a más antigua
+  div.innerHTML = [...ventasDia].reverse().map((v, idx) => {
+    const numVenta = ventasDia.length - idx;
+    return `
+    <div style="background:var(--surface2);border-radius:10px;padding:12px;margin-bottom:8px;border-left:3px solid var(--accent);">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+        <span style="font-family:'Rajdhani',sans-serif;font-size:14px;color:var(--accent);font-weight:700;">
+          Venta #${numVenta} — ${v.hora}
+        </span>
+        <span style="font-family:'Rajdhani',sans-serif;font-size:16px;color:var(--accent2);font-weight:700;">
+          $${parseFloat(v.total).toFixed(2)}
+        </span>
+      </div>
+      ${v.items.map(item => `
+        <div style="display:flex;justify-content:space-between;font-size:12px;color:var(--muted);padding:3px 0;border-bottom:1px solid rgba(255,255,255,0.05);">
+          <span style="flex:2;color:var(--text);">${item.nombre.substring(0, 35)}</span>
+          <span style="flex:0.5;text-align:center;">x${item.cantidad}</span>
+          <span style="flex:0.8;text-align:right;color:${item.conDescuento ? 'var(--accent2)' : 'var(--text)'};">$${parseFloat(item.importe).toFixed(2)}</span>
+        </div>
+      `).join("")}
+    </div>
+  `}).join("");
+}
+
+function actualizarResumenDia() {
+  const n = ventasDia.length;
+  const t = ventasDia.reduce((s, v) => s + parseFloat(v.total), 0);
+  const tN = ventasDia.reduce((s, v) => s + v.items.reduce((si, i) => si + (i.conDescuento ? 0 : parseFloat(i.importe)), 0), 0);
+  const tD = ventasDia.reduce((s, v) => s + v.items.reduce((si, i) => si + (i.conDescuento ? parseFloat(i.importe) : 0), 0), 0);
+  document.getElementById("lbl-num-ventas").textContent = n;
+  document.getElementById("lbl-total-dia").textContent = "$" + t.toFixed(2);
+  document.getElementById("lbl-total-normal-dia").textContent = "$" + tN.toFixed(2);
+  document.getElementById("lbl-total-desc-dia").textContent = "$" + tD.toFixed(2);
+}
+
+// ─── CORTE DEL DÍA ────────────────────────────────────────────────────────────
+async function hacerCorte() {
+  if (!vendedor) { mostrarToast("⚠️ Ingresa tu nombre primero"); return; }
+  if (!ventasDia.length) { mostrarToast("⚠️ No hay ventas registradas hoy"); return; }
+
+  const totalDia = ventasDia.reduce((s, v) => s + parseFloat(v.total), 0);
+  if (!confirm(`¿Realizar corte del día?\n\nTotal: $${totalDia.toFixed(2)}\nVentas: ${ventasDia.length}\n\nEsto borrará el historial del día.`)) return;
+
+  const ahora = new Date();
+  const tN = ventasDia.reduce((s,v) => s + v.items.reduce((si,i) => si + (i.conDescuento ? 0 : parseFloat(i.importe)), 0), 0);
+  const tD = ventasDia.reduce((s,v) => s + v.items.reduce((si,i) => si + (i.conDescuento ? parseFloat(i.importe) : 0), 0), 0);
+
+  const payload = {
+    tipo: "corte", sucursal: SUCURSAL, vendedor,
+    fecha: ahora.toLocaleDateString("es-MX"),
+    hora: ahora.toLocaleTimeString("es-MX", { hour: "2-digit", minute: "2-digit" }),
+    numVentas: ventasDia.length,
+    totalNormal: tN.toFixed(2),
+    totalDescuento: tD.toFixed(2),
+    totalDia: totalDia.toFixed(2)
+  };
+
+  try {
+    await fetch(GOOGLE_SCRIPT_URL, {
+      method: "POST", mode: "no-cors",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload)
+    });
+    mostrarToast("✅ Corte registrado correctamente");
+    // Solo borra después del corte manual
+    ventasDia = [];
+    localStorage.removeItem("historial_dia");
+    actualizarResumenDia();
+    renderHistorialVentas();
+  } catch(err) {
+    mostrarToast("❌ Error al enviar corte");
   }
 }
 
 // ─── SCANNER ──────────────────────────────────────────────────────────────────
-function toggleScanner() {
-  scannerActivo ? detenerScanner() : iniciarScanner();
-}
+function toggleScanner() { scannerActivo ? detenerScanner() : iniciarScanner(); }
 
 async function iniciarScanner() {
-  const contenedor = document.getElementById("scanner-container");
-  contenedor.style.display = "block";
+  document.getElementById("scanner-container").style.display = "block";
   scannerActivo = true;
   document.getElementById("btn-scan").textContent = "⏹";
-
   codeReader = new ZXing.BrowserMultiFormatReader();
   try {
-    await codeReader.decodeFromVideoDevice(null, "video-scanner", (result, err) => {
-      if (result) {
-        const codigo = result.getText();
-        seleccionarProductoPorCodigo(codigo);
-        detenerScanner();
-      }
+    await codeReader.decodeFromVideoDevice(null, "video-scanner", (result) => {
+      if (result) { seleccionarProductoPorCodigo(result.getText()); detenerScanner(); }
     });
-  } catch (err) {
-    alert("No se pudo acceder a la cámara.");
-    detenerScanner();
-  }
+  } catch(err) { alert("No se pudo acceder a la cámara."); detenerScanner(); }
 }
 
 function detenerScanner() {
@@ -257,94 +354,20 @@ function detenerScanner() {
 
 function seleccionarProductoPorCodigo(codigo) {
   const p = productos.find(x => x.CODIGO === codigo);
-  if (p) {
-    seleccionarProducto(p.CODIGO);
-    mostrarToast("📦 " + p.PRODUCTO.substring(0, 30));
-  } else {
-    mostrarToast("⚠️ Código no encontrado: " + codigo);
-  }
+  if (p) { seleccionarProducto(p.CODIGO); mostrarToast("📦 " + p.PRODUCTO.substring(0, 30)); }
+  else mostrarToast("⚠️ Código no encontrado: " + codigo);
 }
 
 // ─── TOAST ────────────────────────────────────────────────────────────────────
 let toastTimeout;
 function mostrarToast(msg) {
   const t = document.getElementById("toast");
-  t.textContent = msg;
-  t.classList.add("show");
+  t.textContent = msg; t.classList.add("show");
   clearTimeout(toastTimeout);
   toastTimeout = setTimeout(() => t.classList.remove("show"), 2500);
 }
 
-// Cerrar sugerencias al tocar fuera
 document.addEventListener("click", e => {
-  if (!e.target.closest(".search-box")) {
+  if (!e.target.closest(".search-box"))
     document.getElementById("sugerencias").style.display = "none";
-  }
 });
-
-// ─── CORTE DEL DÍA ────────────────────────────────────────────────────────────
-async function hacerCorte() {
-  if (!vendedor) { mostrarToast("⚠️ Ingresa tu nombre primero"); return; }
-
-  if (GOOGLE_SCRIPT_URL === "PEGA_AQUI_TU_URL_DE_GOOGLE_APPS_SCRIPT") {
-    alert("⚠️ Falta configurar la URL de Google Apps Script.");
-    return;
-  }
-
-  // Calcular totales del día desde la venta actual + historial local
-  const totalDia = parseFloat(document.getElementById("lbl-total-dia").textContent.replace("$","")) || 0;
-  const totalNormal = parseFloat(document.getElementById("lbl-total-normal-dia").textContent.replace("$","")) || 0;
-  const totalDesc = parseFloat(document.getElementById("lbl-total-desc-dia").textContent.replace("$","")) || 0;
-  const numVentas = parseInt(document.getElementById("lbl-num-ventas").textContent) || 0;
-
-  if (numVentas === 0) { mostrarToast("⚠️ No hay ventas registradas hoy"); return; }
-
-  if (!confirm(`¿Realizar corte del día?\n\nTotal: $${totalDia.toFixed(2)}\nVentas: ${numVentas}`)) return;
-
-  const ahora = new Date();
-  const payload = {
-    tipo: "corte",
-    fecha: ahora.toLocaleDateString("es-MX"),
-    hora: ahora.toLocaleTimeString("es-MX", { hour: "2-digit", minute: "2-digit" }),
-    vendedor,
-    numVentas,
-    totalNormal: totalNormal.toFixed(2),
-    totalDescuento: totalDesc.toFixed(2),
-    totalDia: totalDia.toFixed(2)
-  };
-
-  try {
-    await fetch(GOOGLE_SCRIPT_URL, {
-      method: "POST", mode: "no-cors",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload)
-    });
-    mostrarToast("✅ Corte registrado correctamente");
-    // Resetear acumulado del día en pantalla
-    ventasDia = []; actualizarResumenDia();
-  } catch (err) {
-    mostrarToast("❌ Error al enviar corte");
-  }
-}
-
-// ─── RESUMEN DEL DÍA (acumulado local) ───────────────────────────────────────
-let ventasDia = [];
-
-function ventaRegistrada(total, items) {
-  ventasDia.push({ total, items });
-  actualizarResumenDia();
-}
-
-function actualizarResumenDia() {
-  const numVentas = ventasDia.length;
-  const totalDia = ventasDia.reduce((s, v) => s + parseFloat(v.total), 0);
-  const totalNormal = ventasDia.reduce((s, v) =>
-    s + v.items.reduce((si, i) => si + (i.conDescuento ? 0 : parseFloat(i.importe)), 0), 0);
-  const totalDesc = ventasDia.reduce((s, v) =>
-    s + v.items.reduce((si, i) => si + (i.conDescuento ? parseFloat(i.importe) : 0), 0), 0);
-
-  document.getElementById("lbl-num-ventas").textContent = numVentas;
-  document.getElementById("lbl-total-dia").textContent = "$" + totalDia.toFixed(2);
-  document.getElementById("lbl-total-normal-dia").textContent = "$" + totalNormal.toFixed(2);
-  document.getElementById("lbl-total-desc-dia").textContent = "$" + totalDesc.toFixed(2);
-}
