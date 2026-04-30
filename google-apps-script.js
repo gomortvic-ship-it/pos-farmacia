@@ -1,14 +1,15 @@
 // ═══════════════════════════════════════════════════════════════════════════════
-// GOOGLE APPS SCRIPT — Farmacia JN
+// GOOGLE APPS SCRIPT — Farmacia JN (3 Sucursales)
 // ═══════════════════════════════════════════════════════════════════════════════
 
-// 👇 PON AQUÍ EL ID DE TU GOOGLE SHEET
-const SHEET_ID = "PEGA_AQUI_EL_ID_DE_TU_GOOGLE_SHEET";
+const SHEET_ID = "1N2U8y3cwfZSLzwcaEWLUNaYccqREUQSo-DnvClfzSk8";
 
 function doPost(e) {
   try {
     const data = JSON.parse(e.postData.contents);
     if (data.tipo === "corte") return registrarCorte(data);
+    if (data.tipo === "entrada") return registrarEntrada(data);
+    if (data.tipo === "acceso") return registrarAcceso(data);
     return registrarVenta(data);
   } catch (err) {
     return respuesta("error", err.toString());
@@ -19,14 +20,15 @@ function doGet(e) {
   return ContentService.createTextOutput("Farmacia JN API activa ✓");
 }
 
-// ── REGISTRAR VENTA ───────────────────────────────────────────────────────────
 function registrarVenta(data) {
   const ss = SpreadsheetApp.openById(SHEET_ID);
+  const suc = data.sucursal || "Sin Sucursal";
 
-  // Hoja VENTAS (detalle de cada producto)
-  let h = ss.getSheetByName("Ventas");
+  // ── Hoja VENTAS por sucursal ──────────────────────────────────────────────
+  const nombreHoja = "Ventas-" + suc.replace(" ", "");
+  let h = ss.getSheetByName(nombreHoja);
   if (!h) {
-    h = ss.insertSheet("Ventas");
+    h = ss.insertSheet(nombreHoja);
     h.appendRow(["Fecha","Hora","Vendedor","Código","Producto","Cantidad","Precio Unit.","Descuento","Importe","Total Venta"]);
     h.getRange(1,1,1,10).setFontWeight("bold").setBackground("#0e1a2e").setFontColor("#00e5ff");
     h.setFrozenRows(1);
@@ -34,30 +36,32 @@ function registrarVenta(data) {
   }
   data.items.forEach(item => {
     h.appendRow([data.fecha, data.hora, data.vendedor, item.codigo, item.nombre,
-      Number(item.cantidad), Number(item.precio), item.descuento, Number(item.importe), Number(data.total)]);
+      Number(item.cantidad), Number(item.precio), item.descuento,
+      Number(item.importe), Number(data.total)]);
   });
 
-  // Hoja RESUMEN (una fila por venta)
-  let r = ss.getSheetByName("Resumen");
-  if (!r) {
-    r = ss.insertSheet("Resumen");
-    r.appendRow(["Fecha","Hora","Vendedor","# Productos","Total"]);
-    r.getRange(1,1,1,5).setFontWeight("bold").setBackground("#0e1a2e").setFontColor("#00e5ff");
-    r.setFrozenRows(1);
+  // ── Hoja TOTAL POR DÍA por sucursal ──────────────────────────────────────
+  actualizarTotalDia(ss, data.fecha, data.vendedor, Number(data.total), suc);
+
+  // ── Hoja RESUMEN GENERAL (todas las sucursales juntas) ────────────────────
+  let rg = ss.getSheetByName("Resumen General");
+  if (!rg) {
+    rg = ss.insertSheet("Resumen General");
+    rg.appendRow(["Fecha","Hora","Sucursal","Vendedor","# Productos","Total"]);
+    rg.getRange(1,1,1,6).setFontWeight("bold").setBackground("#1a1a0e").setFontColor("#ffff00");
+    rg.setFrozenRows(1);
+    rg.setColumnWidth(3, 120);
   }
-  r.appendRow([data.fecha, data.hora, data.vendedor, data.items.length, Number(data.total)]);
+  rg.appendRow([data.fecha, data.hora, suc, data.vendedor, data.items.length, Number(data.total)]);
 
-  // Actualizar total acumulado del día
-  actualizarTotalDia(ss, data.fecha, data.vendedor, Number(data.total));
-
-  return respuesta("ok", "Venta registrada");
+  return respuesta("ok", "Venta registrada en " + suc);
 }
 
-// ── TOTAL ACUMULADO POR DÍA ───────────────────────────────────────────────────
-function actualizarTotalDia(ss, fecha, vendedor, monto) {
-  let hd = ss.getSheetByName("Total por Día");
+function actualizarTotalDia(ss, fecha, vendedor, monto, sucursal) {
+  const nombreHoja = "TotalDia-" + sucursal.replace(" ", "");
+  let hd = ss.getSheetByName(nombreHoja);
   if (!hd) {
-    hd = ss.insertSheet("Total por Día");
+    hd = ss.insertSheet(nombreHoja);
     hd.appendRow(["Fecha","# Ventas","Vendedores","Total del Día","Corte"]);
     hd.getRange(1,1,1,5).setFontWeight("bold").setBackground("#0e1a2e").setFontColor("#00ff99");
     hd.setFrozenRows(1);
@@ -84,12 +88,11 @@ function actualizarTotalDia(ss, fecha, vendedor, monto) {
   }
 }
 
-// ── REGISTRAR CORTE ───────────────────────────────────────────────────────────
 function registrarCorte(data) {
   const ss = SpreadsheetApp.openById(SHEET_ID);
+  const suc = data.sucursal || "Sin Sucursal";
 
-  // Marcar corte en Total por Día
-  let hd = ss.getSheetByName("Total por Día");
+  let hd = ss.getSheetByName("TotalDia-" + suc.replace(" ", ""));
   if (hd) {
     const datos = hd.getDataRange().getValues();
     for (let i = 1; i < datos.length; i++) {
@@ -102,18 +105,59 @@ function registrarCorte(data) {
     }
   }
 
-  // Hoja CORTES
   let hc = ss.getSheetByName("Cortes");
   if (!hc) {
     hc = ss.insertSheet("Cortes");
-    hc.appendRow(["Fecha","Hora","Quien Cortó","# Ventas","Total Normal","Total c/Desc","Total del Día"]);
-    hc.getRange(1,1,1,7).setFontWeight("bold").setBackground("#1a0e2e").setFontColor("#ff99ff");
+    hc.appendRow(["Fecha","Hora","Sucursal","Quien Cortó","# Ventas","Total Normal","Total c/Desc","Total del Día"]);
+    hc.getRange(1,1,1,8).setFontWeight("bold").setBackground("#1a0e2e").setFontColor("#ff99ff");
     hc.setFrozenRows(1);
   }
-  hc.appendRow([data.fecha, data.hora, data.vendedor,
+  hc.appendRow([data.fecha, data.hora, suc, data.vendedor,
     data.numVentas, Number(data.totalNormal), Number(data.totalDescuento), Number(data.totalDia)]);
 
-  return respuesta("ok", "Corte registrado");
+  return respuesta("ok", "Corte registrado en " + suc);
+}
+
+
+
+function registrarAcceso(data) {
+  const ss = SpreadsheetApp.openById(SHEET_ID);
+  let ha = ss.getSheetByName("Accesos");
+  if (!ha) {
+    ha = ss.insertSheet("Accesos");
+    ha.appendRow(["Fecha","Hora","Sucursal","Nombre","IP","Dispositivo","Navegador","ID Dispositivo","Bloqueado"]);
+    ha.getRange(1,1,1,9).setFontWeight("bold").setBackground("#1a0a0a").setFontColor("#ff4d6d");
+    ha.setFrozenRows(1);
+    ha.setColumnWidth(6, 180);
+    ha.setColumnWidth(8, 200);
+  }
+
+  const fila = [
+    data.fecha, data.hora, data.sucursal, data.vendedor,
+    data.ip, data.dispositivo, data.navegador,
+    data.deviceId, data.bloqueado
+  ];
+  ha.appendRow(fila);
+
+  // Si fue bloqueado, colorear de rojo
+  if (data.bloqueado && data.bloqueado.includes("SÍ")) {
+    const lastRow = ha.getLastRow();
+    ha.getRange(lastRow, 1, 1, 9).setBackground("#3d0000").setFontColor("#ff8fa3");
+  }
+
+  return respuesta("ok", "Acceso registrado");
+}
+function registrarEntrada(data) {
+  const ss = SpreadsheetApp.openById(SHEET_ID);
+  let he = ss.getSheetByName("Entradas");
+  if (!he) {
+    he = ss.insertSheet("Entradas");
+    he.appendRow(["Fecha", "Hora Entrada", "Sucursal", "Vendedor"]);
+    he.getRange(1,1,1,4).setFontWeight("bold").setBackground("#0e2e1a").setFontColor("#00ff99");
+    he.setFrozenRows(1);
+  }
+  he.appendRow([data.fecha, data.hora, data.sucursal, data.vendedor]);
+  return respuesta("ok", "Entrada registrada");
 }
 
 function respuesta(status, msg) {
