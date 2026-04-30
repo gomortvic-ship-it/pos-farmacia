@@ -15,10 +15,13 @@ let timeoutBusqueda;
 function cargarHistorial() {
   try {
     const hoy = new Date().toLocaleDateString("es-MX");
-    const guardado = localStorage.getItem("historial_dia");
+
+    // Intentar recuperar de localStorage (puede no estar disponible en incógnito)
+    let guardado = null;
+    try { guardado = localStorage.getItem("historial_dia"); } catch(e) {}
+
     if (guardado) {
       const data = JSON.parse(guardado);
-      // Si es del mismo día, restaurar
       if (data.fecha === hoy) {
         ventasDia = data.ventas || [];
         vendedor = data.vendedor || "";
@@ -28,12 +31,77 @@ function cargarHistorial() {
         }
         actualizarResumenDia();
         renderHistorialVentas();
-        console.log("Historial restaurado:", ventasDia.length, "ventas");
+        mostrarToast("📋 " + ventasDia.length + " ventas restauradas");
         return;
       }
     }
   } catch(e) {}
   ventasDia = [];
+}
+
+// ─── SEGURIDAD ───────────────────────────────────────────────────────────────
+
+function detectarIncognito() {
+  return new Promise((resolve) => {
+    // Método 1: localStorage
+    try {
+      localStorage.setItem("_sec", "1");
+      localStorage.removeItem("_sec");
+    } catch(e) {
+      resolve(true); return;
+    }
+    // Método 2: Storage quota (Chrome incógnito tiene quota muy baja)
+    if (navigator.storage && navigator.storage.estimate) {
+      navigator.storage.estimate().then(est => {
+        resolve(est.quota < 120000000); // menos de 120MB = incógnito
+      }).catch(() => resolve(false));
+    } else {
+      resolve(false);
+    }
+  });
+}
+
+function obtenerInfoDispositivo() {
+  const ua = navigator.userAgent;
+  let dispositivo = "Desconocido";
+  let navegador = "Desconocido";
+
+  // Detectar dispositivo
+  if (/iPhone/.test(ua)) dispositivo = "iPhone";
+  else if (/iPad/.test(ua)) dispositivo = "iPad";
+  else if (/Android/.test(ua)) {
+    const match = ua.match(/Android [^;]+; ([^)]+)/);
+    dispositivo = match ? match[1].trim() : "Android";
+  } else if (/Windows/.test(ua)) dispositivo = "Windows PC";
+  else if (/Mac/.test(ua)) dispositivo = "Mac";
+
+  // Detectar navegador
+  if (/CriOS/.test(ua)) navegador = "Chrome iOS";
+  else if (/Chrome/.test(ua)) navegador = "Chrome";
+  else if (/Firefox/.test(ua)) navegador = "Firefox";
+  else if (/Safari/.test(ua)) navegador = "Safari";
+  else if (/Edge/.test(ua)) navegador = "Edge";
+
+  return { dispositivo, navegador };
+}
+
+function obtenerOIDDispositivo() {
+  // ID único persistente del dispositivo
+  let id = null;
+  try { id = localStorage.getItem("_device_id"); } catch(e) {}
+  if (!id) {
+    id = "DEV-" + Date.now().toString(36).toUpperCase() + "-" + Math.random().toString(36).substr(2,5).toUpperCase();
+    try { localStorage.setItem("_device_id", id); } catch(e) {}
+  }
+  return id;
+}
+
+async function obtenerIP() {
+  try {
+    const r = await fetch("https://api.ipify.org?format=json");
+    const d = await r.json();
+    return d.ip;
+  } catch(e) { return "No disponible"; }
 }
 
 function guardarHistorial() {
@@ -44,7 +112,11 @@ function guardarHistorial() {
       vendedor: vendedor,
       ventas: ventasDia
     }));
-  } catch(e) {}
+  } catch(e) {
+    // Si falla localStorage (modo incógnito), continuar sin guardar localmente
+    // Las ventas ya están en Google Sheets
+    console.warn("localStorage no disponible — ventas guardadas en Google Sheets");
+  }
 }
 
 let ventasDia = [];
@@ -55,19 +127,82 @@ fetch('./data.json')
   .then(data => {
     productos = data;
     cargarHistorial();
+
   })
   .catch(() => {
     console.warn("No se pudo cargar data.json");
     cargarHistorial();
   });
 
-function iniciarSesion() {
+async function iniciarSesion() {
   const nombre = document.getElementById("input-vendedor").value.trim();
-  if (!nombre) { alert("Ingresa tu nombre"); return; }
+  if (!nombre) { mostrarError("Escribe tu nombre"); return; }
+
+  const btn = document.getElementById("btn-entrar");
+  btn.textContent = "Verificando..."; btn.disabled = true;
+
+  // Bloquear si modo incógnito
+  const esIncognito = await detectarIncognito();
+  if (esIncognito) {
+    btn.textContent = "Entrar al sistema"; btn.disabled = false;
+    document.getElementById("modal-vendedor").innerHTML = `
+      <div class="modal-box" style="border-color:#ff4d6d;">
+        <div class="icon">🚫</div>
+        <h2 style="color:#ff4d6d;">Acceso bloqueado</h2>
+        <p style="color:#ff4d6d;font-weight:700;margin-bottom:12px;">Modo incógnito detectado</p>
+        <p>Esta aplicación no permite el modo incógnito.<br><br>
+        Cierra esta ventana y abre la app en <strong>Chrome normal</strong> para continuar.</p>
+        <div style="margin-top:16px;background:#1a0e0e;border-radius:10px;padding:12px;font-size:12px;color:#ff8fa3;">
+          ⚠️ Este intento ha sido registrado con fecha, hora y dispositivo.
+        </div>
+      </div>`;
+    // Registrar intento bloqueado
+    registrarAcceso(nombre, true);
+    return;
+  }
+
   vendedor = nombre;
   document.getElementById("nombre-vendedor").textContent = nombre;
+  document.getElementById("sucursal-header") && (document.getElementById("sucursal-header").textContent = "Farmacia " + SUCURSAL);
   document.getElementById("modal-vendedor").style.display = "none";
   guardarHistorial();
+  btn.textContent = "Entrar al sistema"; btn.disabled = false;
+
+  // Registrar acceso legítimo
+  registrarAcceso(nombre, false);
+}
+
+async function registrarAcceso(nombre, bloqueado) {
+  const ahora = new Date();
+  const { dispositivo, navegador } = obtenerInfoDispositivo();
+  const deviceId = obtenerOIDDispositivo();
+  const ip = await obtenerIP();
+
+  const payload = {
+    tipo: "acceso",
+    sucursal: SUCURSAL,
+    vendedor: nombre,
+    fecha: ahora.toLocaleDateString("es-MX"),
+    hora: ahora.toLocaleTimeString("es-MX", { hour: "2-digit", minute: "2-digit", second: "2-digit" }),
+    ip: ip,
+    dispositivo: dispositivo,
+    navegador: navegador,
+    deviceId: deviceId,
+    bloqueado: bloqueado ? "SÍ - INTENTO INCÓGNITO" : "No"
+  };
+
+  try {
+    await fetch(GOOGLE_SCRIPT_URL, {
+      method: "POST", mode: "no-cors",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload)
+    });
+  } catch(e) {}
+}
+
+function mostrarError(msg) {
+  const el = document.getElementById("login-error");
+  if (el) { el.textContent = msg; el.style.display = "block"; }
 }
 
 document.addEventListener("DOMContentLoaded", () => {
