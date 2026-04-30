@@ -442,10 +442,11 @@
 <div id="modal-vendedor">
   <div class="modal-box">
     <div class="icon">💊</div>
-    <h2>Farmacia JN</h2>
-    <p>Ingresa tu nombre para comenzar</p>
+    <h2 id="sucursal-header">Farmacia JN</h2>
+    <p>Ingresa tu nombre para entrar</p>
     <input type="text" id="input-vendedor" placeholder="Tu nombre..." maxlength="30">
-    <button onclick="iniciarSesion()">Entrar al sistema</button>
+    <div id="login-error" style="display:none;color:#ff4d6d;font-size:13px;margin-bottom:8px;"></div>
+    <button id="btn-entrar" onclick="iniciarSesion()">Entrar al sistema</button>
   </div>
 </div>
 
