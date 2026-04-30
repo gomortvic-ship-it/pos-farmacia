@@ -523,6 +523,19 @@
   <button class="btn-generar" onclick="generarVenta()">✅ Generar venta y enviar</button>
   <button class="btn-limpiar" onclick="limpiarVenta()">🗑 Limpiar venta</button>
 
+  <!-- Historial de ventas del día -->
+  <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:16px;margin-bottom:12px;">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+      <div style="font-family:'Rajdhani',sans-serif;font-size:15px;color:var(--accent);letter-spacing:1px;text-transform:uppercase;">
+        🧾 Historial de hoy
+      </div>
+      <span id="badge-historial" style="background:var(--surface2);border:1px solid var(--border);color:var(--muted);border-radius:20px;padding:2px 10px;font-size:12px;">0 ventas</span>
+    </div>
+    <div id="historial-ventas">
+      <p style="color:var(--muted);text-align:center;font-size:13px;padding:16px;">Sin ventas registradas aún</p>
+    </div>
+  </div>
+
   <!-- Resumen del día -->
   <div style="background:var(--surface);border:1px solid rgba(0,255,153,0.3);border-radius:14px;padding:16px;margin-bottom:12px;">
     <div style="font-family:'Rajdhani',sans-serif;font-size:15px;color:var(--accent2);letter-spacing:1px;text-transform:uppercase;margin-bottom:12px;">📊 Resumen del día</div>
