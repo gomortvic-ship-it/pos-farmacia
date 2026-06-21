@@ -1,7 +1,7 @@
 // ─── CONFIGURACIÓN ────────────────────────────────────────────────────────────
 const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxS27jK5fHWAaB_H4-1lRTYjbvMOmNr-ADhHxauH45Ch6NaIDjEJ7uEHQshsDOopRQ/exec";
 const SUCURSAL = "Principal";
-const CLAVE_ACCESO = ""; // <-- pon aquí la contraseña que quieras usar
+const CLAVE_ACCESO = "1806"; // <-- pon aquí la contraseña que quieras usar
 
 // ─── ESTADO ───────────────────────────────────────────────────────────────────
 let productos = [];
