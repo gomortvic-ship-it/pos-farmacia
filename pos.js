@@ -1,6 +1,7 @@
 // ─── CONFIGURACIÓN ────────────────────────────────────────────────────────────
 const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxS27jK5fHWAaB_H4-1lRTYjbvMOmNr-ADhHxauH45Ch6NaIDjEJ7uEHQshsDOopRQ/exec";
 const SUCURSAL = "Principal";
+const CLAVE_ACCESO = ""; // <-- pon aquí la contraseña que quieras usar
 
 // ─── ESTADO ───────────────────────────────────────────────────────────────────
 let productos = [];
@@ -136,7 +137,14 @@ fetch('./data.json')
 
 async function iniciarSesion() {
   const nombre = document.getElementById("input-vendedor").value.trim();
+  const clave = document.getElementById("input-clave").value;
+
   if (!nombre) { mostrarError("Escribe tu nombre"); return; }
+  if (clave !== CLAVE_ACCESO) {
+    mostrarError("Contraseña incorrecta");
+    registrarAcceso(nombre, false, "SÍ - CONTRASEÑA INCORRECTA");
+    return;
+  }
 
   const btn = document.getElementById("btn-entrar");
   btn.textContent = "Verificando..."; btn.disabled = true;
@@ -172,7 +180,7 @@ async function iniciarSesion() {
   registrarAcceso(nombre, false);
 }
 
-async function registrarAcceso(nombre, bloqueado) {
+async function registrarAcceso(nombre, bloqueado, motivoExtra) {
   const ahora = new Date();
   const { dispositivo, navegador } = obtenerInfoDispositivo();
   const deviceId = obtenerOIDDispositivo();
@@ -188,7 +196,7 @@ async function registrarAcceso(nombre, bloqueado) {
     dispositivo: dispositivo,
     navegador: navegador,
     deviceId: deviceId,
-    bloqueado: bloqueado ? "SÍ - INTENTO INCÓGNITO" : "No"
+    bloqueado: motivoExtra || (bloqueado ? "SÍ - INTENTO INCÓGNITO" : "No")
   };
 
   try {
@@ -207,6 +215,9 @@ function mostrarError(msg) {
 
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("input-vendedor").addEventListener("keydown", e => {
+    if (e.key === "Enter") iniciarSesion();
+  });
+  document.getElementById("input-clave").addEventListener("keydown", e => {
     if (e.key === "Enter") iniciarSesion();
   });
 });
