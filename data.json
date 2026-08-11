@@ -1,11 +1,5 @@
 [
   {
-    "CODIGO": "7502226292410",
-    "PRODUCTO": "Acarbosa 100mg. c/30 Tab. ALPHARMA",
-    "PRECIO": 120,
-    "DESCUENTO": 90
-  },
-  {
     "CODIGO": "7503004908875",
     "PRODUCTO": "Acarbosa 50mg. c/30 Tab. ALPHARMA",
     "PRECIO": 65,
@@ -24,7 +18,7 @@
     "DESCUENTO": 60
   },
   {
-    "CODIGO": "008400007025",
+    "CODIGO": "8400007025",
     "PRODUCTO": "Acetazolamida 250mg. c/20 Tab. GRIN",
     "PRECIO": 229,
     "DESCUENTO": 172
@@ -127,7 +121,7 @@
   },
   {
     "CODIGO": "7502215782892",
-    "PRODUCTO": "Adriphel 1gr. c/10 Tab.  Eferv.",
+    "PRODUCTO": "Adriphel 1gr. c/10 Tab. Eferv.",
     "PRECIO": 55,
     "DESCUENTO": 42
   },
@@ -217,7 +211,7 @@
   },
   {
     "CODIGO": "7500462933746",
-    "PRODUCTO": "Inha-Rub Ung. Tarro 40gr.",
+    "PRODUCTO": "Inha-Rub Ung.Tarro 40gr.",
     "PRECIO": 36,
     "DESCUENTO": 27
   },
@@ -313,7 +307,7 @@
   },
   {
     "CODIGO": "7502001165588",
-    "PRODUCTO": "Ampamil Jbe. 60ml.",
+    "PRODUCTO": "Ampamil Jbe. Inf. 60ml.",
     "PRECIO": 45,
     "DESCUENTO": 34
   },
@@ -1371,7 +1365,7 @@
     "CODIGO": "CAR00",
     "PRODUCTO": "Nuvaplast 150mg. Sol. Iny. 15ml.",
     "PRECIO": 524,
-    "DESCUENTO": 524
+    "DESCUENTO": 393
   },
   {
     "CODIGO": "CC30",
@@ -1831,7 +1825,7 @@
   },
   {
     "CODIGO": "7501836003638",
-    "PRODUCTO": "Clinzol-Fem 100mg./400mg. c/7 av.",
+    "PRODUCTO": "Clinzol-Fem 100mg./400mg. c/7 Ov.",
     "PRECIO": 90,
     "DESCUENTO": 68
   },
@@ -1893,13 +1887,13 @@
     "CODIGO": "7502003389401",
     "PRODUCTO": "Clonixinato Lisina/Diclofenaco 250mg./50mg",
     "PRECIO": 329,
-    "DESCUENTO": 247
+    "DESCUENTO": 329
   },
   {
     "CODIGO": "7502003389418",
     "PRODUCTO": "Clonixinato Lisina/Tramadol 125mg./25mg. c",
     "PRECIO": 300,
-    "DESCUENTO": 225
+    "DESCUENTO": 300
   },
   {
     "CODIGO": "7501075719260",
@@ -2359,7 +2353,7 @@
   },
   {
     "CODIGO": "7502216802919",
-    "PRODUCTO": "Diclofenaco 100mg. c/20  Tab. ULTRA",
+    "PRODUCTO": "Diclofenaco 100mg. c/20 Tab. ULTRA",
     "PRECIO": 25,
     "DESCUENTO": 19
   },
@@ -2875,7 +2869,7 @@
   },
   {
     "CODIGO": "7502009749292",
-    "PRODUCTO": "Esomeprazol 40mg. c/28 Tab. LR MAVER",
+    "PRODUCTO": "Esomeprazol 40mg. c/28 Tab. L.R. MAVER",
     "PRECIO": 199,
     "DESCUENTO": 150
   },
@@ -3420,7 +3414,7 @@
     "DESCUENTO": 127
   },
   {
-    "CODIGO": "008400009265",
+    "CODIGO": "8400009265",
     "PRODUCTO": "Hialuronato de Sodio 4mg. Sol. Oft. 10ml. G",
     "PRECIO": 169,
     "DESCUENTO": 127
@@ -3733,7 +3727,7 @@
   },
   {
     "CODIGO": "7502213042745",
-    "PRODUCTO": "Protaisol  20mcg. Susp. Aer. c/200 Dosis",
+    "PRODUCTO": "Protaisol 20mcg. Susp. Aer. c/200 Dosis",
     "PRECIO": 150,
     "DESCUENTO": 113
   },
@@ -3745,7 +3739,7 @@
   },
   {
     "CODIGO": "7501349029330",
-    "PRODUCTO": "Ipratropio/Salbutamol 0.5mg./2.5mg.  c/10 A",
+    "PRODUCTO": "Ipratropio/Salbutamol 0.5mg./2.5mg. c/10 A",
     "PRECIO": 150,
     "DESCUENTO": 113
   },
@@ -3883,7 +3877,7 @@
   },
   {
     "CODIGO": "7501349020979",
-    "PRODUCTO": "Ketoprofeno 100mg. c/15  Cap. AMSA",
+    "PRODUCTO": "Ketoprofeno 100mg. c/15 Cap. AMSA",
     "PRECIO": 49,
     "DESCUENTO": 37
   },
@@ -3925,7 +3919,7 @@
   },
   {
     "CODIGO": "7502216808119",
-    "PRODUCTO": "Ralucsum 30mg. c/6 Tab. Subl.",
+    "PRODUCTO": "Raluscum 30mg. c/6 Tab. Subl.",
     "PRECIO": 45,
     "DESCUENTO": 34
   },
@@ -3933,31 +3927,31 @@
     "CODIGO": "785120755046",
     "PRODUCTO": "Mavidol TR 10mg./25mg. c/3 Amp.",
     "PRECIO": 150,
-    "DESCUENTO": 113
+    "DESCUENTO": 150
   },
   {
     "CODIGO": "7501299308844",
     "PRODUCTO": "Ketorolaco/Tramadol 10mg./25mg. c/3 Amp.",
     "PRECIO": 150,
-    "DESCUENTO": 113
+    "DESCUENTO": 150
   },
   {
     "CODIGO": "785120755022",
     "PRODUCTO": "Mavidol TR 10mg./25mg. c/4 Tab. Subl.",
     "PRECIO": 100,
-    "DESCUENTO": 75
+    "DESCUENTO": 100
   },
   {
     "CODIGO": "7506313800236",
     "PRODUCTO": "Calebram 10mg./25mg. c/10 Tab. Subl.",
     "PRECIO": 120,
-    "DESCUENTO": 90
+    "DESCUENTO": 120
   },
   {
     "CODIGO": "785120754841",
     "PRODUCTO": "Mavidol TR 10mg./25mg. c/10 Cap.",
     "PRECIO": 150,
-    "DESCUENTO": 113
+    "DESCUENTO": 150
   },
   {
     "CODIGO": "7501258200288",
@@ -4039,7 +4033,7 @@
   },
   {
     "CODIGO": "7501384547493",
-    "PRODUCTO": "Lercanidipino 10mg. c/30 Tab. NEOLPHAR",
+    "PRODUCTO": "Lercanidipino 10mg. c/30 Tab.",
     "PRECIO": 250,
     "DESCUENTO": 188
   },
@@ -4220,7 +4214,7 @@
   {
     "CODIGO": "7506442701794",
     "PRODUCTO": "Linezolid 600mg. c/10 Tab. CAMBER",
-    "PRECIO": 0,
+    "PRECIO": 1599,
     "DESCUENTO": 1200
   },
   {
@@ -4639,7 +4633,7 @@
   },
   {
     "CODIGO": "7501277034338",
-    "PRODUCTO": "Metformina 750mg. c/60 Cpr. L.P. APOTEX",
+    "PRODUCTO": "Metformina 750mg. c/60 Cpr. LP. APOTEX",
     "PRECIO": 155,
     "DESCUENTO": 117
   },
@@ -5185,7 +5179,7 @@
   },
   {
     "CODIGO": "7502001165953",
-    "PRODUCTO": "Rexurdir 400mg. c/16 Cap",
+    "PRODUCTO": "Rexurdir 400mg. c/16 Cap.",
     "PRECIO": 48,
     "DESCUENTO": 36
   },
@@ -5233,7 +5227,7 @@
   },
   {
     "CODIGO": "7502211788454",
-    "PRODUCTO": "Probizal 6mg. c/6 av.",
+    "PRODUCTO": "Probizal 6mg. c/6 Ov.",
     "PRECIO": 28,
     "DESCUENTO": 21
   },
@@ -5862,7 +5856,7 @@
     "DESCUENTO": 117
   },
   {
-    "CODIGO": "008400001016",
+    "CODIGO": "8400001016",
     "PRODUCTO": "Pred NF 10mg. Susp. Oft. 5ml.",
     "PRECIO": 115,
     "DESCUENTO": 87
@@ -5874,7 +5868,7 @@
     "DESCUENTO": 90
   },
   {
-    "CODIGO": "008400007186",
+    "CODIGO": "8400007186",
     "PRODUCTO": "Prednisolona/Sulfacetamida Susp. Oft. 10ml",
     "PRECIO": 185,
     "DESCUENTO": 139
@@ -6564,7 +6558,7 @@
     "DESCUENTO": 48
   },
   {
-    "CODIGO": "008400005823",
+    "CODIGO": "8400005823",
     "PRODUCTO": "Tobramicina/Dexametasona Gts. Oft. 5ml. G",
     "PRECIO": 75,
     "DESCUENTO": 57
@@ -6603,19 +6597,19 @@
     "CODIGO": "7501349020993",
     "PRODUCTO": "Tramadol  100mg. Gts. 10ml. AMSA",
     "PRECIO": 120,
-    "DESCUENTO": 90
+    "DESCUENTO": 120
   },
   {
     "CODIGO": "7501384545475",
     "PRODUCTO": "Tramadol 100mg. c/10 Tab. L.P. PSICOFAR",
     "PRECIO": 120,
-    "DESCUENTO": 90
+    "DESCUENTO": 120
   },
   {
     "CODIGO": "7501349020009",
     "PRODUCTO": "Tramadol 100mg. c/5 Amp. AMSA",
     "PRECIO": 120,
-    "DESCUENTO": 90
+    "DESCUENTO": 120
   },
   {
     "CODIGO": "7501842901010",
@@ -6627,13 +6621,13 @@
     "CODIGO": "7501109753888",
     "PRODUCTO": "Tramadol/Paracetamol c/20 Tab. PERRIGO",
     "PRECIO": 120,
-    "DESCUENTO": 90
+    "DESCUENTO": 120
   },
   {
     "CODIGO": "7502009746215",
     "PRODUCTO": "Sanzadoll Duo c/20 Tab.",
     "PRECIO": 120,
-    "DESCUENTO": 90
+    "DESCUENTO": 120
   },
   {
     "CODIGO": "7501563380415",
@@ -6708,7 +6702,7 @@
     "DESCUENTO": 25
   },
   {
-    "CODIGO": "008400009210",
+    "CODIGO": "8400009210",
     "PRODUCTO": "Tripsina/Quimotripsina 18mg. c/30 Tab. GRI",
     "PRECIO": 289,
     "DESCUENTO": 217
@@ -6781,7 +6775,7 @@
   },
   {
     "CODIGO": "SEM00",
-    "PRODUCTO": "Valproato Semisodico 500mg. c/30 Tab. L.P",
+    "PRODUCTO": "Valproato Semisodico 500mg. c/30 Tab. UL",
     "PRECIO": 282,
     "DESCUENTO": 212
   },
@@ -7368,7 +7362,7 @@
     "DESCUENTO": 45
   },
   {
-    "CODIGO": "008400005656",
+    "CODIGO": "8400005656",
     "PRODUCTO": "Optimila H Sol. Oft. 15ml.",
     "PRECIO": 85,
     "DESCUENTO": 64
@@ -7567,7 +7561,7 @@
   },
   {
     "CODIGO": "7501088505485",
-    "PRODUCTO": "Synalar-O Sol. at. 15ml.",
+    "PRODUCTO": "Synalar-O Sol. Ot. 15ml.",
     "PRECIO": 269,
     "DESCUENTO": 202
   },
@@ -9067,7 +9061,7 @@
   },
   {
     "CODIGO": "ORTO",
-    "PRODUCTO": "Chupon Ortodoncico c/1 Pza. TERNURA",
+    "PRODUCTO": "Chupon Ortodoncico c/1 Pza.",
     "PRECIO": 15,
     "DESCUENTO": 12
   },
@@ -9997,7 +9991,7 @@
   },
   {
     "CODIGO": "7503014377074",
-    "PRODUCTO": "Preservativo Playboy Play Backc/3 Pzas.",
+    "PRODUCTO": "Preservativo Playboy Play Back c/3 Pzas.",
     "PRECIO": 70,
     "DESCUENTO": 53
   },
@@ -10429,7 +10423,7 @@
   },
   {
     "CODIGO": "TOA",
-    "PRODUCTO": "Toalla Sanitaria c/1 Pza.",
+    "PRODUCTO": "Toallas Sanitarias Flujo Abundante",
     "PRECIO": 25,
     "DESCUENTO": 19
   },
@@ -10525,7 +10519,7 @@
   },
   {
     "CODIGO": "7501048691005",
-    "PRODUCTO": "Venda Elastica Alta Compresion 10cm. c/1",
+    "PRODUCTO": "Venda Elastica Alta Compresion 10cm.",
     "PRECIO": 45,
     "DESCUENTO": 34
   },
