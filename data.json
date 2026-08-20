@@ -1,5 +1,11 @@
 [
   {
+    "CODIGO": "7502226292410",
+    "PRODUCTO": "Acarbosa 100mg. c/30 Tab. ALPHARMA",
+    "PRECIO": 120,
+    "DESCUENTO": 90
+  },
+  {
     "CODIGO": "7503004908875",
     "PRODUCTO": "Acarbosa 50mg. c/30 Tab. ALPHARMA",
     "PRECIO": 65,
@@ -102,14 +108,14 @@
     "DESCUENTO": 11
   },
   {
-    "CODIGO": "7501349020870",
-    "PRODUCTO": "Acido Alendronico 70mg. c/4 Tab. AMSA",
+    "CODIGO": "7501075717860",
+    "PRODUCTO": "Oxivag 70mg. c/4 Tab.",
     "PRECIO": 75,
     "DESCUENTO": 57
   },
   {
-    "CODIGO": "7501075717860",
-    "PRODUCTO": "Oxivag 70mg. c/4 Tab.",
+    "CODIGO": "7501349020870",
+    "PRODUCTO": "Acido Alendronico 70mg. c/4 Tab. AMSA",
     "PRECIO": 75,
     "DESCUENTO": 57
   },
@@ -121,13 +127,13 @@
   },
   {
     "CODIGO": "7502215782892",
-    "PRODUCTO": "Adriphel 1gr. c/10 Tab. Eferv.",
+    "PRODUCTO": "Adriphel 1gr. c/10 Tab.  Eferv.",
     "PRECIO": 55,
     "DESCUENTO": 42
   },
   {
     "CODIGO": "7502215782908",
-    "PRODUCTO": "Adriphel 2gr. c/10 Cpr. Eferv.",
+    "PRODUCTO": "Adriphel 2gr. c/10 Cpr.  Eferv.",
     "PRECIO": 65,
     "DESCUENTO": 49
   },
@@ -163,7 +169,7 @@
   },
   {
     "CODIGO": "7501299370414",
-    "PRODUCTO": "Acido Ibandronico 150mg. c/1 Tab. PHARM",
+    "PRODUCTO": "Acido Ibandronico 150mg. c/1 Tab.PHARMA",
     "PRECIO": 145,
     "DESCUENTO": 109
   },
@@ -186,14 +192,14 @@
     "DESCUENTO": 252
   },
   {
-    "CODIGO": "7501342804439",
-    "PRODUCTO": "Albendazol 200mg. c/6 Tab. BE ADVANCE",
+    "CODIGO": "7501384553692",
+    "PRODUCTO": "Albendazol 200mg. c/6 Tab. PSICOFARMA",
     "PRECIO": 13,
     "DESCUENTO": 10
   },
   {
-    "CODIGO": "7501384553692",
-    "PRODUCTO": "Albendazol 200mg. c/6 Tab. PSICOFARMA",
+    "CODIGO": "7501342804439",
+    "PRODUCTO": "Albendazol 200mg. c/6 Tab. BE ADVANCE",
     "PRECIO": 13,
     "DESCUENTO": 10
   },
@@ -211,19 +217,19 @@
   },
   {
     "CODIGO": "7500462933746",
-    "PRODUCTO": "Inha-Rub Ung.Tarro 40gr.",
+    "PRODUCTO": "Inha-Rub Ung. Tarro 40gr.",
     "PRECIO": 36,
     "DESCUENTO": 27
   },
   {
-    "CODIGO": "7501349022850",
-    "PRODUCTO": "Alfa cetoanalogos de aminoacidos 630mg. c",
+    "CODIGO": "7503002615133",
+    "PRODUCTO": "Someral 630mg. c/100 Tab.",
     "PRECIO": 849,
     "DESCUENTO": 637
   },
   {
-    "CODIGO": "7503002615133",
-    "PRODUCTO": "Someral 630mg. c/100 Tab.",
+    "CODIGO": "7501349022850",
+    "PRODUCTO": "Alfa cetoanalogos de aminoacidos 630mg. c",
     "PRECIO": 849,
     "DESCUENTO": 637
   },
@@ -282,14 +288,14 @@
     "DESCUENTO": 472
   },
   {
-    "CODIGO": "7501075724721",
-    "PRODUCTO": "Nofriux c/24 Cap.",
+    "CODIGO": "7501537103026",
+    "PRODUCTO": "Fayrus c/24 Cap.",
     "PRECIO": 33,
     "DESCUENTO": 25
   },
   {
-    "CODIGO": "7501537103026",
-    "PRODUCTO": "Fayrus c/24 Cap.",
+    "CODIGO": "7501075724721",
+    "PRODUCTO": "Nofriux c/24 Cap.",
     "PRECIO": 33,
     "DESCUENTO": 25
   },
@@ -324,14 +330,14 @@
     "DESCUENTO": 30
   },
   {
-    "CODIGO": "7501075713459",
-    "PRODUCTO": "Mucibron 300mg. Sol. 120ml.",
+    "CODIGO": "7501563380071",
+    "PRODUCTO": "Ambroxol 300ml. Sol. 120ml. RANDALL",
     "PRECIO": 25,
     "DESCUENTO": 19
   },
   {
-    "CODIGO": "7501563380071",
-    "PRODUCTO": "Ambroxol 300ml. Sol. 120ml. RANDALL",
+    "CODIGO": "7501075713459",
+    "PRODUCTO": "Mucibron 300mg. Sol. 120ml.",
     "PRECIO": 25,
     "DESCUENTO": 19
   },
@@ -426,14 +432,14 @@
     "DESCUENTO": 36
   },
   {
-    "CODIGO": "7502009740282",
-    "PRODUCTO": "Fluxol 150mg./40mg. Sol. 120ml.",
+    "CODIGO": "7503001007694",
+    "PRODUCTO": "Wexpec 150mg./40mg. Sol. 120ml.",
     "PRECIO": 40,
     "DESCUENTO": 30
   },
   {
-    "CODIGO": "7503001007694",
-    "PRODUCTO": "Wexpec 150mg./40mg. Sol. 120ml.",
+    "CODIGO": "7502009740282",
+    "PRODUCTO": "Fluxol 150mg./40mg. Sol. 120ml.",
     "PRECIO": 40,
     "DESCUENTO": 30
   },
@@ -462,20 +468,14 @@
     "DESCUENTO": 97
   },
   {
-    "CODIGO": "7506313800663",
-    "PRODUCTO": "Raladek 200mg. c/20 Tab.",
-    "PRECIO": 149,
-    "DESCUENTO": 112
-  },
-  {
-    "CODIGO": "7501471800302",
-    "PRODUCTO": "Tecnovid 200mg. c/20 Tab.",
-    "PRECIO": 149,
-    "DESCUENTO": 112
-  },
-  {
     "CODIGO": "7506331302187",
     "PRODUCTO": "Norabindo 200mg. c/20 Tab.",
+    "PRECIO": 149,
+    "DESCUENTO": 112
+  },
+  {
+    "CODIGO": "7506313800663",
+    "PRODUCTO": "Raladek 200mg. c/20 Tab.",
     "PRECIO": 149,
     "DESCUENTO": 112
   },
@@ -552,26 +552,26 @@
     "DESCUENTO": 34
   },
   {
-    "CODIGO": "7502009740183",
-    "PRODUCTO": "Pentibroxil 500mg./30mg. c/12 Cap.",
-    "PRECIO": 40,
-    "DESCUENTO": 30
-  },
-  {
     "CODIGO": "7503001007212",
     "PRODUCTO": "Vanmoxol 500mg./30mg. c/12 Cap.",
     "PRECIO": 40,
     "DESCUENTO": 30
   },
   {
-    "CODIGO": "7502009746079",
-    "PRODUCTO": "Bromixen 250mg./8mg. Susp. 90ml.",
-    "PRECIO": 42,
-    "DESCUENTO": 32
+    "CODIGO": "7502009740183",
+    "PRODUCTO": "Pentibroxil 500mg./30mg. c/12 Cap.",
+    "PRECIO": 40,
+    "DESCUENTO": 30
   },
   {
     "CODIGO": "7502001169296",
     "PRODUCTO": "Acroxil-C 250mg./8mg. Susp. 90ml.",
+    "PRECIO": 42,
+    "DESCUENTO": 32
+  },
+  {
+    "CODIGO": "7502009746079",
+    "PRODUCTO": "Bromixen 250mg./8mg. Susp. 90ml.",
     "PRECIO": 42,
     "DESCUENTO": 32
   },
@@ -588,14 +588,14 @@
     "DESCUENTO": 32
   },
   {
-    "CODIGO": "7502009740206",
-    "PRODUCTO": "Clamoxin 125mg./31.25mg. Susp. 60ml.",
+    "CODIGO": "7503001007236",
+    "PRODUCTO": "Valclan 125mg./31.25mg. Susp. 60ml.",
     "PRECIO": 42,
     "DESCUENTO": 32
   },
   {
-    "CODIGO": "7503001007236",
-    "PRODUCTO": "Valclan 125mg./31.25mg. Susp. 60ml.",
+    "CODIGO": "7502009740206",
+    "PRODUCTO": "Clamoxin 125mg./31.25mg. Susp. 60ml.",
     "PRECIO": 42,
     "DESCUENTO": 32
   },
@@ -624,14 +624,14 @@
     "DESCUENTO": 47
   },
   {
-    "CODIGO": "7502009740213",
-    "PRODUCTO": "Clamoxin 250mg./62.5mg. Susp. 60ml.",
+    "CODIGO": "7503001007175",
+    "PRODUCTO": "Valclan 250mg./62.5mg. Susp. 60ml.",
     "PRECIO": 62,
     "DESCUENTO": 47
   },
   {
-    "CODIGO": "7503001007175",
-    "PRODUCTO": "Valclan 250mg./62.5mg. Susp. 60ml.",
+    "CODIGO": "7502009740213",
+    "PRODUCTO": "Clamoxin 250mg./62.5mg. Susp. 60ml.",
     "PRECIO": 62,
     "DESCUENTO": 47
   },
@@ -642,14 +642,14 @@
     "DESCUENTO": 47
   },
   {
-    "CODIGO": "7502009740503",
-    "PRODUCTO": "Clamoxin 12H 400mg./57mg. Susp. 50ml.",
+    "CODIGO": "7503001007182",
+    "PRODUCTO": "Valclan 12H 400mg./57mg. Susp. 50ml.",
     "PRECIO": 62,
     "DESCUENTO": 47
   },
   {
-    "CODIGO": "7503001007182",
-    "PRODUCTO": "Valclan 12H 400mg./57mg. Susp. 50ml.",
+    "CODIGO": "7502009740503",
+    "PRODUCTO": "Clamoxin 12H 400mg./57mg. Susp. 50ml.",
     "PRECIO": 62,
     "DESCUENTO": 47
   },
@@ -836,8 +836,8 @@
   {
     "CODIGO": "7502216806504",
     "PRODUCTO": "Atomoxetina 10mg. c/14 Cap. ULTRA",
-    "PRECIO": 105,
-    "DESCUENTO": 79
+    "PRECIO": 110,
+    "DESCUENTO": 83
   },
   {
     "CODIGO": "7502216806511",
@@ -904,12 +904,6 @@
     "PRODUCTO": "Dylaxyl 40mg. c/20 Tab.",
     "PRECIO": 110,
     "DESCUENTO": 83
-  },
-  {
-    "CODIGO": "7501123002382",
-    "PRODUCTO": "Singari 80mg. c/30 Tab.",
-    "PRECIO": 445,
-    "DESCUENTO": 334
   },
   {
     "CODIGO": "7503046016064",
@@ -1002,26 +996,26 @@
     "DESCUENTO": 24
   },
   {
-    "CODIGO": "7501349022966",
-    "PRODUCTO": "Bencilpenicilina Procaina 400,000 UI c/1 Am",
-    "PRECIO": 23,
-    "DESCUENTO": 18
-  },
-  {
     "CODIGO": "7501349012172",
     "PRODUCTO": "Penipot 400,000 UI c/1 Amp.",
     "PRECIO": 23,
     "DESCUENTO": 18
   },
   {
-    "CODIGO": "7501349021495",
-    "PRODUCTO": "Bencilpenicilina Procaina 800,000 UI c/1 Am",
-    "PRECIO": 27,
-    "DESCUENTO": 21
+    "CODIGO": "7501349022966",
+    "PRODUCTO": "Bencilpenicilina Procaina 400,000 UI c/1 Am",
+    "PRECIO": 23,
+    "DESCUENTO": 18
   },
   {
     "CODIGO": "7501349011175",
     "PRODUCTO": "Penipot 800,000 UI c/1 Amp.",
+    "PRECIO": 27,
+    "DESCUENTO": 21
+  },
+  {
+    "CODIGO": "7501349021495",
+    "PRODUCTO": "Bencilpenicilina Procaina 800,000 UI c/1 Am",
     "PRECIO": 27,
     "DESCUENTO": 21
   },
@@ -1044,14 +1038,14 @@
     "DESCUENTO": 83
   },
   {
-    "CODIGO": "7503008344211",
-    "PRODUCTO": "Progelben 100mg. c/20 Cap.",
+    "CODIGO": "7502227424377",
+    "PRODUCTO": "Pharben 100mg. c/20 Cap.",
     "PRECIO": 33,
     "DESCUENTO": 25
   },
   {
-    "CODIGO": "7502227424377",
-    "PRODUCTO": "Pharben 100mg. c/20 Cap.",
+    "CODIGO": "7503008344211",
+    "PRODUCTO": "Progelben 100mg. c/20 Cap.",
     "PRECIO": 33,
     "DESCUENTO": 25
   },
@@ -1068,14 +1062,14 @@
     "DESCUENTO": 57
   },
   {
-    "CODIGO": "7502256040586",
-    "PRODUCTO": "Bentodank 8mg./2ml. c/1 Amp. c/Jga.",
+    "CODIGO": "7501537102982",
+    "PRODUCTO": "Celesbitan 8mg./2ml. c/1 Amp.c/Jga.",
     "PRECIO": 36,
     "DESCUENTO": 27
   },
   {
-    "CODIGO": "7501537102982",
-    "PRODUCTO": "Celesbitan 8mg./2ml. c/1 Amp. c/Jga.",
+    "CODIGO": "7502256040586",
+    "PRODUCTO": "Bentodank 8mg./2ml. c/1 Amp. c/Jga.",
     "PRECIO": 36,
     "DESCUENTO": 27
   },
@@ -1098,14 +1092,14 @@
     "DESCUENTO": 24
   },
   {
-    "CODIGO": "7501384504915",
-    "PRODUCTO": "Bezafibrato 200mg. c/30 Tab. PSICOFARM",
+    "CODIGO": "7501075718546",
+    "PRODUCTO": "Nibezvag 200mg. c/30 Tab.",
     "PRECIO": 42,
     "DESCUENTO": 32
   },
   {
-    "CODIGO": "7501075718546",
-    "PRODUCTO": "Nibezvag 200mg. c/30 Tab.",
+    "CODIGO": "7501384504915",
+    "PRODUCTO": "Bezafibrato 200mg. c/30 Tab. PSICOFARM",
     "PRECIO": 42,
     "DESCUENTO": 32
   },
@@ -1116,14 +1110,14 @@
     "DESCUENTO": 142
   },
   {
-    "CODIGO": "7502009746093",
-    "PRODUCTO": "Sibicos 1gr. Ung. 20gr.",
+    "CODIGO": "7502227426661",
+    "PRODUCTO": "Erasten 1gr. Ung. 20gr.",
     "PRECIO": 48,
     "DESCUENTO": 36
   },
   {
-    "CODIGO": "7502227426661",
-    "PRODUCTO": "Erasten 1gr. Ung. 20gr.",
+    "CODIGO": "7502009746093",
+    "PRODUCTO": "Sibicos 1gr. Ung. 20gr.",
     "PRECIO": 48,
     "DESCUENTO": 36
   },
@@ -1188,22 +1182,22 @@
     "DESCUENTO": 24
   },
   {
-    "CODIGO": "7501825301288",
-    "PRODUCTO": "Normoflex 80mg. Inf. Sol. 100ml.",
-    "PRECIO": 33,
-    "DESCUENTO": 25
-  },
-  {
     "CODIGO": "7501573903246",
     "PRODUCTO": "Bromhexina 80mg. Inf. Sol. 100ml. BIOMEP",
     "PRECIO": 33,
     "DESCUENTO": 25
   },
   {
+    "CODIGO": "7501825301288",
+    "PRODUCTO": "Normoflex 80mg. Inf. Sol. 100ml.",
+    "PRECIO": 33,
+    "DESCUENTO": 25
+  },
+  {
     "CODIGO": "7502009749698",
     "PRODUCTO": "Bromhexina/Oxeladina 60mg./120mg. Jbe. 2",
-    "PRECIO": 120,
-    "DESCUENTO": 90
+    "PRECIO": 110,
+    "DESCUENTO": 83
   },
   {
     "CODIGO": "7503045798220",
@@ -1212,28 +1206,28 @@
     "DESCUENTO": 210
   },
   {
-    "CODIGO": "785118753771",
-    "PRODUCTO": "Distental 100mg. c/14 Tab.",
-    "PRECIO": 60,
-    "DESCUENTO": 45
-  },
-  {
     "CODIGO": "7502216795044",
     "PRODUCTO": "Bromuro de Pinaverio 100mg. c/14 Tab. ULT",
     "PRECIO": 50,
     "DESCUENTO": 38
   },
   {
-    "CODIGO": "7502009748219",
-    "PRODUCTO": "Lexitrim 100mg./300mg. c/16 Cap.",
-    "PRECIO": 175,
-    "DESCUENTO": 132
+    "CODIGO": "785118753771",
+    "PRODUCTO": "Distental 100mg. c/14 Tab.",
+    "PRECIO": 60,
+    "DESCUENTO": 45
   },
   {
     "CODIGO": "7502227426449",
     "PRODUCTO": "Nesajar 100mg./300mg. c/16 Cap.",
     "PRECIO": 185,
     "DESCUENTO": 139
+  },
+  {
+    "CODIGO": "7502009748219",
+    "PRODUCTO": "Lexitrim 100mg./300mg. c/16 Cap.",
+    "PRECIO": 175,
+    "DESCUENTO": 132
   },
   {
     "CODIGO": "7502256040517",
@@ -1266,14 +1260,14 @@
     "DESCUENTO": 52
   },
   {
-    "CODIGO": "7502213042127",
-    "PRODUCTO": "ProgoFHal 0.5mg. c/2 Tab.",
+    "CODIGO": "7502216795037",
+    "PRODUCTO": "Cabergolina 0.5mg. c/2 Tab. ULTRA",
     "PRECIO": 159,
     "DESCUENTO": 120
   },
   {
-    "CODIGO": "7502216795037",
-    "PRODUCTO": "Cabergolina 0.5mg. c/2 Tab. ULTRA",
+    "CODIGO": "7502213042127",
+    "PRODUCTO": "ProgoFHal 0.5mg. c/2 Tab.",
     "PRECIO": 159,
     "DESCUENTO": 120
   },
@@ -1320,14 +1314,14 @@
     "DESCUENTO": 42
   },
   {
-    "CODIGO": "7501384541187",
-    "PRODUCTO": "Captopril 25mg. c/30 Tab. PSICOFARMA",
+    "CODIGO": "7502216792579",
+    "PRODUCTO": "Captopril 25mg. c/30 Tab. ULTRA",
     "PRECIO": 20,
     "DESCUENTO": 15
   },
   {
-    "CODIGO": "7502216792579",
-    "PRODUCTO": "Captopril 25mg. c/30 Tab. ULTRA",
+    "CODIGO": "7501384541187",
+    "PRODUCTO": "Captopril 25mg. c/30 Tab. PSICOFARMA",
     "PRECIO": 20,
     "DESCUENTO": 15
   },
@@ -1338,14 +1332,14 @@
     "DESCUENTO": 30
   },
   {
-    "CODIGO": "7501384541163",
-    "PRODUCTO": "Carbamazepina 200mg. c/20 Tab. PSICOFA",
+    "CODIGO": "7501109766116",
+    "PRODUCTO": "Carbamazepina 200mg. c/20 Tab. PERRIG",
     "PRECIO": 33,
     "DESCUENTO": 25
   },
   {
-    "CODIGO": "7501109766116",
-    "PRODUCTO": "Carbamazepina 200mg. c/20 Tab. PERRIG",
+    "CODIGO": "7501384541163",
+    "PRODUCTO": "Carbamazepina 200mg. c/20 Tab. PSICOFA",
     "PRECIO": 33,
     "DESCUENTO": 25
   },
@@ -1416,14 +1410,14 @@
     "DESCUENTO": 42
   },
   {
-    "CODIGO": "7502009740480",
-    "PRODUCTO": "Cefalver 500mg. c/20 Cap.",
+    "CODIGO": "7501349021181",
+    "PRODUCTO": "Cefalexina 500mg. c/20 Cap. AMSA",
     "PRECIO": 70,
     "DESCUENTO": 53
   },
   {
-    "CODIGO": "7501349021181",
-    "PRODUCTO": "Cefalexina 500mg. c/20 Cap. AMSA",
+    "CODIGO": "7502009740480",
+    "PRODUCTO": "Cefalver 500mg. c/20 Cap.",
     "PRECIO": 70,
     "DESCUENTO": 53
   },
@@ -1488,14 +1482,14 @@
     "DESCUENTO": 225
   },
   {
-    "CODIGO": "7502208894557",
-    "PRODUCTO": "Ceftriaxona I.M. 1gr. Sol. Iny. c/1 Amp. BRU",
+    "CODIGO": "7501349012004",
+    "PRODUCTO": "Amcef I.M. 1gr. Sol. Iny. c/1 Amp.",
     "PRECIO": 60,
     "DESCUENTO": 45
   },
   {
-    "CODIGO": "7501349012004",
-    "PRODUCTO": "Amcef I.M. 1gr. Sol. Iny. c/1 Amp.",
+    "CODIGO": "7501349022461",
+    "PRODUCTO": "Ceftriaxona I.M. 1gr. Sol. Iny. c/1 Amp. AMS",
     "PRECIO": 60,
     "DESCUENTO": 45
   },
@@ -1506,8 +1500,8 @@
     "DESCUENTO": 45
   },
   {
-    "CODIGO": "7501349022461",
-    "PRODUCTO": "Ceftriaxona I.M. 1gr. Sol. Iny. c/1 Amp. AMS",
+    "CODIGO": "7502208894557",
+    "PRODUCTO": "Ceftriaxona I.M. 1gr. Sol. Iny. c/1 Amp. BRU",
     "PRECIO": 60,
     "DESCUENTO": 45
   },
@@ -1554,22 +1548,16 @@
     "DESCUENTO": 53
   },
   {
-    "CODIGO": "7502226294858",
-    "PRODUCTO": "Celecoxib 200mg. c/10 Cap. ALPHARMA",
-    "PRECIO": 85,
-    "DESCUENTO": 64
-  },
-  {
     "CODIGO": "7502216805361",
     "PRODUCTO": "Celecoxib 200mg. c/10 Cap. ULTRA",
     "PRECIO": 85,
     "DESCUENTO": 64
   },
   {
-    "CODIGO": "7502226294865",
-    "PRODUCTO": "Celecoxib 200mg. c/20 Cap. ALPHARMA",
-    "PRECIO": 165,
-    "DESCUENTO": 124
+    "CODIGO": "7502226294858",
+    "PRODUCTO": "Celecoxib 200mg. c/10 Cap. ALPHARMA",
+    "PRECIO": 85,
+    "DESCUENTO": 64
   },
   {
     "CODIGO": "7502216805378",
@@ -1578,14 +1566,20 @@
     "DESCUENTO": 124
   },
   {
-    "CODIGO": "7506442704856",
-    "PRODUCTO": "Celecoxib 200mg. c/30 Cap. CAMBER",
-    "PRECIO": 245,
-    "DESCUENTO": 184
+    "CODIGO": "7502226294865",
+    "PRODUCTO": "Celecoxib 200mg. c/20 Cap. ALPHARMA",
+    "PRECIO": 165,
+    "DESCUENTO": 124
   },
   {
     "CODIGO": "7502216805385",
     "PRODUCTO": "Celecoxib 200mg. c/30 Cap. ULTRA",
+    "PRECIO": 245,
+    "DESCUENTO": 184
+  },
+  {
+    "CODIGO": "7506442704856",
+    "PRODUCTO": "Celecoxib 200mg. c/30 Cap. CAMBER",
     "PRECIO": 245,
     "DESCUENTO": 184
   },
@@ -1602,8 +1596,8 @@
     "DESCUENTO": 38
   },
   {
-    "CODIGO": "7501258205870",
-    "PRODUCTO": "Visertral 100mg. Sol. 50ml.",
+    "CODIGO": "7501573906346",
+    "PRODUCTO": "Retirix 100mg. Sol. 50ml.",
     "PRECIO": 65,
     "DESCUENTO": 49
   },
@@ -1614,22 +1608,16 @@
     "DESCUENTO": 49
   },
   {
-    "CODIGO": "7501573906346",
-    "PRODUCTO": "Retirix 100mg. Sol. 50ml.",
-    "PRECIO": 65,
-    "DESCUENTO": 49
+    "CODIGO": "7501258205863",
+    "PRODUCTO": "Visertral 10mg. c/10 Tab.",
+    "PRECIO": 60,
+    "DESCUENTO": 45
   },
   {
     "CODIGO": "7501277092314",
     "PRODUCTO": "Cetirizina 10mg. c/10 Tab. APOTEX",
     "PRECIO": 35,
     "DESCUENTO": 27
-  },
-  {
-    "CODIGO": "7501258205863",
-    "PRODUCTO": "Visertral 10mg. c/10 Tab.",
-    "PRECIO": 60,
-    "DESCUENTO": 45
   },
   {
     "CODIGO": "7502009749179",
@@ -1642,12 +1630,6 @@
     "PRODUCTO": "Raamtol 100mg. c/30 Tab.",
     "PRECIO": 265,
     "DESCUENTO": 199
-  },
-  {
-    "CODIGO": "7502216796379",
-    "PRODUCTO": "Cinarizina 75mg. c/60 Tab. ULTRA",
-    "PRECIO": 49,
-    "DESCUENTO": 37
   },
   {
     "CODIGO": "7503004908820",
@@ -1752,14 +1734,14 @@
     "DESCUENTO": 28
   },
   {
-    "CODIGO": "7501349024922",
-    "PRODUCTO": "Citalopram 20mg. c/14 Tab. AMSA",
+    "CODIGO": "7501293200014",
+    "PRODUCTO": "Citalopram 20mg. c/14 Tab. MEDIX",
     "PRECIO": 89,
     "DESCUENTO": 67
   },
   {
-    "CODIGO": "7501293200014",
-    "PRODUCTO": "Citalopram 20mg. c/14 Tab. MEDIX",
+    "CODIGO": "7501349024922",
+    "PRODUCTO": "Citalopram 20mg. c/14 Tab. AMSA",
     "PRECIO": 89,
     "DESCUENTO": 67
   },
@@ -1806,14 +1788,14 @@
     "DESCUENTO": 34
   },
   {
-    "CODIGO": "7501349020788",
-    "PRODUCTO": "Clindamicina 300mg. c/16 Cap. AMSA",
+    "CODIGO": "7502216793132",
+    "PRODUCTO": "Clindamicina 300mg. c/16 Cap. ULTRA",
     "PRECIO": 90,
     "DESCUENTO": 68
   },
   {
-    "CODIGO": "7502216793132",
-    "PRODUCTO": "Clindamicina 300mg. c/16 Cap. ULTRA",
+    "CODIGO": "7501349020788",
+    "PRODUCTO": "Clindamicina 300mg. c/16 Cap. AMSA",
     "PRECIO": 90,
     "DESCUENTO": 68
   },
@@ -1844,8 +1826,8 @@
   {
     "CODIGO": "CLI00",
     "PRODUCTO": "Clindamicina/Peroxido Benzoilo 1%/5% Gel",
-    "PRECIO": 387,
-    "DESCUENTO": 291
+    "PRECIO": 398,
+    "DESCUENTO": 299
   },
   {
     "CODIGO": "7503004908677",
@@ -1878,22 +1860,16 @@
     "DESCUENTO": 74
   },
   {
-    "CODIGO": "7502009741326",
-    "PRODUCTO": "Doltrix 100mg./20mg. c/3+3 Amp.",
-    "PRECIO": 85,
-    "DESCUENTO": 64
-  },
-  {
     "CODIGO": "7502003389401",
     "PRODUCTO": "Clonixinato Lisina/Diclofenaco 250mg./50mg",
     "PRECIO": 329,
-    "DESCUENTO": 329
+    "DESCUENTO": 247
   },
   {
     "CODIGO": "7502003389418",
     "PRODUCTO": "Clonixinato Lisina/Tramadol 125mg./25mg. c",
     "PRECIO": 300,
-    "DESCUENTO": 300
+    "DESCUENTO": 225
   },
   {
     "CODIGO": "7501075719260",
@@ -1944,16 +1920,16 @@
     "DESCUENTO": 12
   },
   {
-    "CODIGO": "7501825300137",
-    "PRODUCTO": "Blendox 4mg. c/20 Tab.",
-    "PRECIO": 22,
-    "DESCUENTO": 17
-  },
-  {
     "CODIGO": "7501573900153",
     "PRODUCTO": "Docsi 4mg. c/20 Tab.",
     "PRECIO": 13,
     "DESCUENTO": 10
+  },
+  {
+    "CODIGO": "7501825300137",
+    "PRODUCTO": "Blendox 4mg. c/20 Tab.",
+    "PRECIO": 22,
+    "DESCUENTO": 17
   },
   {
     "CODIGO": "7501573909903",
@@ -1976,8 +1952,8 @@
   {
     "CODIGO": "CLO02",
     "PRODUCTO": "Cloropiramina 20mg./2ml. c/5 Amp. SANDO",
-    "PRECIO": 167,
-    "DESCUENTO": 126
+    "PRECIO": 177,
+    "DESCUENTO": 133
   },
   {
     "CODIGO": "7506494600311",
@@ -1986,22 +1962,22 @@
     "DESCUENTO": 53
   },
   {
-    "CODIGO": "7503003134664",
-    "PRODUCTO": "Hidropharm 50mg. c/30 Tab.",
-    "PRECIO": 24,
-    "DESCUENTO": 18
-  },
-  {
     "CODIGO": "7502226291871",
     "PRODUCTO": "Clortalidona 50mg. c/30 Tab. ALPHARMA",
     "PRECIO": 24,
     "DESCUENTO": 18
   },
   {
+    "CODIGO": "7503003134664",
+    "PRODUCTO": "Hidropharm 50mg. c/30 Tab.",
+    "PRECIO": 24,
+    "DESCUENTO": 18
+  },
+  {
     "CODIGO": "CLO03",
     "PRODUCTO": "Cloruro de Potasio 500mg. c/50 Grag.",
-    "PRECIO": 262,
-    "DESCUENTO": 197
+    "PRECIO": 280,
+    "DESCUENTO": 210
   },
   {
     "CODIGO": "7501723501254",
@@ -2034,14 +2010,14 @@
     "DESCUENTO": 34
   },
   {
-    "CODIGO": "7502009740374",
-    "PRODUCTO": "Tenescan V 2% Cra. Vag. 20gr. c/3 Ap.",
+    "CODIGO": "7501573906407",
+    "PRODUCTO": "Lozamir-V 2% Cra. Vag. 20gr. c/3 Aplic.",
     "PRECIO": 45,
     "DESCUENTO": 34
   },
   {
-    "CODIGO": "7501573906407",
-    "PRODUCTO": "Lozamir-V 2% Cra. Vag. 20gr. c/3 Aplic.",
+    "CODIGO": "7502009740374",
+    "PRODUCTO": "Tenescan V 2% Cra. Vag. 20gr. c/3 Ap.",
     "PRECIO": 45,
     "DESCUENTO": 34
   },
@@ -2054,8 +2030,8 @@
   {
     "CODIGO": "COB00",
     "PRODUCTO": "Cobamamida 1.000mcg. c/12 Sob.",
-    "PRECIO": 240,
-    "DESCUENTO": 180
+    "PRECIO": 248,
+    "DESCUENTO": 186
   },
   {
     "CODIGO": "7501573909958",
@@ -2070,22 +2046,28 @@
     "DESCUENTO": 42
   },
   {
+    "CODIGO": "8400005809",
+    "PRODUCTO": "Cromoglicato de Sodio 4% Gts. Oft. 5ml. GR",
+    "PRECIO": 55,
+    "DESCUENTO": 42
+  },
+  {
     "CODIGO": "7506442706096",
     "PRODUCTO": "Dapagliflozina 10mg. c/28 Tab. CAMBER",
     "PRECIO": 449,
     "DESCUENTO": 337
   },
   {
-    "CODIGO": "7501349013223",
-    "PRODUCTO": "Deflazacort 30mg. c/10 Tab. AMSA",
-    "PRECIO": 159,
-    "DESCUENTO": 120
-  },
-  {
     "CODIGO": "7502009746734",
     "PRODUCTO": "Cariden 30mg. c/10 Tab.",
     "PRECIO": 145,
     "DESCUENTO": 109
+  },
+  {
+    "CODIGO": "7501349013223",
+    "PRODUCTO": "Deflazacort 30mg. c/10 Tab. AMSA",
+    "PRECIO": 159,
+    "DESCUENTO": 120
   },
   {
     "CODIGO": "7501349027824",
@@ -2106,16 +2088,22 @@
     "DESCUENTO": 53
   },
   {
+    "CODIGO": "7502223112346",
+    "PRODUCTO": "Histapharm 5mg. c/10 Tab.",
+    "PRECIO": 55,
+    "DESCUENTO": 42
+  },
+  {
     "CODIGO": "7502009745881",
     "PRODUCTO": "Bennet 5mg. c/10 Tab.",
     "PRECIO": 55,
     "DESCUENTO": 42
   },
   {
-    "CODIGO": "7502223112346",
-    "PRODUCTO": "Histapharm 5mg. c/10 Tab.",
-    "PRECIO": 55,
-    "DESCUENTO": 42
+    "CODIGO": "7506313800939",
+    "PRODUCTO": "Liquealay 0.05% Cra. 15gr.",
+    "PRECIO": 120,
+    "DESCUENTO": 90
   },
   {
     "CODIGO": "7502216790872",
@@ -2166,14 +2154,14 @@
     "DESCUENTO": 25
   },
   {
-    "CODIGO": "7501349027329",
-    "PRODUCTO": "Dexametasona 8mg. c/1 Amp. AMSA",
+    "CODIGO": "7502256040067",
+    "PRODUCTO": "Sinkel 8mg. c/1 Amp.",
     "PRECIO": 14,
     "DESCUENTO": 11
   },
   {
-    "CODIGO": "7502256040067",
-    "PRODUCTO": "Sinkel 8mg. c/1 Amp.",
+    "CODIGO": "7501349027329",
+    "PRODUCTO": "Dexametasona 8mg. c/1 Amp. AMSA",
     "PRECIO": 14,
     "DESCUENTO": 11
   },
@@ -2226,14 +2214,14 @@
     "DESCUENTO": 169
   },
   {
-    "CODIGO": "7502009749421",
-    "PRODUCTO": "Dexpantenol 0.5gr. Pda. 30gr. TATTOO MA",
+    "CODIGO": "7502001167124",
+    "PRODUCTO": "Dexpantenol 0.5gr. Pda. 30gr. TATTOO SO",
     "PRECIO": 30,
     "DESCUENTO": 23
   },
   {
-    "CODIGO": "7502001167124",
-    "PRODUCTO": "Dexpantenol 0.5gr. Pda. 30gr. TATTOO SO",
+    "CODIGO": "7502009749421",
+    "PRODUCTO": "Dexpantenol 0.5gr. Pda. 30gr. TATTOO MA",
     "PRECIO": 30,
     "DESCUENTO": 23
   },
@@ -2324,18 +2312,18 @@
   {
     "CODIGO": "7501825300786",
     "PRODUCTO": "Sediclon 10mg. c/30 Tab.",
-    "PRECIO": 35,
-    "DESCUENTO": 27
-  },
-  {
-    "CODIGO": "7502245840173",
-    "PRODUCTO": "Difetril 75mg. c/2 Amp.",
-    "PRECIO": 20,
-    "DESCUENTO": 15
+    "PRECIO": 37,
+    "DESCUENTO": 28
   },
   {
     "CODIGO": "7502226292038",
     "PRODUCTO": "Diclofenaco 75mg. c/2 Amp. ALPHARMA",
+    "PRECIO": 20,
+    "DESCUENTO": 15
+  },
+  {
+    "CODIGO": "7502245840173",
+    "PRODUCTO": "Difetril 75mg. c/2 Amp.",
     "PRECIO": 20,
     "DESCUENTO": 15
   },
@@ -2353,7 +2341,7 @@
   },
   {
     "CODIGO": "7502216802919",
-    "PRODUCTO": "Diclofenaco 100mg. c/20 Tab. ULTRA",
+    "PRODUCTO": "Diclofenaco 100mg. c/20  Tab. ULTRA",
     "PRECIO": 25,
     "DESCUENTO": 19
   },
@@ -2527,7 +2515,7 @@
   },
   {
     "CODIGO": "7501075723724",
-    "PRODUCTO": "Rovemax 450mg./50mg. c/20 Tab.",
+    "PRODUCTO": "Rovemax 450mg./50mg. c720 Tab.",
     "PRECIO": 110,
     "DESCUENTO": 83
   },
@@ -2568,14 +2556,14 @@
     "DESCUENTO": 105
   },
   {
-    "CODIGO": "7501563380026",
-    "PRODUCTO": "Doxiciclina 100mg. c/10 Cap. RANDALL",
+    "CODIGO": "7502226291857",
+    "PRODUCTO": "Doxiciclina 100mg. c/10 Cap. ALPHARMA",
     "PRECIO": 34,
     "DESCUENTO": 26
   },
   {
-    "CODIGO": "7502226291857",
-    "PRODUCTO": "Doxiciclina 100mg. c/10 Cap. ALPHARMA",
+    "CODIGO": "7501563380026",
+    "PRODUCTO": "Doxiciclina 100mg. c/10 Cap. RANDALL",
     "PRECIO": 34,
     "DESCUENTO": 26
   },
@@ -2606,8 +2594,8 @@
   {
     "CODIGO": "DRO00",
     "PRODUCTO": "Drospirenona/Etinilestradiol c/21 Cpr.",
-    "PRECIO": 282,
-    "DESCUENTO": 212
+    "PRECIO": 310,
+    "DESCUENTO": 233
   },
   {
     "CODIGO": "7501075727180",
@@ -2767,7 +2755,7 @@
   },
   {
     "CODIGO": "7501349012394",
-    "PRODUCTO": "Solural Pediatrico Fresa Sol. 300ml.l",
+    "PRODUCTO": "Solural Pediatrico Fresa Sol. 300ml.",
     "PRECIO": 22,
     "DESCUENTO": 17
   },
@@ -2790,14 +2778,14 @@
     "DESCUENTO": 19
   },
   {
-    "CODIGO": "7501384541170",
-    "PRODUCTO": "Enalapril 10mg. c/30 Tab. PSICOFARMA",
+    "CODIGO": "7502216792845",
+    "PRODUCTO": "Enalapril 10mg. c/30 Tab. ULTRA",
     "PRECIO": 20,
     "DESCUENTO": 15
   },
   {
-    "CODIGO": "7502216792845",
-    "PRODUCTO": "Enalapril 10mg. c/30 Tab. ULTRA",
+    "CODIGO": "7501384541170",
+    "PRODUCTO": "Enalapril 10mg. c/30 Tab. PSICOFARMA",
     "PRECIO": 20,
     "DESCUENTO": 15
   },
@@ -2808,14 +2796,14 @@
     "DESCUENTO": 285
   },
   {
-    "CODIGO": "7501075723212",
-    "PRODUCTO": "Paferlu 20mg. c/10 Tab.",
+    "CODIGO": "7502227874264",
+    "PRODUCTO": "Emproxec 20mg. c/10 Tab.",
     "PRECIO": 65,
     "DESCUENTO": 49
   },
   {
-    "CODIGO": "7502227874264",
-    "PRODUCTO": "Emproxec 20mg. c/10 Tab.",
+    "CODIGO": "7501075723212",
+    "PRODUCTO": "Paferlu 20mg. c/10 Tab.",
     "PRECIO": 65,
     "DESCUENTO": 49
   },
@@ -2874,14 +2862,14 @@
     "DESCUENTO": 150
   },
   {
-    "CODIGO": "7501563381160",
-    "PRODUCTO": "Espironolactona 25mg. c/30 Tab. RANDALL",
+    "CODIGO": "7502216805798",
+    "PRODUCTO": "Espironolactona 25mg. c/30 Tab. ULTRA",
     "PRECIO": 65,
     "DESCUENTO": 49
   },
   {
-    "CODIGO": "7502216805798",
-    "PRODUCTO": "Espironolactona 25mg. c/30 Tab. ULTRA",
+    "CODIGO": "7501563381160",
+    "PRODUCTO": "Espironolactona 25mg. c/30 Tab. RANDALL",
     "PRECIO": 65,
     "DESCUENTO": 49
   },
@@ -2928,14 +2916,14 @@
     "DESCUENTO": 75
   },
   {
-    "CODIGO": "7502009746505",
-    "PRODUCTO": "Exicort 90mg. c/28 Cpr.",
+    "CODIGO": "7501349027992",
+    "PRODUCTO": "Etoricoxib 90mg. c/28 Cpr. AMSA",
     "PRECIO": 159,
     "DESCUENTO": 120
   },
   {
-    "CODIGO": "7501349027992",
-    "PRODUCTO": "Etoricoxib 90mg. c/28 Cpr. AMSA",
+    "CODIGO": "7502009746505",
+    "PRODUCTO": "Exicort 90mg. c/28 Cpr.",
     "PRECIO": 159,
     "DESCUENTO": 120
   },
@@ -2964,26 +2952,26 @@
     "DESCUENTO": 472
   },
   {
-    "CODIGO": "7502216796348",
-    "PRODUCTO": "Felodipino 5mg. c/20 Tab. ULTRA",
-    "PRECIO": 65,
-    "DESCUENTO": 49
-  },
-  {
     "CODIGO": "7502216792647",
     "PRODUCTO": "Dylofen Retard 5mg. c/20 Tab.",
     "PRECIO": 65,
     "DESCUENTO": 49
   },
   {
-    "CODIGO": "7501384545659",
-    "PRODUCTO": "Fenazopiridina 100mg. c/20 Tab. PSICOFA",
-    "PRECIO": 27,
-    "DESCUENTO": 21
+    "CODIGO": "7502216796348",
+    "PRODUCTO": "Felodipino 5mg. c/20 Tab. ULTRA",
+    "PRECIO": 65,
+    "DESCUENTO": 49
   },
   {
     "CODIGO": "7501563380613",
     "PRODUCTO": "Bioferina 100mg. c/20 Tab.",
+    "PRECIO": 27,
+    "DESCUENTO": 21
+  },
+  {
+    "CODIGO": "7501384545659",
+    "PRODUCTO": "Fenazopiridina 100mg. c/20 Tab. PSICOFA",
     "PRECIO": 27,
     "DESCUENTO": 21
   },
@@ -3012,14 +3000,14 @@
     "DESCUENTO": 36
   },
   {
-    "CODIGO": "780083146207",
-    "PRODUCTO": "Fazolin F 3mg./0.16mg. Gts. Oft. 15ml.",
+    "CODIGO": "7501349017931",
+    "PRODUCTO": "Lubriamsa 3mg./0.16mg. Gts. Oft. 15ml.",
     "PRECIO": 30,
     "DESCUENTO": 23
   },
   {
-    "CODIGO": "7501349017931",
-    "PRODUCTO": "Lubriamsa 3mg./0.16mg. Gts. Oft. 15ml.",
+    "CODIGO": "780083146207",
+    "PRODUCTO": "Fazolin F 3mg./0.16mg. Gts. Oft. 15ml.",
     "PRECIO": 30,
     "DESCUENTO": 23
   },
@@ -3156,14 +3144,14 @@
     "DESCUENTO": 35
   },
   {
-    "CODIGO": "7502213042639",
-    "PRODUCTO": "Ginfhuzil c/10 Ov.",
+    "CODIGO": "7502001164086",
+    "PRODUCTO": "Nysmoson´s- V c/10 Ov.",
     "PRECIO": 56,
     "DESCUENTO": 42
   },
   {
-    "CODIGO": "7502001164086",
-    "PRODUCTO": "Nysmoson´s- V c/10 Ov.",
+    "CODIGO": "7502213042639",
+    "PRODUCTO": "Ginfhuzil c/10 Ov.",
     "PRECIO": 56,
     "DESCUENTO": 42
   },
@@ -3196,12 +3184,6 @@
     "PRODUCTO": "FHisflunal 50mcg. Aer. c/120 Dosis",
     "PRECIO": 239,
     "DESCUENTO": 180
-  },
-  {
-    "CODIGO": "8436024614510",
-    "PRODUCTO": "Acecnou 3gr. Pvo. c/1 Sob.",
-    "PRECIO": 355,
-    "DESCUENTO": 267
   },
   {
     "CODIGO": "7506513601053",
@@ -3294,12 +3276,6 @@
     "DESCUENTO": 87
   },
   {
-    "CODIGO": "7501349026377",
-    "PRODUCTO": "Gentamicina 160mg. c/1 Amp. AMSA",
-    "PRECIO": 19,
-    "DESCUENTO": 15
-  },
-  {
     "CODIGO": "7501349026094",
     "PRODUCTO": "Gentamicina 160mg. c/5 Amp. AMSA",
     "PRECIO": 70,
@@ -3312,14 +3288,14 @@
     "DESCUENTO": 42
   },
   {
-    "CODIGO": "7501075714739",
-    "PRODUCTO": "Reglusan 5mg. c/50 Tab.",
+    "CODIGO": "7501573910428",
+    "PRODUCTO": "Ocrix 5mg. c/50 Tab.",
     "PRECIO": 14,
     "DESCUENTO": 11
   },
   {
-    "CODIGO": "7501573910428",
-    "PRODUCTO": "Ocrix 5mg. c/50 Tab.",
+    "CODIGO": "7501075714739",
+    "PRODUCTO": "Reglusan 5mg. c/50 Tab.",
     "PRECIO": 14,
     "DESCUENTO": 11
   },
@@ -3348,12 +3324,6 @@
     "DESCUENTO": 45
   },
   {
-    "CODIGO": "714908108002",
-    "PRODUCTO": "Flx-On 1.500mg./1.200mg. c/30 Sob.",
-    "PRECIO": 399,
-    "DESCUENTO": 300
-  },
-  {
     "CODIGO": "7502009749018",
     "PRODUCTO": "Glucosamina/Condroitina c/30 Sob. MAVER",
     "PRECIO": 425,
@@ -3372,22 +3342,16 @@
     "DESCUENTO": 34
   },
   {
-    "CODIGO": "7501825304388",
-    "PRODUCTO": "Flemigor Sol. Ped. 60ml.",
-    "PRECIO": 37,
-    "DESCUENTO": 28
-  },
-  {
     "CODIGO": "7501825304371",
     "PRODUCTO": "Flemigor Sol. Inf. 150ml.",
     "PRECIO": 53,
     "DESCUENTO": 40
   },
   {
-    "CODIGO": "7501672690948",
-    "PRODUCTO": "Otofen Jbe. 140ml.",
-    "PRECIO": 56,
-    "DESCUENTO": 42
+    "CODIGO": "7501825304388",
+    "PRODUCTO": "Flemigor Sol. Ped. 60ml.",
+    "PRECIO": 37,
+    "DESCUENTO": 28
   },
   {
     "CODIGO": "7501573904335",
@@ -3396,14 +3360,20 @@
     "DESCUENTO": 42
   },
   {
-    "CODIGO": "7501277030224",
-    "PRODUCTO": "Haloperidol 5mg. c/20 Tab. APOTEX",
-    "PRECIO": 69,
-    "DESCUENTO": 52
+    "CODIGO": "7501672690948",
+    "PRODUCTO": "Otofen Jbe. 140ml.",
+    "PRECIO": 56,
+    "DESCUENTO": 42
   },
   {
     "CODIGO": "7501384546625",
     "PRODUCTO": "Haloperidol 5mg. c/20 Tab. PSICOFARMA",
+    "PRECIO": 69,
+    "DESCUENTO": 52
+  },
+  {
+    "CODIGO": "7501277030224",
+    "PRODUCTO": "Haloperidol 5mg. c/20 Tab. APOTEX",
     "PRECIO": 69,
     "DESCUENTO": 52
   },
@@ -3493,7 +3463,7 @@
   },
   {
     "CODIGO": "780083148935",
-    "PRODUCTO": "Optalag Lagrimas Artificiales Sol. Oft. 15ml.",
+    "PRODUCTO": "Optalag Lagrimas Artificiales Sol Oft. 15ml.",
     "PRECIO": 40,
     "DESCUENTO": 30
   },
@@ -3540,14 +3510,14 @@
     "DESCUENTO": 117
   },
   {
-    "CODIGO": "7501349024601",
-    "PRODUCTO": "Hioscina 10mg. c/10 Tab. AMSA",
+    "CODIGO": "7501537103385",
+    "PRODUCTO": "Brupacil 10mg. c/10 Tab.",
     "PRECIO": 28,
     "DESCUENTO": 21
   },
   {
-    "CODIGO": "7501537103385",
-    "PRODUCTO": "Brupacil 10mg. c/10 Tab.",
+    "CODIGO": "7501349024601",
+    "PRODUCTO": "Hioscina 10mg. c/10 Tab. AMSA",
     "PRECIO": 28,
     "DESCUENTO": 21
   },
@@ -3625,19 +3595,19 @@
   },
   {
     "CODIGO": "7502223112384",
-    "PRODUCTO": "Fidoin-Q 40mg. Gts. Ped. 15ml",
+    "PRODUCTO": "Fidoin-Q 40mg. Gts. Ped. 15ml.",
     "PRECIO": 56,
     "DESCUENTO": 42
   },
   {
-    "CODIGO": "7503027446279",
-    "PRODUCTO": "Gelubrin 600mg. c/10 Cap.",
+    "CODIGO": "7502227426715",
+    "PRODUCTO": "Algidol 600mg. c/10 Cap.",
     "PRECIO": 34,
     "DESCUENTO": 26
   },
   {
-    "CODIGO": "7502227426715",
-    "PRODUCTO": "Algidol 600mg. c/10 Cap.",
+    "CODIGO": "7503027446279",
+    "PRODUCTO": "Gelubrin 600mg. c/10 Cap.",
     "PRECIO": 34,
     "DESCUENTO": 26
   },
@@ -3710,8 +3680,8 @@
   {
     "CODIGO": "IND00",
     "PRODUCTO": "Indometacina/Metocarbamol 25mg./215mg.",
-    "PRECIO": 149,
-    "DESCUENTO": 112
+    "PRECIO": 155,
+    "DESCUENTO": 117
   },
   {
     "CODIGO": "7501349025158",
@@ -3732,14 +3702,14 @@
     "DESCUENTO": 113
   },
   {
-    "CODIGO": "7502009747021",
-    "PRODUCTO": "Lonvitol 0.5mg./2.5mg.  c/10 Amp.",
+    "CODIGO": "7501349029330",
+    "PRODUCTO": "Ipratropio/Salbutamol 0.5mg./2.5mg.  c/10 A",
     "PRECIO": 150,
     "DESCUENTO": 113
   },
   {
-    "CODIGO": "7501349029330",
-    "PRODUCTO": "Ipratropio/Salbutamol 0.5mg./2.5mg. c/10 A",
+    "CODIGO": "7502009747021",
+    "PRODUCTO": "Lonvitol 0.5mg./2.5mg.  c/10 Amp.",
     "PRECIO": 150,
     "DESCUENTO": 113
   },
@@ -3768,12 +3738,6 @@
     "DESCUENTO": 285
   },
   {
-    "CODIGO": "7502216790971",
-    "PRODUCTO": "Irbesartan/Amlodipino 300mg./5mg. c/14 Ta",
-    "PRECIO": 399,
-    "DESCUENTO": 300
-  },
-  {
     "CODIGO": "7502216803183",
     "PRODUCTO": "Irbesartan/Hidrocl. 150mg./12.5mg. c/14 Tab",
     "PRECIO": 115,
@@ -3786,14 +3750,14 @@
     "DESCUENTO": 162
   },
   {
-    "CODIGO": "7503004908707",
-    "PRODUCTO": "Isoconazol 1% Cra. 20gr. ALPHARMA",
+    "CODIGO": "7501573905363",
+    "PRODUCTO": "Licom 1% Cra. 20gr.",
     "PRECIO": 35,
     "DESCUENTO": 27
   },
   {
-    "CODIGO": "7501573905363",
-    "PRODUCTO": "Licom 1% Cra. 20gr.",
+    "CODIGO": "7503004908707",
+    "PRODUCTO": "Isoconazol 1% Cra. 20gr. ALPHARMA",
     "PRECIO": 35,
     "DESCUENTO": 27
   },
@@ -3919,19 +3883,19 @@
   },
   {
     "CODIGO": "7502216808119",
-    "PRODUCTO": "Raluscum 30mg. c/6 Tab. Subl.",
+    "PRODUCTO": "Ralucsum 30mg. c/6 Tab. Subl.",
     "PRECIO": 45,
     "DESCUENTO": 34
   },
   {
-    "CODIGO": "785120755046",
-    "PRODUCTO": "Mavidol TR 10mg./25mg. c/3 Amp.",
+    "CODIGO": "7501299308844",
+    "PRODUCTO": "Ketorolaco/Tramadol 10mg./25mg. c/3 Amp.",
     "PRECIO": 150,
     "DESCUENTO": 150
   },
   {
-    "CODIGO": "7501299308844",
-    "PRODUCTO": "Ketorolaco/Tramadol 10mg./25mg. c/3 Amp.",
+    "CODIGO": "785120755046",
+    "PRODUCTO": "Mavidol TR 10mg./25mg. c/3 Amp.",
     "PRECIO": 150,
     "DESCUENTO": 150
   },
@@ -3952,6 +3916,12 @@
     "PRODUCTO": "Mavidol TR 10mg./25mg. c/10 Cap.",
     "PRECIO": 150,
     "DESCUENTO": 150
+  },
+  {
+    "CODIGO": "7502004402802",
+    "PRODUCTO": "Osaten 1mg. c/30 Cpr.",
+    "PRECIO": 49,
+    "DESCUENTO": 37
   },
   {
     "CODIGO": "7501258200288",
@@ -4008,14 +3978,14 @@
     "DESCUENTO": 57
   },
   {
-    "CODIGO": "7502009740756",
-    "PRODUCTO": "Avancid 30mg. c/14 Cap.",
+    "CODIGO": "7503003738961",
+    "PRODUCTO": "Amdory 30mg. c/14 Cap.",
     "PRECIO": 59,
     "DESCUENTO": 45
   },
   {
-    "CODIGO": "7503003738961",
-    "PRODUCTO": "Amdory 30mg. c/14 Cap.",
+    "CODIGO": "7502009740756",
+    "PRODUCTO": "Avancid 30mg. c/14 Cap.",
     "PRECIO": 59,
     "DESCUENTO": 45
   },
@@ -4028,12 +3998,12 @@
   {
     "CODIGO": "7502009746178",
     "PRODUCTO": "Avattor 20mg. c/30 Cpr.",
-    "PRECIO": 133,
-    "DESCUENTO": 100
+    "PRECIO": 144,
+    "DESCUENTO": 108
   },
   {
     "CODIGO": "7501384547493",
-    "PRODUCTO": "Lercanidipino 10mg. c/30 Tab.",
+    "PRODUCTO": "Lercanidipino 10mg. c/30 Tab. NEOLPHAR",
     "PRECIO": 250,
     "DESCUENTO": 188
   },
@@ -4116,14 +4086,14 @@
     "DESCUENTO": 102
   },
   {
-    "CODIGO": "7501109762798",
-    "PRODUCTO": "Evelyn 1.5mg. c/1 Tab.",
+    "CODIGO": "7501249600042",
+    "PRODUCTO": "Levonorgestrel 1.5mg. c/1 Tab. TEMPUS P",
     "PRECIO": 60,
     "DESCUENTO": 45
   },
   {
-    "CODIGO": "7501249600042",
-    "PRODUCTO": "Levonorgestrel 1.5mg. c/1 Tab. TEMPUS P",
+    "CODIGO": "7501109762798",
+    "PRODUCTO": "Evelyn 1.5mg. c/1 Tab.",
     "PRECIO": 60,
     "DESCUENTO": 45
   },
@@ -4140,22 +4110,22 @@
     "DESCUENTO": 30
   },
   {
-    "CODIGO": "7501349020153",
-    "PRODUCTO": "Levotiroxina 100mcg. c/100 Tab. AMSA",
-    "PRECIO": 90,
-    "DESCUENTO": 68
-  },
-  {
     "CODIGO": "7501249600813",
     "PRODUCTO": "Levotiroxina 100mcg. c/100 Tab. TEMPUS P",
     "PRECIO": 90,
     "DESCUENTO": 68
   },
   {
+    "CODIGO": "7501349020153",
+    "PRODUCTO": "Levotiroxina Sodica 100mcg. c/100 Tab. AM",
+    "PRECIO": 90,
+    "DESCUENTO": 68
+  },
+  {
     "CODIGO": "LEV00",
     "PRODUCTO": "Novotiral 100mcg./20mcg. c/50 Tab.",
-    "PRECIO": 387,
-    "DESCUENTO": 291
+    "PRECIO": 403,
+    "DESCUENTO": 303
   },
   {
     "CODIGO": "7502223111202",
@@ -4248,20 +4218,26 @@
     "DESCUENTO": 9
   },
   {
+    "CODIGO": "7501342804392",
+    "PRODUCTO": "Loperamida 2mg. c/12 Tab. BE ADVANCE",
+    "PRECIO": 12,
+    "DESCUENTO": 9
+  },
+  {
     "CODIGO": "7502009740312",
     "PRODUCTO": "Laritol 100mg. Gts. Ped. 30ml.",
     "PRECIO": 20,
     "DESCUENTO": 15
   },
   {
-    "CODIGO": "7502009740305",
-    "PRODUCTO": "Laritol 100mg. Sol. 60ml.",
+    "CODIGO": "7502001163553",
+    "PRODUCTO": "Aludix 100mg. Sol. 60ml.",
     "PRECIO": 34,
     "DESCUENTO": 26
   },
   {
-    "CODIGO": "7502001163553",
-    "PRODUCTO": "Aludix 100mg. Sol. 60ml.",
+    "CODIGO": "7502009740305",
+    "PRODUCTO": "Laritol 100mg. Sol. 60ml.",
     "PRECIO": 34,
     "DESCUENTO": 26
   },
@@ -4332,14 +4308,14 @@
     "DESCUENTO": 47
   },
   {
-    "CODIGO": "7502009741784",
-    "PRODUCTO": "Laritol D Inf. Jbe. 60ml.",
+    "CODIGO": "7501573907091",
+    "PRODUCTO": "Distrafin Inf. Jbe. 60ml.",
     "PRECIO": 40,
     "DESCUENTO": 30
   },
   {
-    "CODIGO": "7501573907091",
-    "PRODUCTO": "Distrafin Inf. Jbe. 60ml.",
+    "CODIGO": "7502009741784",
+    "PRODUCTO": "Laritol D Inf. Jbe. 60ml.",
     "PRECIO": 40,
     "DESCUENTO": 30
   },
@@ -4404,22 +4380,28 @@
     "DESCUENTO": 83
   },
   {
-    "CODIGO": "7502009742774",
-    "PRODUCTO": "Co-Tarsan 50mg./12.5mg. c/30 Cpr.",
-    "PRECIO": 125,
-    "DESCUENTO": 94
-  },
-  {
     "CODIGO": "7502216795204",
     "PRODUCTO": "Losartan/Hidroclorotiazida 50mg./12.5mg. c/",
     "PRECIO": 65,
     "DESCUENTO": 49
   },
   {
+    "CODIGO": "7502009742774",
+    "PRODUCTO": "Co-Tarsan 50mg./12.5mg. c/30 Cpr.",
+    "PRECIO": 125,
+    "DESCUENTO": 94
+  },
+  {
     "CODIGO": "7502246640970",
     "PRODUCTO": "Solostin c/7 Sob. 17gr. c/u",
     "PRECIO": 167,
     "DESCUENTO": 126
+  },
+  {
+    "CODIGO": "785118754228",
+    "PRODUCTO": "Graloxen 8gr./1gr. Gel 250ml.",
+    "PRECIO": 85,
+    "DESCUENTO": 64
   },
   {
     "CODIGO": "7502009745027",
@@ -4434,22 +4416,16 @@
     "DESCUENTO": 68
   },
   {
-    "CODIGO": "785118754228",
-    "PRODUCTO": "Graloxen 8gr./1gr. Gel 250ml.",
-    "PRECIO": 85,
-    "DESCUENTO": 64
+    "CODIGO": "780083150525",
+    "PRODUCTO": "Xenopir Gel 8gr/1gr. c/10 Sob.",
+    "PRECIO": 75,
+    "DESCUENTO": 57
   },
   {
     "CODIGO": "7502009745522",
     "PRODUCTO": "Galaver 8gr/1gr. c/10 Sob.",
     "PRECIO": 55,
     "DESCUENTO": 42
-  },
-  {
-    "CODIGO": "780083150525",
-    "PRODUCTO": "Xenopir Gel 8gr/1gr. c/10 Sob.",
-    "PRECIO": 75,
-    "DESCUENTO": 57
   },
   {
     "CODIGO": "7502001165748",
@@ -4578,14 +4554,14 @@
     "DESCUENTO": 15
   },
   {
-    "CODIGO": "7501075727517",
-    "PRODUCTO": "Pirinovag 500mg. c/10 Tab.",
+    "CODIGO": "7501573901082",
+    "PRODUCTO": "Messelfenil 500mg. c/10 Tab.",
     "PRECIO": 11,
     "DESCUENTO": 9
   },
   {
-    "CODIGO": "7501573901082",
-    "PRODUCTO": "Messelfenil 500mg. c/10 Tab.",
+    "CODIGO": "7501075727517",
+    "PRODUCTO": "Pirinovag 500mg. c/10 Tab.",
     "PRECIO": 11,
     "DESCUENTO": 9
   },
@@ -4633,9 +4609,15 @@
   },
   {
     "CODIGO": "7501277034338",
-    "PRODUCTO": "Metformina 750mg. c/60 Cpr. LP. APOTEX",
+    "PRODUCTO": "Metformina 750mg. c/60 Cpr. L.P. APOTEX",
     "PRECIO": 155,
     "DESCUENTO": 117
+  },
+  {
+    "CODIGO": "7501075717020",
+    "PRODUCTO": "Glunovag 850mg. c/30 Tab.",
+    "PRECIO": 29,
+    "DESCUENTO": 22
   },
   {
     "CODIGO": "7501349022140",
@@ -4650,16 +4632,16 @@
     "DESCUENTO": 22
   },
   {
-    "CODIGO": "7501075717020",
-    "PRODUCTO": "Glunovag 850mg. c/30 Tab.",
-    "PRECIO": 29,
-    "DESCUENTO": 22
-  },
-  {
     "CODIGO": "MET02",
     "PRODUCTO": "Metformina/Glibenclamida 1gr./5mg. c/40 Ta",
-    "PRECIO": 104,
-    "DESCUENTO": 78
+    "PRECIO": 108,
+    "DESCUENTO": 81
+  },
+  {
+    "CODIGO": "7501573900245",
+    "PRODUCTO": "Wadil 500mg./2.5mg. c/30 Tab.",
+    "PRECIO": 40,
+    "DESCUENTO": 30
   },
   {
     "CODIGO": "7501101600050",
@@ -4669,7 +4651,7 @@
   },
   {
     "CODIGO": "7501101600067",
-    "PRODUCTO": "Metformina/Glibencl. 500mg./5mg.  c/40 LO",
+    "PRODUCTO": "Metformina/Glibencl. 500mg./5mg. c/40 LOE",
     "PRECIO": 48,
     "DESCUENTO": 36
   },
@@ -4728,14 +4710,14 @@
     "DESCUENTO": 135
   },
   {
-    "CODIGO": "7502208892638",
-    "PRODUCTO": "Dirpasid 10mg. c/20 Tab.",
+    "CODIGO": "7501075710786",
+    "PRODUCTO": "Cirulan 10mg. c/20 Tab.",
     "PRECIO": 12,
     "DESCUENTO": 9
   },
   {
-    "CODIGO": "7501075710786",
-    "PRODUCTO": "Cirulan 10mg. c/20 Tab.",
+    "CODIGO": "7502208892638",
+    "PRODUCTO": "Dirpasid 10mg. c/20 Tab.",
     "PRECIO": 12,
     "DESCUENTO": 9
   },
@@ -4770,7 +4752,7 @@
     "DESCUENTO": 98
   },
   {
-    "CODIGO": "75064296004829",
+    "CODIGO": "7506429600829",
     "PRODUCTO": "Metotrexato Sodico 2.5mg. c/50 Tab. ULSA",
     "PRECIO": 320,
     "DESCUENTO": 240
@@ -4788,12 +4770,6 @@
     "DESCUENTO": 19
   },
   {
-    "CODIGO": "7501075713183",
-    "PRODUCTO": "Lamblit 5.0gr. Susp 120ml.",
-    "PRECIO": 30,
-    "DESCUENTO": 23
-  },
-  {
     "CODIGO": "7501563381528",
     "PRODUCTO": "Biotazol 5.0gr. Susp 120ml.",
     "PRECIO": 30,
@@ -4806,14 +4782,14 @@
     "DESCUENTO": 15
   },
   {
-    "CODIGO": "7501573900542",
-    "PRODUCTO": "Messeldazol 500mg. c/30 Tab.",
+    "CODIGO": "7501563370805",
+    "PRODUCTO": "Biotazol 500mg. c/30 Tab.",
     "PRECIO": 26,
     "DESCUENTO": 20
   },
   {
-    "CODIGO": "7501563370805",
-    "PRODUCTO": "Biotazol 500mg. c/30 Tab.",
+    "CODIGO": "7501573900542",
+    "PRODUCTO": "Messeldazol 500mg. c/30 Tab.",
     "PRECIO": 26,
     "DESCUENTO": 20
   },
@@ -4956,14 +4932,14 @@
     "DESCUENTO": 52
   },
   {
-    "CODIGO": "7501349018150",
-    "PRODUCTO": "Moxifloxacino 400mg. c/7 Tab. AMSA",
+    "CODIGO": "7506442700742",
+    "PRODUCTO": "Moxifloxacino 400mg. c/7 Tab. CAMBER",
     "PRECIO": 189,
     "DESCUENTO": 142
   },
   {
-    "CODIGO": "7506442700742",
-    "PRODUCTO": "Moxifloxacino 400mg. c/7 Tab. CAMBER",
+    "CODIGO": "7501349018150",
+    "PRODUCTO": "Moxifloxacino 400mg. c/7 Tab. AMSA",
     "PRECIO": 189,
     "DESCUENTO": 142
   },
@@ -4981,19 +4957,19 @@
   },
   {
     "CODIGO": "75016401",
-    "PRODUCTO": "Alphadinal 0.1% Sol. Nasal 15ml.",
+    "PRODUCTO": "Alphadinal  0.1% Sol. Nasal 15ml.",
     "PRECIO": 30,
     "DESCUENTO": 23
   },
   {
-    "CODIGO": "7501349027657",
-    "PRODUCTO": "Nafazolina 1% Gts. Oft. 15ml. AMSA",
+    "CODIGO": "780083144807",
+    "PRODUCTO": "Fazolin 1% Gts. Oft. 15ml.",
     "PRECIO": 34,
     "DESCUENTO": 26
   },
   {
-    "CODIGO": "780083144807",
-    "PRODUCTO": "Fazolin 1% Gts. Oft. 15ml.",
+    "CODIGO": "7501349027657",
+    "PRODUCTO": "Nafazolina 1% Gts. Oft. 15ml. AMSA",
     "PRECIO": 34,
     "DESCUENTO": 26
   },
@@ -5028,14 +5004,14 @@
     "DESCUENTO": 25
   },
   {
-    "CODIGO": "7501573908104",
-    "PRODUCTO": "Bixen 550mg. c/12 Tab.",
+    "CODIGO": "7501478315397",
+    "PRODUCTO": "Flaxendol 550mg. c/12 Tab.",
     "PRECIO": 38,
     "DESCUENTO": 29
   },
   {
-    "CODIGO": "7501478315397",
-    "PRODUCTO": "Flaxendol 550mg. c/12 Tab.",
+    "CODIGO": "7501573908104",
+    "PRODUCTO": "Bixen 550mg. c/12 Tab.",
     "PRECIO": 38,
     "DESCUENTO": 29
   },
@@ -5160,14 +5136,14 @@
     "DESCUENTO": 23
   },
   {
-    "CODIGO": "7502216796331",
-    "PRODUCTO": "Nifedipino 30mg. c/30 Cpr. L.P. ULTRA",
+    "CODIGO": "7502216792289",
+    "PRODUCTO": "Anhiten-A 30mg. c/30 Cpr. L.P.",
     "PRECIO": 70,
     "DESCUENTO": 53
   },
   {
-    "CODIGO": "7502216792289",
-    "PRODUCTO": "Anhiten-A 30mg. c/30 Cpr. L.P.",
+    "CODIGO": "7502216796331",
+    "PRODUCTO": "Nifedipino 30mg. c/30 Cpr. L.P. ULTRA",
     "PRECIO": 70,
     "DESCUENTO": 53
   },
@@ -5191,7 +5167,7 @@
   },
   {
     "CODIGO": "7503003134701",
-    "PRODUCTO": "Mibesan-S 100.000 UI Pvo. Susp. 24ml",
+    "PRODUCTO": "Mibesan-S 100.000 UI Pvo. Susp. 24ml.",
     "PRECIO": 54,
     "DESCUENTO": 41
   },
@@ -5226,22 +5202,16 @@
     "DESCUENTO": 82
   },
   {
-    "CODIGO": "7502211788454",
-    "PRODUCTO": "Probizal 6mg. c/6 Ov.",
-    "PRECIO": 28,
-    "DESCUENTO": 21
+    "CODIGO": "7502213042325",
+    "PRODUCTO": "Terfhicid 100mg. c/40 Cap.",
+    "PRECIO": 72,
+    "DESCUENTO": 54
   },
   {
     "CODIGO": "785120753349",
     "PRODUCTO": "Macrofurin 100mg. c/40 Cap.",
     "PRECIO": 86,
     "DESCUENTO": 65
-  },
-  {
-    "CODIGO": "7502213042325",
-    "PRODUCTO": "Terfhicid 100mg. c/40 Cap.",
-    "PRECIO": 72,
-    "DESCUENTO": 54
   },
   {
     "CODIGO": "NOR00",
@@ -5334,16 +5304,16 @@
     "DESCUENTO": 83
   },
   {
-    "CODIGO": "780083148348",
-    "PRODUCTO": "Alboz 20mg. c/14 Cap.",
-    "PRECIO": 30,
-    "DESCUENTO": 23
-  },
-  {
     "CODIGO": "7502216804005",
     "PRODUCTO": "Omeprazol 20mg. c/14 Cap. AVIVIA",
     "PRECIO": 25,
     "DESCUENTO": 19
+  },
+  {
+    "CODIGO": "780083148348",
+    "PRODUCTO": "Alboz 20mg. c/14 Cap.",
+    "PRECIO": 30,
+    "DESCUENTO": 23
   },
   {
     "CODIGO": "7502216804012",
@@ -5526,6 +5496,12 @@
     "DESCUENTO": 43
   },
   {
+    "CODIGO": "7501109733491",
+    "PRODUCTO": "Thealiv c/6 Sob.",
+    "PRECIO": 92,
+    "DESCUENTO": 69
+  },
+  {
     "CODIGO": "7502009741340",
     "PRODUCTO": "Laritol G c/6 Sob.",
     "PRECIO": 70,
@@ -5598,12 +5574,6 @@
     "DESCUENTO": 6
   },
   {
-    "CODIGO": "7502209858077",
-    "PRODUCTO": "Soltadol 500mg. c/10 Tab.",
-    "PRECIO": 8,
-    "DESCUENTO": 6
-  },
-  {
     "CODIGO": "75017071",
     "PRODUCTO": "Pharmacen-T 500mg. c/10 Tab.",
     "PRECIO": 8,
@@ -5616,16 +5586,16 @@
     "DESCUENTO": 6
   },
   {
+    "CODIGO": "7502209858077",
+    "PRODUCTO": "Soltadol 500mg. c/10 Tab.",
+    "PRECIO": 8,
+    "DESCUENTO": 6
+  },
+  {
     "CODIGO": "7502009746543",
     "PRODUCTO": "Coriver 650mg. c/24 Tab.",
     "PRECIO": 30,
     "DESCUENTO": 23
-  },
-  {
-    "CODIGO": "7502209858084",
-    "PRODUCTO": "Soltadol 750mg. c/10 Tab.",
-    "PRECIO": 16,
-    "DESCUENTO": 12
   },
   {
     "CODIGO": "7501573900269",
@@ -5642,6 +5612,12 @@
   {
     "CODIGO": "7502208894977",
     "PRODUCTO": "Portem 750mg. c/10 Tab.",
+    "PRECIO": 16,
+    "DESCUENTO": 12
+  },
+  {
+    "CODIGO": "7502209858084",
+    "PRODUCTO": "Soltadol 750mg. c/10 Tab.",
     "PRECIO": 16,
     "DESCUENTO": 12
   },
@@ -5670,14 +5646,20 @@
     "DESCUENTO": 120
   },
   {
-    "CODIGO": "7502216793729",
-    "PRODUCTO": "Paroxetina 20mg. c/10 Tab. ULTRA",
-    "PRECIO": 39,
-    "DESCUENTO": 30
+    "CODIGO": "7506513600995",
+    "PRODUCTO": "Pargeverina/Clonix. Lisina c/20 Cpr. AVIVIA",
+    "PRECIO": 239,
+    "DESCUENTO": 180
   },
   {
     "CODIGO": "7501384545673",
     "PRODUCTO": "Paroxetina 20mg. c/10 Tab. PSICOFARMA",
+    "PRECIO": 39,
+    "DESCUENTO": 30
+  },
+  {
+    "CODIGO": "7502216793729",
+    "PRODUCTO": "Paroxetina 20mg. c/10 Tab. ULTRA",
     "PRECIO": 39,
     "DESCUENTO": 30
   },
@@ -5742,26 +5724,26 @@
     "DESCUENTO": 598
   },
   {
-    "CODIGO": "7502009745034",
-    "PRODUCTO": "Gliozac 15mg. c/7 Tab.",
-    "PRECIO": 40,
-    "DESCUENTO": 30
-  },
-  {
     "CODIGO": "7501349021211",
     "PRODUCTO": "Pioglitazona 15mg. c/7 Tab. AMSA",
     "PRECIO": 40,
     "DESCUENTO": 30
   },
   {
-    "CODIGO": "7502009744969",
-    "PRODUCTO": "Gliozac 30mg. c/7 Tab.",
-    "PRECIO": 60,
-    "DESCUENTO": 45
+    "CODIGO": "7502009745034",
+    "PRODUCTO": "Gliozac 15mg. c/7 Tab.",
+    "PRECIO": 40,
+    "DESCUENTO": 30
   },
   {
     "CODIGO": "7501349024175",
     "PRODUCTO": "Pioglitazona 30mg. c/7 Tab. AMSA",
+    "PRECIO": 60,
+    "DESCUENTO": 45
+  },
+  {
+    "CODIGO": "7502009744969",
+    "PRODUCTO": "Gliozac 30mg. c/7 Tab.",
     "PRECIO": 60,
     "DESCUENTO": 45
   },
@@ -5874,14 +5856,14 @@
     "DESCUENTO": 139
   },
   {
-    "CODIGO": "780083142827",
-    "PRODUCTO": "Nosipren 20mg. c/30 Tab.",
+    "CODIGO": "7502227876138",
+    "PRODUCTO": "Donsicol 20mg. c/30 Tab.",
     "PRECIO": 60,
     "DESCUENTO": 45
   },
   {
-    "CODIGO": "7502227876138",
-    "PRODUCTO": "Donsicol 20mg. c/30 Tab.",
+    "CODIGO": "780083142827",
+    "PRODUCTO": "Nosipren 20mg. c/30 Tab.",
     "PRECIO": 60,
     "DESCUENTO": 45
   },
@@ -5910,14 +5892,14 @@
     "DESCUENTO": 52
   },
   {
-    "CODIGO": "7501384545512",
-    "PRODUCTO": "Pregabalina 150mg. c/28 Cap. PSICOFARM",
+    "CODIGO": "7501349022935",
+    "PRODUCTO": "Pregabalina 150mg. c/28 Cap. AMSA",
     "PRECIO": 99,
     "DESCUENTO": 75
   },
   {
-    "CODIGO": "7501349022935",
-    "PRODUCTO": "Pregabalina 150mg. c/28 Cap. AMSA",
+    "CODIGO": "7501384545512",
+    "PRODUCTO": "Pregabalina 150mg. c/28 Cap. PSICOFARM",
     "PRECIO": 99,
     "DESCUENTO": 75
   },
@@ -6019,7 +6001,7 @@
   },
   {
     "CODIGO": "7502006921950",
-    "PRODUCTO": "Farmiver  Ped. Susp. 10ml.",
+    "PRODUCTO": "Farmiver Ped. Susp. 10ml.",
     "PRECIO": 34,
     "DESCUENTO": 26
   },
@@ -6074,18 +6056,18 @@
   {
     "CODIGO": "RIB00",
     "PRODUCTO": "Ribavirina 400mg. c/18 Cap. ATLANTIS",
-    "PRECIO": 282,
-    "DESCUENTO": 212
-  },
-  {
-    "CODIGO": "7501384543983",
-    "PRODUCTO": "Risperidona 2mg. c/40 Tab. PSICOFARMA",
-    "PRECIO": 120,
-    "DESCUENTO": 90
+    "PRECIO": 287,
+    "DESCUENTO": 216
   },
   {
     "CODIGO": "7502215781338",
     "PRODUCTO": "Risperidona 2mg. c/40 Tab. VANQUISH",
+    "PRECIO": 120,
+    "DESCUENTO": 90
+  },
+  {
+    "CODIGO": "7501384543983",
+    "PRODUCTO": "Risperidona 2mg. c/40 Tab. PSICOFARMA",
     "PRECIO": 120,
     "DESCUENTO": 90
   },
@@ -6120,20 +6102,20 @@
     "DESCUENTO": 135
   },
   {
+    "CODIGO": "7506022327635",
+    "PRODUCTO": "Bresaltec 100mcg. Aerosol  c/200 Dosis",
+    "PRECIO": 60,
+    "DESCUENTO": 45
+  },
+  {
     "CODIGO": "7502213042738",
     "PRODUCTO": "Farmarest 100mcg. Aerosol c/200 Dosis",
     "PRECIO": 60,
     "DESCUENTO": 45
   },
   {
-    "CODIGO": "7506022327635",
-    "PRODUCTO": "Bresaltec 100mcg. Aerosol c/200 Dosis",
-    "PRECIO": 60,
-    "DESCUENTO": 45
-  },
-  {
     "CODIGO": "7501563380378",
-    "PRODUCTO": "Salbutamol 40mg. Jbe.   60ml. RANDALL",
+    "PRODUCTO": "Salbutamol 40mg. Jbe. 60ml. RANDALL",
     "PRECIO": 5,
     "DESCUENTO": 4
   },
@@ -6150,14 +6132,14 @@
     "DESCUENTO": 25
   },
   {
-    "CODIGO": "7503002772782",
-    "PRODUCTO": "Vetrivatox 5mg. Sol. Nebuliz. 10ml.",
+    "CODIGO": "7501349028050",
+    "PRODUCTO": "Salbutamol 5mg. Sol. Nebuliz. 10ml. AMSA",
     "PRECIO": 70,
     "DESCUENTO": 53
   },
   {
-    "CODIGO": "7501349028050",
-    "PRODUCTO": "Salbutamol 5mg. Sol. Nebuliz. 10ml. AMSA",
+    "CODIGO": "7503002772782",
+    "PRODUCTO": "Vetrivatox 5mg. Sol. Nebuliz. 10ml.",
     "PRECIO": 70,
     "DESCUENTO": 53
   },
@@ -6178,12 +6160,6 @@
     "PRODUCTO": "Irflosol 50mcg./250mcg. Pvo. P/Inhalacion",
     "PRECIO": 524,
     "DESCUENTO": 393
-  },
-  {
-    "CODIGO": "7501075713473",
-    "PRODUCTO": "Minovag 500mg. c/8 Tab.",
-    "PRECIO": 48,
-    "DESCUENTO": 36
   },
   {
     "CODIGO": "7501075723137",
@@ -6289,7 +6265,7 @@
   },
   {
     "CODIGO": "7503002772508",
-    "PRODUCTO": "Alivoato 1gr. c/40 Tab.",
+    "PRODUCTO": "Sucralfato 1gr. c/40 Tab. SUANCA",
     "PRECIO": 80,
     "DESCUENTO": 60
   },
@@ -6348,20 +6324,20 @@
     "DESCUENTO": 57
   },
   {
+    "CODIGO": "7502216808614",
+    "PRODUCTO": "Chrisale 20mg. c/1 Tab.",
+    "PRECIO": 33,
+    "DESCUENTO": 25
+  },
+  {
     "CODIGO": "7506476200164",
     "PRODUCTO": "Delaphil 20mg. c/1 Tab.",
     "PRECIO": 33,
     "DESCUENTO": 25
   },
   {
-    "CODIGO": "7502009748882",
-    "PRODUCTO": "Saii 20mg. c/1 Tab.",
-    "PRECIO": 33,
-    "DESCUENTO": 25
-  },
-  {
-    "CODIGO": "7502009748875",
-    "PRODUCTO": "Saii 20mg. c/4 Tab.",
+    "CODIGO": "7502216808638",
+    "PRODUCTO": "Chrisale 20mg. c/4 Tab.",
     "PRECIO": 85,
     "DESCUENTO": 64
   },
@@ -6372,14 +6348,20 @@
     "DESCUENTO": 64
   },
   {
-    "CODIGO": "7506476200126",
-    "PRODUCTO": "Delaphil 5mg. c/14 Tab.",
-    "PRECIO": 100,
-    "DESCUENTO": 75
+    "CODIGO": "7502009748875",
+    "PRODUCTO": "Saii 20mg. c/4 Tab.",
+    "PRECIO": 85,
+    "DESCUENTO": 64
   },
   {
     "CODIGO": "7502226296074",
     "PRODUCTO": "Tadalafil 5mg. c/14 Tab. ALPHARMA",
+    "PRECIO": 100,
+    "DESCUENTO": 75
+  },
+  {
+    "CODIGO": "7506476200126",
+    "PRODUCTO": "Delaphil 5mg. c/14 Tab.",
     "PRECIO": 100,
     "DESCUENTO": 75
   },
@@ -6390,14 +6372,14 @@
     "DESCUENTO": 102
   },
   {
-    "CODIGO": "7502209858206",
-    "PRODUCTO": "Alphalock 0.4mg. c/20 Cap.",
+    "CODIGO": "7502225094275",
+    "PRODUCTO": "Hipebe 0.4mg. c/20 Cap.",
     "PRECIO": 69,
     "DESCUENTO": 52
   },
   {
-    "CODIGO": "7502225094275",
-    "PRODUCTO": "Hipebe 0.4mg. c/20 Cap.",
+    "CODIGO": "7502209858206",
+    "PRODUCTO": "Alphalock 0.4mg. c/20 Cap.",
     "PRECIO": 69,
     "DESCUENTO": 52
   },
@@ -6438,13 +6420,13 @@
     "DESCUENTO": 75
   },
   {
-    "CODIGO": "7502009749711",
+    "CODIGO": "7502216791244",
     "PRODUCTO": "Telmisartan/Amlodipino 80mg./5mg. c/28 Ta",
     "PRECIO": 399,
     "DESCUENTO": 300
   },
   {
-    "CODIGO": "7502216791244",
+    "CODIGO": "7502009749711",
     "PRODUCTO": "Telmisartan/Amlodipino 80mg./5mg. c/28 Ta",
     "PRECIO": 399,
     "DESCUENTO": 300
@@ -6524,8 +6506,8 @@
   {
     "CODIGO": "7501123001767",
     "PRODUCTO": "Tetra Atlantis 500mg. c/20 Cap.",
-    "PRECIO": 80,
-    "DESCUENTO": 60
+    "PRECIO": 85,
+    "DESCUENTO": 64
   },
   {
     "CODIGO": "7501471888393",
@@ -6544,6 +6526,12 @@
     "PRODUCTO": "Timozzard 0.5% Sol. Oft. 5ml.",
     "PRECIO": 38,
     "DESCUENTO": 29
+  },
+  {
+    "CODIGO": "7502211789864",
+    "PRODUCTO": "Tizanidina 2mg. c/20 Tab. LOEFFLER",
+    "PRECIO": 192,
+    "DESCUENTO": 144
   },
   {
     "CODIGO": "7503045798343",
@@ -6570,14 +6558,14 @@
     "DESCUENTO": 63
   },
   {
-    "CODIGO": "7501349023529",
-    "PRODUCTO": "Tolterodina 2mg. c/14 Tab. AMSA",
+    "CODIGO": "7502216795051",
+    "PRODUCTO": "Tolterodina 2mg. c/14 Tab. ULTRA",
     "PRECIO": 80,
     "DESCUENTO": 60
   },
   {
-    "CODIGO": "7502216795051",
-    "PRODUCTO": "Tolterodina 2mg. c/14 Tab. ULTRA",
+    "CODIGO": "7501349023529",
+    "PRODUCTO": "Tolterodina 2mg. c/14 Tab. AMSA",
     "PRECIO": 80,
     "DESCUENTO": 60
   },
@@ -6615,7 +6603,7 @@
     "CODIGO": "7501842901010",
     "PRODUCTO": "Gencatrol 50mg. c/10 Cap.",
     "PRECIO": 65,
-    "DESCUENTO": 49
+    "DESCUENTO": 65
   },
   {
     "CODIGO": "7501109753888",
@@ -6738,12 +6726,6 @@
     "DESCUENTO": 64
   },
   {
-    "CODIGO": "7503002772683",
-    "PRODUCTO": "Pasuato 200mg. Sol. 40ml.",
-    "PRECIO": 85,
-    "DESCUENTO": 64
-  },
-  {
     "CODIGO": "7501089830104",
     "PRODUCTO": "Valproato de Magnesio 400mg. c/20 Tab. A",
     "PRECIO": 145,
@@ -6775,7 +6757,7 @@
   },
   {
     "CODIGO": "SEM00",
-    "PRODUCTO": "Valproato Semisodico 500mg. c/30 Tab. UL",
+    "PRODUCTO": "Valproato Semisodico 500mg. c/30 Tab. L.P",
     "PRECIO": 282,
     "DESCUENTO": 212
   },
@@ -6852,16 +6834,10 @@
     "DESCUENTO": 28
   },
   {
-    "CODIGO": "ADUO",
-    "PRODUCTO": "Agrifen Duo (Dia+Noche) c/10+10 Tab.",
-    "PRECIO": 65,
-    "DESCUENTO": 49
-  },
-  {
     "CODIGO": "7501125188985",
     "PRODUCTO": "Agrifen Noche c/10 Tab.",
-    "PRECIO": 37,
-    "DESCUENTO": 28
+    "PRECIO": 39,
+    "DESCUENTO": 30
   },
   {
     "CODIGO": "7501008443033",
@@ -7022,8 +6998,8 @@
   {
     "CODIGO": "354312225027",
     "PRODUCTO": "Derman Cra. 50gr.",
-    "PRECIO": 69,
-    "DESCUENTO": 52
+    "PRECIO": 73,
+    "DESCUENTO": 55
   },
   {
     "CODIGO": "7502276040375",
@@ -7039,7 +7015,7 @@
   },
   {
     "CODIGO": "7502276040627",
-    "PRODUCTO": "Desenfriol-ito Plus c/6 Tab.",
+    "PRODUCTO": "Desenfriol-ito Plus  c/6 Tab.",
     "PRECIO": 27,
     "DESCUENTO": 21
   },
@@ -7189,7 +7165,7 @@
   },
   {
     "CODIGO": "7503046131224",
-    "PRODUCTO": "Electrolit Ponche de Frutas Sol. 625ml.",
+    "PRODUCTO": "Electrolit Ponche de Frutas Sol. 625ml",
     "PRECIO": 33,
     "DESCUENTO": 25
   },
@@ -7220,20 +7196,20 @@
   {
     "CODIGO": "7501033954061",
     "PRODUCTO": "Ensure Original Chocolate 237ml.",
-    "PRECIO": 73,
-    "DESCUENTO": 55
+    "PRECIO": 75,
+    "DESCUENTO": 57
   },
   {
     "CODIGO": "7501033954078",
     "PRODUCTO": "Ensure Original Fresa 237ml.",
-    "PRECIO": 73,
-    "DESCUENTO": 55
+    "PRECIO": 75,
+    "DESCUENTO": 57
   },
   {
     "CODIGO": "7501033954085",
     "PRODUCTO": "Ensure Original Vainilla 237ml.",
-    "PRECIO": 73,
-    "DESCUENTO": 55
+    "PRECIO": 75,
+    "DESCUENTO": 57
   },
   {
     "CODIGO": "7501122963028",
@@ -7260,22 +7236,28 @@
     "DESCUENTO": 247
   },
   {
+    "CODIGO": "7501123011803",
+    "PRODUCTO": "Fitoestimulina c/6 Ovulos",
+    "PRECIO": 499,
+    "DESCUENTO": 375
+  },
+  {
     "CODIGO": "7501033956133",
     "PRODUCTO": "Glucerna Choco Fco. 237ml.",
-    "PRECIO": 77,
-    "DESCUENTO": 58
+    "PRECIO": 79,
+    "DESCUENTO": 60
   },
   {
     "CODIGO": "7501033956140",
     "PRODUCTO": "Glucerna Fresa Fco. 237ml.",
-    "PRECIO": 77,
-    "DESCUENTO": 58
+    "PRECIO": 79,
+    "DESCUENTO": 60
   },
   {
     "CODIGO": "7501033956126",
     "PRODUCTO": "Glucerna Vainilla Fco. 237ml.",
-    "PRECIO": 77,
-    "DESCUENTO": 58
+    "PRECIO": 79,
+    "DESCUENTO": 60
   },
   {
     "CODIGO": "7501033952913",
@@ -7376,32 +7358,32 @@
   {
     "CODIGO": "7501033956690",
     "PRODUCTO": "Pedialyte SR45 Fresa Sol. 500ml.",
-    "PRECIO": 35,
-    "DESCUENTO": 27
+    "PRECIO": 37,
+    "DESCUENTO": 28
   },
   {
     "CODIGO": "7501033954740",
     "PRODUCTO": "Pedialyte SR60 Manzana Sol. 500ml.",
-    "PRECIO": 35,
-    "DESCUENTO": 27
+    "PRECIO": 37,
+    "DESCUENTO": 28
   },
   {
     "CODIGO": "7501033956317",
     "PRODUCTO": "Pediasure Choco Fco. 237ml.",
-    "PRECIO": 69,
-    "DESCUENTO": 52
+    "PRECIO": 73,
+    "DESCUENTO": 55
   },
   {
     "CODIGO": "7501033956331",
     "PRODUCTO": "Pediasure Fresa Fco. 237ml.",
-    "PRECIO": 69,
-    "DESCUENTO": 52
+    "PRECIO": 73,
+    "DESCUENTO": 55
   },
   {
     "CODIGO": "7501033956294",
     "PRODUCTO": "Pediasure Vainilla Fco. 237ml.",
-    "PRECIO": 69,
-    "DESCUENTO": 52
+    "PRECIO": 73,
+    "DESCUENTO": 55
   },
   {
     "CODIGO": "PEPTOS",
@@ -7442,8 +7424,8 @@
   {
     "CODIGO": "354312625018",
     "PRODUCTO": "Rocainol Ung. 45gr.",
-    "PRECIO": 83,
-    "DESCUENTO": 63
+    "PRECIO": 85,
+    "DESCUENTO": 64
   },
   {
     "CODIGO": "PICOT",
@@ -7616,14 +7598,14 @@
   {
     "CODIGO": "354312225133",
     "PRODUCTO": "Vitacilina Ung. 28gr.",
-    "PRECIO": 57,
-    "DESCUENTO": 43
+    "PRECIO": 59,
+    "DESCUENTO": 45
   },
   {
     "CODIGO": "650240017100",
     "PRODUCTO": "XL-3 VR c/24 Tab.",
-    "PRECIO": 163,
-    "DESCUENTO": 123
+    "PRECIO": 169,
+    "DESCUENTO": 127
   },
   {
     "CODIGO": "650240017094",
@@ -7632,52 +7614,16 @@
     "DESCUENTO": 72
   },
   {
-    "CODIGO": "7502259890973",
-    "PRODUCTO": "Lactiv SP c/6 Sob.",
-    "PRECIO": 75,
-    "DESCUENTO": 57
-  },
-  {
-    "CODIGO": "7502259890096",
-    "PRODUCTO": "Lactiv Kids c/30 Tab. Mast.",
-    "PRECIO": 50,
-    "DESCUENTO": 38
-  },
-  {
-    "CODIGO": "6358975544000",
-    "PRODUCTO": "Clorofil Jahv´s Sol. 500ml.",
-    "PRECIO": 110,
-    "DESCUENTO": 83
-  },
-  {
-    "CODIGO": "7503045798107",
-    "PRODUCTO": "Prebioticos+Probioticos Kids c/30 Gomitas",
-    "PRECIO": 80,
-    "DESCUENTO": 60
-  },
-  {
     "CODIGO": "7503045798091",
     "PRODUCTO": "Prebioticos+Probioticos c/30 Gomitas",
     "PRECIO": 90,
     "DESCUENTO": 68
   },
   {
-    "CODIGO": "7502259892175",
-    "PRODUCTO": "Enteriver c/12 Cap.",
-    "PRECIO": 90,
-    "DESCUENTO": 68
-  },
-  {
-    "CODIGO": "7501590288715",
-    "PRODUCTO": "Iverkram c/30 Cap.",
-    "PRECIO": 110,
-    "DESCUENTO": 83
-  },
-  {
-    "CODIGO": "7502009743832",
-    "PRODUCTO": "Lactiv SP c/30 Tab. Mast.",
-    "PRECIO": 55,
-    "DESCUENTO": 42
+    "CODIGO": "7502259890096",
+    "PRODUCTO": "Lactiv Kids c/30 Tab. Mast.",
+    "PRECIO": 50,
+    "DESCUENTO": 38
   },
   {
     "CODIGO": "7502259890126",
@@ -7692,10 +7638,28 @@
     "DESCUENTO": 45
   },
   {
-    "CODIGO": "7503008344488",
-    "PRODUCTO": "Lactopram c/20 Cap.",
-    "PRECIO": 55,
-    "DESCUENTO": 42
+    "CODIGO": "7502259892175",
+    "PRODUCTO": "Enteriver c/12 Cap.",
+    "PRECIO": 90,
+    "DESCUENTO": 68
+  },
+  {
+    "CODIGO": "7502259890973",
+    "PRODUCTO": "Lactiv SP c/6 Sob.",
+    "PRECIO": 75,
+    "DESCUENTO": 57
+  },
+  {
+    "CODIGO": "7501590288715",
+    "PRODUCTO": "Iverkram c/30 Cap.",
+    "PRECIO": 110,
+    "DESCUENTO": 83
+  },
+  {
+    "CODIGO": "7503045798107",
+    "PRODUCTO": "Prebioticos+Probioticos Kids c/30 Gomitas",
+    "PRECIO": 80,
+    "DESCUENTO": 60
   },
   {
     "CODIGO": "7506021101243",
@@ -7704,10 +7668,52 @@
     "DESCUENTO": 98
   },
   {
+    "CODIGO": "6358975544000",
+    "PRODUCTO": "Clorofil Jahv´s Sol. 500ml.",
+    "PRECIO": 110,
+    "DESCUENTO": 83
+  },
+  {
+    "CODIGO": "7502009743832",
+    "PRODUCTO": "Lactiv SP c/30 Tab. Mast.",
+    "PRECIO": 55,
+    "DESCUENTO": 42
+  },
+  {
+    "CODIGO": "7503008344488",
+    "PRODUCTO": "Lactopram c/20 Cap.",
+    "PRECIO": 55,
+    "DESCUENTO": 42
+  },
+  {
     "CODIGO": "7506021101564",
     "PRODUCTO": "G-FX Plus c/60 Cap.",
     "PRECIO": 225,
     "DESCUENTO": 169
+  },
+  {
+    "CODIGO": "7502227426067",
+    "PRODUCTO": "Carticap For c/60 Cap.",
+    "PRECIO": 130,
+    "DESCUENTO": 98
+  },
+  {
+    "CODIGO": "7501590286032",
+    "PRODUCTO": "Multimix FX c/20 Sob.",
+    "PRECIO": 180,
+    "DESCUENTO": 135
+  },
+  {
+    "CODIGO": "7506021101328",
+    "PRODUCTO": "G-FX Pvo. 250gr.",
+    "PRECIO": 140,
+    "DESCUENTO": 105
+  },
+  {
+    "CODIGO": "7506021101021",
+    "PRODUCTO": "G-FX Caps c/30 Cap.",
+    "PRECIO": 125,
+    "DESCUENTO": 94
   },
   {
     "CODIGO": "714908105650",
@@ -7722,34 +7728,10 @@
     "DESCUENTO": 83
   },
   {
-    "CODIGO": "7506021101328",
-    "PRODUCTO": "G-FX Pvo. 250gr.",
-    "PRECIO": 140,
-    "DESCUENTO": 105
-  },
-  {
-    "CODIGO": "7501590286032",
-    "PRODUCTO": "Multimix FX c/20 Sob.",
-    "PRECIO": 180,
-    "DESCUENTO": 135
-  },
-  {
-    "CODIGO": "7502227426067",
-    "PRODUCTO": "Carticap For c/60 Cap.",
+    "CODIGO": "7502227427330",
+    "PRODUCTO": "DeTresgel D3 5.000UI c/60 Cap.",
     "PRECIO": 130,
     "DESCUENTO": 98
-  },
-  {
-    "CODIGO": "7506021101021",
-    "PRODUCTO": "G-FX Caps c/30 Cap.",
-    "PRECIO": 125,
-    "DESCUENTO": 94
-  },
-  {
-    "CODIGO": "7503027446408",
-    "PRODUCTO": "Lorefic-D 4,000 UI c/30 Cap.",
-    "PRECIO": 70,
-    "DESCUENTO": 53
   },
   {
     "CODIGO": "7501590284939",
@@ -7758,10 +7740,22 @@
     "DESCUENTO": 75
   },
   {
+    "CODIGO": "7501590288456",
+    "PRODUCTO": "SenFem Novo c/60 Tab.",
+    "PRECIO": 145,
+    "DESCUENTO": 109
+  },
+  {
     "CODIGO": "7503049078311",
     "PRODUCTO": "Calcio/Vitamina D3/Omega 3 c/30 Tab.",
     "PRECIO": 95,
     "DESCUENTO": 72
+  },
+  {
+    "CODIGO": "7503027446408",
+    "PRODUCTO": "Lorefic-D 4,000 UI c/30 Cap.",
+    "PRECIO": 70,
+    "DESCUENTO": 53
   },
   {
     "CODIGO": "714908100099",
@@ -7770,16 +7764,28 @@
     "DESCUENTO": 113
   },
   {
-    "CODIGO": "7501590288456",
-    "PRODUCTO": "SenFem Novo c/60 Tab.",
-    "PRECIO": 145,
-    "DESCUENTO": 109
+    "CODIGO": "7501130742790",
+    "PRODUCTO": "Flebocaps c/30 Cap.",
+    "PRECIO": 115,
+    "DESCUENTO": 87
   },
   {
-    "CODIGO": "7502227427330",
-    "PRODUCTO": "DeTresgel D3 5.000UI c/60 Cap.",
-    "PRECIO": 130,
-    "DESCUENTO": 98
+    "CODIGO": "7502227426135",
+    "PRODUCTO": "Aesculus Hippocastanum L. c/30 Cap.",
+    "PRECIO": 105,
+    "DESCUENTO": 79
+  },
+  {
+    "CODIGO": "7502259891376",
+    "PRODUCTO": "Zulik c/90 Tab. Mast.",
+    "PRECIO": 100,
+    "DESCUENTO": 75
+  },
+  {
+    "CODIGO": "7503020089077",
+    "PRODUCTO": "Exzon c/90 Tab. Mast.",
+    "PRECIO": 135,
+    "DESCUENTO": 102
   },
   {
     "CODIGO": "7501590281105",
@@ -7794,52 +7800,28 @@
     "DESCUENTO": 79
   },
   {
-    "CODIGO": "7501358100518",
-    "PRODUCTO": "Narhemo Duopack Tab.+Ung.",
-    "PRECIO": 190,
-    "DESCUENTO": 143
-  },
-  {
-    "CODIGO": "7502259891376",
-    "PRODUCTO": "Zulik c/90 Tab. Mast.",
-    "PRECIO": 100,
-    "DESCUENTO": 75
-  },
-  {
-    "CODIGO": "7501130742790",
-    "PRODUCTO": "Flebocaps c/30 Cap.",
-    "PRECIO": 115,
-    "DESCUENTO": 87
-  },
-  {
     "CODIGO": "7501590286100",
     "PRODUCTO": "Hucius c/30 Cap.",
     "PRECIO": 120,
     "DESCUENTO": 90
   },
   {
-    "CODIGO": "7502227426135",
-    "PRODUCTO": "Aesculus Hippocastanum L. c/30 Cap.",
-    "PRECIO": 100,
-    "DESCUENTO": 75
-  },
-  {
-    "CODIGO": "7503020089077",
-    "PRODUCTO": "Exzon c/90 Tab. Mast.",
-    "PRECIO": 135,
-    "DESCUENTO": 102
-  },
-  {
-    "CODIGO": "7503002047958",
-    "PRODUCTO": "Omelina c/60 Cap.",
-    "PRECIO": 120,
-    "DESCUENTO": 90
+    "CODIGO": "7501358100518",
+    "PRODUCTO": "Narhemo Duopack Tab.+Ung.",
+    "PRECIO": 190,
+    "DESCUENTO": 143
   },
   {
     "CODIGO": "7503002047576",
     "PRODUCTO": "Otrex c/100 Cap.",
     "PRECIO": 110,
     "DESCUENTO": 83
+  },
+  {
+    "CODIGO": "7503002047958",
+    "PRODUCTO": "Omelina c/60 Cap.",
+    "PRECIO": 120,
+    "DESCUENTO": 90
   },
   {
     "CODIGO": "7501130713158",
@@ -7854,18 +7836,6 @@
     "DESCUENTO": 90
   },
   {
-    "CODIGO": "781584367511",
-    "PRODUCTO": "Bio-Fibra 0% Azucar Manzana Pvo. 300gr.",
-    "PRECIO": 130,
-    "DESCUENTO": 98
-  },
-  {
-    "CODIGO": "781584367382",
-    "PRODUCTO": "Bio-Carnitina c/60 Cap.",
-    "PRECIO": 130,
-    "DESCUENTO": 98
-  },
-  {
     "CODIGO": "7502266031154",
     "PRODUCTO": "Fibotax c/10 Sob.",
     "PRECIO": 90,
@@ -7878,16 +7848,22 @@
     "DESCUENTO": 128
   },
   {
-    "CODIGO": "781584367436",
-    "PRODUCTO": "Bio-Colageno Uva Pvo. 450gr.",
+    "CODIGO": "781584367511",
+    "PRODUCTO": "Bio-Fibra 0% Azucar Manzana Pvo. 300gr.",
     "PRECIO": 130,
     "DESCUENTO": 98
   },
   {
-    "CODIGO": "7502299970765",
-    "PRODUCTO": "Dr. Will R Lax Colageno Facial c/30 Cap.",
-    "PRECIO": 100,
-    "DESCUENTO": 75
+    "CODIGO": "781584367382",
+    "PRODUCTO": "Bio-Carnitina c/60 Cap.",
+    "PRECIO": 130,
+    "DESCUENTO": 98
+  },
+  {
+    "CODIGO": "7501478316301",
+    "PRODUCTO": "Colageno 760mg. c/60 Cap.",
+    "PRECIO": 130,
+    "DESCUENTO": 98
   },
   {
     "CODIGO": "7503181044557",
@@ -7902,10 +7878,22 @@
     "DESCUENTO": 49
   },
   {
-    "CODIGO": "7502259891956",
-    "PRODUCTO": "Acido Hialuronico c/30 Gomitas",
-    "PRECIO": 140,
-    "DESCUENTO": 105
+    "CODIGO": "7502009741524",
+    "PRODUCTO": "Colageno c/60 Tab. NATUREX",
+    "PRECIO": 70,
+    "DESCUENTO": 53
+  },
+  {
+    "CODIGO": "781584367436",
+    "PRODUCTO": "Bio-Colageno Uva Pvo. 450gr.",
+    "PRECIO": 130,
+    "DESCUENTO": 98
+  },
+  {
+    "CODIGO": "7502299970765",
+    "PRODUCTO": "Dr. Will R Lax Colageno Facial c/30 Cap.",
+    "PRECIO": 100,
+    "DESCUENTO": 75
   },
   {
     "CODIGO": "7503008344631",
@@ -7914,16 +7902,16 @@
     "DESCUENTO": 83
   },
   {
-    "CODIGO": "7502009741524",
-    "PRODUCTO": "Colageno c/60 Tab. NATUREX",
-    "PRECIO": 70,
-    "DESCUENTO": 53
+    "CODIGO": "7502259891956",
+    "PRODUCTO": "Acido Hialuronico c/30 Gomitas",
+    "PRECIO": 140,
+    "DESCUENTO": 105
   },
   {
-    "CODIGO": "7501478316301",
-    "PRODUCTO": "Colageno 760mg. c/60 Cap.",
-    "PRECIO": 130,
-    "DESCUENTO": 98
+    "CODIGO": "7502216803640",
+    "PRODUCTO": "Complejo B Diab c/30 Tab.",
+    "PRECIO": 60,
+    "DESCUENTO": 45
   },
   {
     "CODIGO": "7501590241093",
@@ -7939,7 +7927,7 @@
   },
   {
     "CODIGO": "7506452400038",
-    "PRODUCTO": "Ajolotius S/Azucar Menta/Eucalipto c/10 Pas",
+    "PRODUCTO": "Ajolotius S/Azucar Menta/Eucapilto c/10 Pas",
     "PRECIO": 40,
     "DESCUENTO": 30
   },
@@ -7950,20 +7938,8 @@
     "DESCUENTO": 60
   },
   {
-    "CODIGO": "7503020089770",
-    "PRODUCTO": "C-vym cero c/10 Sob.",
-    "PRECIO": 100,
-    "DESCUENTO": 75
-  },
-  {
     "CODIGO": "7502259891116",
     "PRODUCTO": "Arisol D Jbe. 120ml.",
-    "PRECIO": 60,
-    "DESCUENTO": 45
-  },
-  {
-    "CODIGO": "7502216803640",
-    "PRODUCTO": "Complejo B Diab c/30 Tab.",
     "PRECIO": 60,
     "DESCUENTO": 45
   },
@@ -7980,22 +7956,16 @@
     "DESCUENTO": 27
   },
   {
-    "CODIGO": "7506021100727",
-    "PRODUCTO": "Prenamax c/30 Cap.",
-    "PRECIO": 130,
-    "DESCUENTO": 98
-  },
-  {
     "CODIGO": "7502259891130",
     "PRODUCTO": "Vifol + Hierro c/60 Tab.",
     "PRECIO": 45,
     "DESCUENTO": 34
   },
   {
-    "CODIGO": "7503002047637",
-    "PRODUCTO": "Nemoril c/30 Cap.",
-    "PRECIO": 90,
-    "DESCUENTO": 68
+    "CODIGO": "7506021100727",
+    "PRODUCTO": "Prenamax c/30 Cap.",
+    "PRECIO": 130,
+    "DESCUENTO": 98
   },
   {
     "CODIGO": "7501590222221",
@@ -8004,10 +7974,10 @@
     "DESCUENTO": 75
   },
   {
-    "CODIGO": "7502227426401",
-    "PRODUCTO": "Revitron Plex c/30 Cap.",
-    "PRECIO": 120,
-    "DESCUENTO": 90
+    "CODIGO": "7503002047637",
+    "PRODUCTO": "Nemoril c/30 Cap.",
+    "PRECIO": 90,
+    "DESCUENTO": 68
   },
   {
     "CODIGO": "7501590281778",
@@ -8016,10 +7986,10 @@
     "DESCUENTO": 75
   },
   {
-    "CODIGO": "7501130709847",
-    "PRODUCTO": "Gelcavit Mulier c/30 Cap.",
-    "PRECIO": 140,
-    "DESCUENTO": 105
+    "CODIGO": "7502227426401",
+    "PRODUCTO": "Revitron Plex c/30 Cap.",
+    "PRECIO": 120,
+    "DESCUENTO": 90
   },
   {
     "CODIGO": "7501590284106",
@@ -8034,142 +8004,10 @@
     "DESCUENTO": 109
   },
   {
-    "CODIGO": "7501590281495",
-    "PRODUCTO": "AliGomitas c/60 Pzas.",
-    "PRECIO": 110,
-    "DESCUENTO": 83
-  },
-  {
-    "CODIGO": "7502227426111",
-    "PRODUCTO": "Zebetyn c/30 Cap. de Gel",
-    "PRECIO": 40,
-    "DESCUENTO": 30
-  },
-  {
     "CODIGO": "7501590285226",
     "PRODUCTO": "Multimax Kid Sandia Sol. 240ml.",
     "PRECIO": 80,
     "DESCUENTO": 60
-  },
-  {
-    "CODIGO": "7501590285325",
-    "PRODUCTO": "Big Complex Jbe. 240ml.",
-    "PRECIO": 80,
-    "DESCUENTO": 60
-  },
-  {
-    "CODIGO": "7501478310552",
-    "PRODUCTO": "Rocavit c/30 Cap.",
-    "PRECIO": 80,
-    "DESCUENTO": 60
-  },
-  {
-    "CODIGO": "7501590287992",
-    "PRODUCTO": "Redbelgy c/30 Tab. Mast.",
-    "PRECIO": 55,
-    "DESCUENTO": 42
-  },
-  {
-    "CODIGO": "714908100686",
-    "PRODUCTO": "Dinamax Junior Jbe. 250ml.",
-    "PRECIO": 125,
-    "DESCUENTO": 94
-  },
-  {
-    "CODIGO": "7502259890157",
-    "PRODUCTO": "Adevit Emulsion 240ml.",
-    "PRECIO": 55,
-    "DESCUENTO": 42
-  },
-  {
-    "CODIGO": "7506624900656",
-    "PRODUCTO": "Gerial B-12 Elixir 340ml.",
-    "PRECIO": 70,
-    "DESCUENTO": 53
-  },
-  {
-    "CODIGO": "7501537182960",
-    "PRODUCTO": "Tribedoce 50,000 UI c/5 Amp.",
-    "PRECIO": 120,
-    "DESCUENTO": 90
-  },
-  {
-    "CODIGO": "7503049078441",
-    "PRODUCTO": "Complejo B c/30 Tab.",
-    "PRECIO": 60,
-    "DESCUENTO": 45
-  },
-  {
-    "CODIGO": "7502227420928",
-    "PRODUCTO": "Rocavit Platinum c/30 Cap.",
-    "PRECIO": 230,
-    "DESCUENTO": 173
-  },
-  {
-    "CODIGO": "7502001169197",
-    "PRODUCTO": "Wilvit c/30 Cap.",
-    "PRECIO": 135,
-    "DESCUENTO": 102
-  },
-  {
-    "CODIGO": "7501825300991",
-    "PRODUCTO": "Convifer c/Hierro Sol. 220ml.",
-    "PRECIO": 85,
-    "DESCUENTO": 64
-  },
-  {
-    "CODIGO": "7500326106989",
-    "PRODUCTO": "Vitem 3RA c/30 Cap.",
-    "PRECIO": 120,
-    "DESCUENTO": 90
-  },
-  {
-    "CODIGO": "7501563380118",
-    "PRODUCTO": "Biotrivin c/30 Tab.",
-    "PRECIO": 23,
-    "DESCUENTO": 18
-  },
-  {
-    "CODIGO": "7501478315762",
-    "PRODUCTO": "E-Fertoc 400mg. c/30 Cap.",
-    "PRECIO": 60,
-    "DESCUENTO": 45
-  },
-  {
-    "CODIGO": "7502227427170",
-    "PRODUCTO": "Hierro/Zinc c/60 Cap.",
-    "PRECIO": 105,
-    "DESCUENTO": 79
-  },
-  {
-    "CODIGO": "7502208894779",
-    "PRODUCTO": "Tribedoce c/30 Tab.",
-    "PRECIO": 35,
-    "DESCUENTO": 27
-  },
-  {
-    "CODIGO": "7501537163266",
-    "PRODUCTO": "Tribedoce Cpto. c/3 Amp.",
-    "PRECIO": 90,
-    "DESCUENTO": 68
-  },
-  {
-    "CODIGO": "7501537164713",
-    "PRODUCTO": "Tribedoce Cpto. c/30 Grag.",
-    "PRECIO": 75,
-    "DESCUENTO": 57
-  },
-  {
-    "CODIGO": "7502259890072",
-    "PRODUCTO": "Animalin Hierro Sol. 240ml.",
-    "PRECIO": 60,
-    "DESCUENTO": 45
-  },
-  {
-    "CODIGO": "7501537103422",
-    "PRODUCTO": "Tribedoce DX c/3 Amp.",
-    "PRECIO": 95,
-    "DESCUENTO": 72
   },
   {
     "CODIGO": "7501478315755",
@@ -8178,10 +8016,154 @@
     "DESCUENTO": 102
   },
   {
+    "CODIGO": "7501537103422",
+    "PRODUCTO": "Tribedoce DX c/3 Amp.",
+    "PRECIO": 95,
+    "DESCUENTO": 72
+  },
+  {
+    "CODIGO": "7501478315762",
+    "PRODUCTO": "E-Fertoc 400mg. c/30 Cap.",
+    "PRECIO": 60,
+    "DESCUENTO": 45
+  },
+  {
+    "CODIGO": "7501590285325",
+    "PRODUCTO": "Big Complex Jbe. 240ml.",
+    "PRECIO": 80,
+    "DESCUENTO": 60
+  },
+  {
+    "CODIGO": "7501537163266",
+    "PRODUCTO": "Tribedoce Cpto. c/3 Amp.",
+    "PRECIO": 90,
+    "DESCUENTO": 68
+  },
+  {
+    "CODIGO": "7502227427170",
+    "PRODUCTO": "Hierro/Zinc c/60 Cap.",
+    "PRECIO": 105,
+    "DESCUENTO": 79
+  },
+  {
+    "CODIGO": "7501563380118",
+    "PRODUCTO": "Biotrivin c/30 Tab.",
+    "PRECIO": 23,
+    "DESCUENTO": 18
+  },
+  {
+    "CODIGO": "7502227420928",
+    "PRODUCTO": "Rocavit Platinum c/30 Cap.",
+    "PRECIO": 230,
+    "DESCUENTO": 173
+  },
+  {
+    "CODIGO": "7501825300991",
+    "PRODUCTO": "Convifer c/Hierro Sol. 220ml.",
+    "PRECIO": 85,
+    "DESCUENTO": 64
+  },
+  {
+    "CODIGO": "7501590287992",
+    "PRODUCTO": "Redbelgy c/30 Tab. Mast.",
+    "PRECIO": 55,
+    "DESCUENTO": 42
+  },
+  {
+    "CODIGO": "7501537164713",
+    "PRODUCTO": "Tribedoce Cpto. c/30 Grag.",
+    "PRECIO": 75,
+    "DESCUENTO": 57
+  },
+  {
+    "CODIGO": "7503049078441",
+    "PRODUCTO": "Complejo B c/30 Tab.",
+    "PRECIO": 60,
+    "DESCUENTO": 45
+  },
+  {
+    "CODIGO": "7502227421666",
+    "PRODUCTO": "Revitare 400mg. c/90 Cap.",
+    "PRECIO": 130,
+    "DESCUENTO": 98
+  },
+  {
+    "CODIGO": "7502259890157",
+    "PRODUCTO": "Adevit Emulsion 240ml.",
+    "PRECIO": 55,
+    "DESCUENTO": 42
+  },
+  {
+    "CODIGO": "7501590281495",
+    "PRODUCTO": "AliGomitas c/60 Pzas.",
+    "PRECIO": 110,
+    "DESCUENTO": 83
+  },
+  {
+    "CODIGO": "7502208894779",
+    "PRODUCTO": "Tribedoce c/30 Tab.",
+    "PRECIO": 35,
+    "DESCUENTO": 27
+  },
+  {
+    "CODIGO": "7501478310552",
+    "PRODUCTO": "Rocavit c/30 Cap.",
+    "PRECIO": 80,
+    "DESCUENTO": 60
+  },
+  {
+    "CODIGO": "7502259890072",
+    "PRODUCTO": "Animalin Hierro Sol. 240ml.",
+    "PRECIO": 60,
+    "DESCUENTO": 45
+  },
+  {
+    "CODIGO": "7502227426111",
+    "PRODUCTO": "Zebetyn c/30 Cap. de Gel",
+    "PRECIO": 40,
+    "DESCUENTO": 30
+  },
+  {
+    "CODIGO": "7502001169197",
+    "PRODUCTO": "Wilvit c/30 Cap.",
+    "PRECIO": 135,
+    "DESCUENTO": 102
+  },
+  {
+    "CODIGO": "803288480690",
+    "PRODUCTO": "Tibuvit c/75 Cap.",
+    "PRECIO": 165,
+    "DESCUENTO": 124
+  },
+  {
+    "CODIGO": "7501537182960",
+    "PRODUCTO": "Tribedoce 50,000 UI c/5 Amp.",
+    "PRECIO": 120,
+    "DESCUENTO": 90
+  },
+  {
+    "CODIGO": "7500326106989",
+    "PRODUCTO": "Vitem 3RA c/30 Cap.",
+    "PRECIO": 120,
+    "DESCUENTO": 90
+  },
+  {
+    "CODIGO": "7506624900656",
+    "PRODUCTO": "Gerial B-12 Elixir 340ml.",
+    "PRECIO": 70,
+    "DESCUENTO": 53
+  },
+  {
     "CODIGO": "7502010581249",
     "PRODUCTO": "Bimin c/30 Tab.",
     "PRECIO": 75,
     "DESCUENTO": 57
+  },
+  {
+    "CODIGO": "714908100686",
+    "PRODUCTO": "Dinamax Junior Jbe. 250ml.",
+    "PRECIO": 125,
+    "DESCUENTO": 94
   },
   {
     "CODIGO": "714908105940",
@@ -8196,16 +8178,16 @@
     "DESCUENTO": 87
   },
   {
-    "CODIGO": "781584367481",
-    "PRODUCTO": "Bio-Relax Spray 120ml.",
-    "PRECIO": 110,
-    "DESCUENTO": 83
-  },
-  {
     "CODIGO": "7501590285004",
     "PRODUCTO": "Valnait c/30 Cap.",
     "PRECIO": 95,
     "DESCUENTO": 72
+  },
+  {
+    "CODIGO": "781584367481",
+    "PRODUCTO": "Bio-Relax Spray 120ml.",
+    "PRECIO": 110,
+    "DESCUENTO": 83
   },
   {
     "CODIGO": "7502259892250",
@@ -8220,72 +8202,6 @@
     "DESCUENTO": 120
   },
   {
-    "CODIGO": "7502280810315",
-    "PRODUCTO": "Supra Kids Shake Choco Pvo. 1.1kg.",
-    "PRECIO": 200,
-    "DESCUENTO": 150
-  },
-  {
-    "CODIGO": "714908107418",
-    "PRODUCTO": "Enersoy Fresa Pvo. 500gr.",
-    "PRECIO": 285,
-    "DESCUENTO": 214
-  },
-  {
-    "CODIGO": "7502259891437",
-    "PRODUCTO": "Proshot Sol. 60ml.",
-    "PRECIO": 30,
-    "DESCUENTO": 23
-  },
-  {
-    "CODIGO": "7502227428009",
-    "PRODUCTO": "Aceite de Higado de Tiburon c/60 Cap.",
-    "PRECIO": 110,
-    "DESCUENTO": 83
-  },
-  {
-    "CODIGO": "7501590288012",
-    "PRODUCTO": "Kaha c/30 Cap.",
-    "PRECIO": 130,
-    "DESCUENTO": 98
-  },
-  {
-    "CODIGO": "7502209810099",
-    "PRODUCTO": "Chofabol Gran. 100gr.",
-    "PRECIO": 80,
-    "DESCUENTO": 60
-  },
-  {
-    "CODIGO": "7506021102745",
-    "PRODUCTO": "MagXium Pvo. 250gr.",
-    "PRECIO": 185,
-    "DESCUENTO": 139
-  },
-  {
-    "CODIGO": "714908107425",
-    "PRODUCTO": "Enersoy Vainilla Pvo. 500gr.",
-    "PRECIO": 285,
-    "DESCUENTO": 214
-  },
-  {
-    "CODIGO": "7502209810143",
-    "PRODUCTO": "Glutallen Sol. 340ml.",
-    "PRECIO": 60,
-    "DESCUENTO": 45
-  },
-  {
-    "CODIGO": "7501590288838",
-    "PRODUCTO": "Vizano c/30 Cap.",
-    "PRECIO": 80,
-    "DESCUENTO": 60
-  },
-  {
-    "CODIGO": "7503045798084",
-    "PRODUCTO": "Teramag c/30 Cap.",
-    "PRECIO": 100,
-    "DESCUENTO": 75
-  },
-  {
     "CODIGO": "7501052719924",
     "PRODUCTO": "Fresekabi-D Moka Liq. 236ml.",
     "PRECIO": 65,
@@ -8298,46 +8214,16 @@
     "DESCUENTO": 214
   },
   {
-    "CODIGO": "7501075718676",
-    "PRODUCTO": "Novagon Piña-Naranja Pvo. 400gr.",
-    "PRECIO": 150,
-    "DESCUENTO": 113
+    "CODIGO": "714908107418",
+    "PRODUCTO": "Enersoy Fresa Pvo. 500gr.",
+    "PRECIO": 285,
+    "DESCUENTO": 214
   },
   {
-    "CODIGO": "7502259892182",
-    "PRODUCTO": "Carbaox c/60 Cap.",
-    "PRECIO": 110,
-    "DESCUENTO": 83
-  },
-  {
-    "CODIGO": "7503036782276",
-    "PRODUCTO": "Krill c/30 Cap.",
-    "PRECIO": 190,
-    "DESCUENTO": 143
-  },
-  {
-    "CODIGO": "7502227878880",
-    "PRODUCTO": "Pure Creatine Pvo. 500gr.",
-    "PRECIO": 550,
-    "DESCUENTO": 413
-  },
-  {
-    "CODIGO": "7503028771479",
-    "PRODUCTO": "Vitapromin Vainilla Pvo. 400gr.",
-    "PRECIO": 210,
-    "DESCUENTO": 158
-  },
-  {
-    "CODIGO": "7501734421145",
-    "PRODUCTO": "Rabano Yodado Sol. 340ml.",
-    "PRECIO": 115,
-    "DESCUENTO": 87
-  },
-  {
-    "CODIGO": "7503028771462",
-    "PRODUCTO": "Vitapromin Fresa Pvo. 400gr.",
-    "PRECIO": 210,
-    "DESCUENTO": 158
+    "CODIGO": "7502209810143",
+    "PRODUCTO": "Glutallen Sol. 340ml.",
+    "PRECIO": 60,
+    "DESCUENTO": 45
   },
   {
     "CODIGO": "1341056234278",
@@ -8346,22 +8232,16 @@
     "DESCUENTO": 49
   },
   {
-    "CODIGO": "7503028771486",
-    "PRODUCTO": "Vitapromin Chocolate Pvo. 400gr.",
+    "CODIGO": "7503028771479",
+    "PRODUCTO": "Vitapromin Vainilla Pvo. 400gr.",
     "PRECIO": 210,
     "DESCUENTO": 158
   },
   {
-    "CODIGO": "7502259892120",
-    "PRODUCTO": "Vitamil c/10 Amp. Ing.",
-    "PRECIO": 140,
-    "DESCUENTO": 105
-  },
-  {
-    "CODIGO": "7506021102196",
-    "PRODUCTO": "Selenio 41mcg. c/30 Tab.",
-    "PRECIO": 50,
-    "DESCUENTO": 38
+    "CODIGO": "7502209810099",
+    "PRODUCTO": "Chofabol Gran. 100gr.",
+    "PRECIO": 80,
+    "DESCUENTO": 60
   },
   {
     "CODIGO": "7501075713770",
@@ -8370,16 +8250,118 @@
     "DESCUENTO": 113
   },
   {
-    "CODIGO": "7502259891413",
-    "PRODUCTO": "Proshot Kids Sol. 60ml.",
-    "PRECIO": 25,
-    "DESCUENTO": 19
+    "CODIGO": "7501734421145",
+    "PRODUCTO": "Rabano Yodado Sol. 340ml.",
+    "PRECIO": 115,
+    "DESCUENTO": 87
   },
   {
     "CODIGO": "7503045798046",
     "PRODUCTO": "Curcuma/Jengibre c/30 Gomitas",
     "PRECIO": 80,
     "DESCUENTO": 60
+  },
+  {
+    "CODIGO": "7503028771462",
+    "PRODUCTO": "Vitapromin Fresa Pvo. 400gr.",
+    "PRECIO": 210,
+    "DESCUENTO": 158
+  },
+  {
+    "CODIGO": "7501590288012",
+    "PRODUCTO": "Kaha c/30 Cap.",
+    "PRECIO": 130,
+    "DESCUENTO": 98
+  },
+  {
+    "CODIGO": "7502259891413",
+    "PRODUCTO": "Proshot Kids Sol. 60ml.",
+    "PRECIO": 25,
+    "DESCUENTO": 19
+  },
+  {
+    "CODIGO": "7502259891437",
+    "PRODUCTO": "Proshot Sol. 60ml.",
+    "PRECIO": 30,
+    "DESCUENTO": 23
+  },
+  {
+    "CODIGO": "7502259892120",
+    "PRODUCTO": "Vitamil c/10 Amp. Ing.",
+    "PRECIO": 140,
+    "DESCUENTO": 105
+  },
+  {
+    "CODIGO": "7502227878880",
+    "PRODUCTO": "Pure Creatine Pvo. 500gr.",
+    "PRECIO": 550,
+    "DESCUENTO": 413
+  },
+  {
+    "CODIGO": "7501590288838",
+    "PRODUCTO": "Vizano c/30 Cap.",
+    "PRECIO": 80,
+    "DESCUENTO": 60
+  },
+  {
+    "CODIGO": "7502259892182",
+    "PRODUCTO": "Carbaox c/60 Cap.",
+    "PRECIO": 110,
+    "DESCUENTO": 83
+  },
+  {
+    "CODIGO": "7502227428009",
+    "PRODUCTO": "Aceite de Higado de Tiburon c/60 Cap.",
+    "PRECIO": 110,
+    "DESCUENTO": 83
+  },
+  {
+    "CODIGO": "7506021102745",
+    "PRODUCTO": "MagXium Pvo. 250gr.",
+    "PRECIO": 185,
+    "DESCUENTO": 139
+  },
+  {
+    "CODIGO": "7503045798084",
+    "PRODUCTO": "Teramag c/30 Cap.",
+    "PRECIO": 100,
+    "DESCUENTO": 75
+  },
+  {
+    "CODIGO": "7503028771486",
+    "PRODUCTO": "Vitapromin Chocolate Pvo. 400gr.",
+    "PRECIO": 210,
+    "DESCUENTO": 158
+  },
+  {
+    "CODIGO": "7501075718676",
+    "PRODUCTO": "Novagon Piña-Naranja Pvo. 400gr.",
+    "PRECIO": 150,
+    "DESCUENTO": 113
+  },
+  {
+    "CODIGO": "714908107425",
+    "PRODUCTO": "Enersoy Vainilla Pvo. 500gr.",
+    "PRECIO": 285,
+    "DESCUENTO": 214
+  },
+  {
+    "CODIGO": "7502280810315",
+    "PRODUCTO": "Supra Kids Shake Choco Pvo. 1.1kg.",
+    "PRECIO": 200,
+    "DESCUENTO": 150
+  },
+  {
+    "CODIGO": "7503036782276",
+    "PRODUCTO": "Krill c/30 Cap.",
+    "PRECIO": 190,
+    "DESCUENTO": 143
+  },
+  {
+    "CODIGO": "7506021102196",
+    "PRODUCTO": "Selenio 41mcg. c/30 Tab.",
+    "PRECIO": 50,
+    "DESCUENTO": 38
   },
   {
     "CODIGO": "714706905490",
@@ -8436,32 +8418,26 @@
     "DESCUENTO": 109
   },
   {
-    "CODIGO": "7501590285608",
-    "PRODUCTO": "Enfo-K c/30 Cap.",
-    "PRECIO": 100,
-    "DESCUENTO": 75
-  },
-  {
     "CODIGO": "7502259891840",
     "PRODUCTO": "Visiman c/30 Cap.",
     "PRECIO": 85,
     "DESCUENTO": 64
   },
   {
-    "CODIGO": "HERBA",
-    "PRODUCTO": "Herbacil c/1 Paleta",
-    "PRECIO": 3,
-    "DESCUENTO": 3
+    "CODIGO": "7501590285608",
+    "PRODUCTO": "Enfo-K c/30 Cap.",
+    "PRECIO": 100,
+    "DESCUENTO": 75
   },
   {
-    "CODIGO": "714706911071",
-    "PRODUCTO": "Bicoestol Eucalipto Past. c/8 Pzas.",
-    "PRECIO": 28,
-    "DESCUENTO": 21
+    "CODIGO": "7501590284779",
+    "PRODUCTO": "Sito-Grix Jbe. 120ml.",
+    "PRECIO": 60,
+    "DESCUENTO": 45
   },
   {
-    "CODIGO": "714706909313",
-    "PRODUCTO": "Herbacil Paleta Bolsa c/10 Pzas.",
+    "CODIGO": "7506452400014",
+    "PRODUCTO": "Ajolotius Propoleo/Equinacea c/10 Past.",
     "PRECIO": 35,
     "DESCUENTO": 27
   },
@@ -8472,28 +8448,64 @@
     "DESCUENTO": 94
   },
   {
+    "CODIGO": "714908101485",
+    "PRODUCTO": "Eucalin Infantil Jbe. 240ml.",
+    "PRECIO": 125,
+    "DESCUENTO": 94
+  },
+  {
+    "CODIGO": "714706911101",
+    "PRODUCTO": "Bicoestol Cereza Past. c/8 Pzas.",
+    "PRECIO": 28,
+    "DESCUENTO": 21
+  },
+  {
+    "CODIGO": "7502259890089",
+    "PRODUCTO": "Guvatox Jbe. 120ml.",
+    "PRECIO": 60,
+    "DESCUENTO": 45
+  },
+  {
+    "CODIGO": "714706909313",
+    "PRODUCTO": "Herbacil Paleta Bolsa c/10 Pzas.",
+    "PRECIO": 35,
+    "DESCUENTO": 27
+  },
+  {
+    "CODIGO": "714706911071",
+    "PRODUCTO": "Bicoestol Eucalipto Past. c/8 Pzas.",
+    "PRECIO": 28,
+    "DESCUENTO": 21
+  },
+  {
     "CODIGO": "714706903403",
     "PRODUCTO": "Bronco Fresh Cmlo. Miel-Eucalipto 33gr.",
     "PRECIO": 15,
     "DESCUENTO": 12
   },
   {
-    "CODIGO": "7502259892366",
-    "PRODUCTO": "Animalin Well c/30 Gomitas",
-    "PRECIO": 80,
-    "DESCUENTO": 60
-  },
-  {
-    "CODIGO": "7502009744105",
-    "PRODUCTO": "Animalin ADC Gts. 30ml.",
+    "CODIGO": "7501825300885",
+    "PRODUCTO": "Vi-de-a C Gts. 25ml.",
     "PRECIO": 40,
     "DESCUENTO": 30
   },
   {
-    "CODIGO": "7502009744082",
-    "PRODUCTO": "Animalin c/60 Gomitas",
-    "PRECIO": 110,
-    "DESCUENTO": 83
+    "CODIGO": "714706911088",
+    "PRODUCTO": "Bicoestol Limon Past. c/8 Pzas.",
+    "PRECIO": 28,
+    "DESCUENTO": 21
+  },
+  {
+    "CODIGO": "7500462746650",
+    "PRODUCTO": "Ajolotius Paleta c/1 Pza.",
+    "PRECIO": 5,
+    "DESCUENTO": 4
+  },
+  {
+    "CODIGO": "714706903434",
+    "PRODUCTO": "Bronco Fresh Cmlo. Miel-Cereza 33gr.",
+    "PRECIO": 15,
+    "DESCUENTO": 12
   },
   {
     "CODIGO": "OSITO",
@@ -8508,98 +8520,20 @@
     "DESCUENTO": 27
   },
   {
-    "CODIGO": "7501825300885",
-    "PRODUCTO": "Vi-de-a C Gts. 25ml.",
-    "PRECIO": 40,
-    "DESCUENTO": 30
-  },
-  {
-    "CODIGO": "7502259891178",
-    "PRODUCTO": "Paleta Osito Bolsa c/16 Pzas.",
-    "PRECIO": 50,
-    "DESCUENTO": 38
-  },
-  {
-    "CODIGO": "7500462746605",
-    "PRODUCTO": "Ajolotius Jbe. 250ml.",
-    "PRECIO": 90,
-    "DESCUENTO": 68
-  },
-  {
-    "CODIGO": "7501590284779",
-    "PRODUCTO": "Sito-Grix Jbe. 120ml.",
-    "PRECIO": 60,
-    "DESCUENTO": 45
-  },
-  {
-    "CODIGO": "7501590287855",
-    "PRODUCTO": "Vita Kid-C Jbe. 240ml.",
-    "PRECIO": 50,
-    "DESCUENTO": 38
-  },
-  {
-    "CODIGO": "714706903427",
-    "PRODUCTO": "Bronco Fresh Cmlo. Miel-Naranja 33gr.",
-    "PRECIO": 15,
-    "DESCUENTO": 12
-  },
-  {
-    "CODIGO": "714706903434",
-    "PRODUCTO": "Bronco Fresh Cmlo. Miel-Cereza 33gr.",
-    "PRECIO": 15,
-    "DESCUENTO": 12
-  },
-  {
-    "CODIGO": "7500462746650",
-    "PRODUCTO": "Ajolotius Paleta c/1 Pza.",
-    "PRECIO": 5,
-    "DESCUENTO": 4
-  },
-  {
-    "CODIGO": "7502009743511",
-    "PRODUCTO": "Animalin C c/80 Tab. Mast.",
-    "PRECIO": 60,
-    "DESCUENTO": 45
-  },
-  {
-    "CODIGO": "7502259892274",
-    "PRODUCTO": "Viteral Te c/6 Sob.",
-    "PRECIO": 60,
-    "DESCUENTO": 45
-  },
-  {
     "CODIGO": "714706903410",
     "PRODUCTO": "Bronco Fresh Cmlo. Miel-Limon 33gr.",
     "PRECIO": 15,
     "DESCUENTO": 12
   },
   {
-    "CODIGO": "714908101485",
-    "PRODUCTO": "Eucalin Infantil Jbe. 240ml.",
-    "PRECIO": 125,
-    "DESCUENTO": 94
+    "CODIGO": "7502009744082",
+    "PRODUCTO": "Animalin c/60 Gomitas",
+    "PRECIO": 110,
+    "DESCUENTO": 83
   },
   {
-    "CODIGO": "714706911088",
-    "PRODUCTO": "Bicoestol Limon Past. c/8 Pzas.",
-    "PRECIO": 28,
-    "DESCUENTO": 21
-  },
-  {
-    "CODIGO": "7506452400007",
-    "PRODUCTO": "Ajolotius Paleta Bolsa c/6 Pzas.",
-    "PRECIO": 30,
-    "DESCUENTO": 23
-  },
-  {
-    "CODIGO": "7502259891109",
-    "PRODUCTO": "Arisol Jbe. 120ml.",
-    "PRECIO": 55,
-    "DESCUENTO": 42
-  },
-  {
-    "CODIGO": "714706904424",
-    "PRODUCTO": "Herbacil Cmlo. Miel-Eucalipto 40gr.",
+    "CODIGO": "7502009744105",
+    "PRODUCTO": "Animalin ADC Gts. 30ml.",
     "PRECIO": 40,
     "DESCUENTO": 30
   },
@@ -8610,10 +8544,58 @@
     "DESCUENTO": 83
   },
   {
+    "CODIGO": "714706903427",
+    "PRODUCTO": "Bronco Fresh Cmlo. Miel-Naranja 33gr.",
+    "PRECIO": 15,
+    "DESCUENTO": 12
+  },
+  {
+    "CODIGO": "7506452400007",
+    "PRODUCTO": "Ajolotius Paleta Bolsa c/6 Pzas.",
+    "PRECIO": 30,
+    "DESCUENTO": 23
+  },
+  {
+    "CODIGO": "HERBA",
+    "PRODUCTO": "Herbacil c/1 Paleta",
+    "PRECIO": 3,
+    "DESCUENTO": 3
+  },
+  {
+    "CODIGO": "7502009743511",
+    "PRODUCTO": "Animalin C c/80 Tab. Mast.",
+    "PRECIO": 60,
+    "DESCUENTO": 45
+  },
+  {
+    "CODIGO": "7502259892366",
+    "PRODUCTO": "Animalin Well c/30 Gomitas",
+    "PRECIO": 80,
+    "DESCUENTO": 60
+  },
+  {
+    "CODIGO": "7502259892274",
+    "PRODUCTO": "Viteral Te c/6 Sob.",
+    "PRECIO": 60,
+    "DESCUENTO": 45
+  },
+  {
     "CODIGO": "714706911095",
     "PRODUCTO": "Bicoestol Naranja Past. c/8 Pzas.",
     "PRECIO": 28,
     "DESCUENTO": 21
+  },
+  {
+    "CODIGO": "7500462746605",
+    "PRODUCTO": "Ajolotius Jbe. 250ml.",
+    "PRECIO": 90,
+    "DESCUENTO": 68
+  },
+  {
+    "CODIGO": "7502259891109",
+    "PRODUCTO": "Arisol Jbe. 120ml.",
+    "PRECIO": 55,
+    "DESCUENTO": 42
   },
   {
     "CODIGO": "7501590285110",
@@ -8622,28 +8604,16 @@
     "DESCUENTO": 79
   },
   {
-    "CODIGO": "714706911101",
-    "PRODUCTO": "Bicoestol Cereza Past. c/8 Pzas.",
-    "PRECIO": 28,
-    "DESCUENTO": 21
+    "CODIGO": "7501590287855",
+    "PRODUCTO": "Vita Kid-C Jbe. 240ml.",
+    "PRECIO": 50,
+    "DESCUENTO": 38
   },
   {
-    "CODIGO": "7506452400014",
-    "PRODUCTO": "Ajolotius Propoleo/Equinacea c/10 Past.",
-    "PRECIO": 35,
-    "DESCUENTO": 27
-  },
-  {
-    "CODIGO": "714706904431",
-    "PRODUCTO": "Herbacil Cmlo. Miel-Citrus 40gr.",
-    "PRECIO": 40,
-    "DESCUENTO": 30
-  },
-  {
-    "CODIGO": "7502259890089",
-    "PRODUCTO": "Guvatox Jbe. 120ml.",
-    "PRECIO": 60,
-    "DESCUENTO": 45
+    "CODIGO": "7502259891178",
+    "PRODUCTO": "Paleta Osito Bolsa c/16 Pzas.",
+    "PRECIO": 50,
+    "DESCUENTO": 38
   },
   {
     "CODIGO": "7502224244251",
@@ -8886,16 +8856,10 @@
     "DESCUENTO": 21
   },
   {
-    "CODIGO": "7503009126564",
-    "PRODUCTO": "Bloqueador Solar FPS 45 Adultos 150gr.",
-    "PRECIO": 85,
-    "DESCUENTO": 64
-  },
-  {
-    "CODIGO": "7503009126366",
-    "PRODUCTO": "Bloqueador Solar FPS 45 Facial 125gr.",
-    "PRECIO": 115,
-    "DESCUENTO": 87
+    "CODIGO": "7503009126991",
+    "PRODUCTO": "Bloqueador Solar FPS 45 60gr.",
+    "PRECIO": 40,
+    "DESCUENTO": 30
   },
   {
     "CODIGO": "7502009748028",
@@ -8926,12 +8890,6 @@
     "PRODUCTO": "Borla P/Baño c/1 Pza.",
     "PRECIO": 20,
     "DESCUENTO": 15
-  },
-  {
-    "CODIGO": "759684351266",
-    "PRODUCTO": "Botiquin Primeros Auxilios c/13 Pzas.",
-    "PRECIO": 80,
-    "DESCUENTO": 60
   },
   {
     "CODIGO": "759684351051",
@@ -8966,8 +8924,8 @@
   {
     "CODIGO": "C18",
     "PRODUCTO": "Cateter #18 c/1 Pza.",
-    "PRECIO": 30,
-    "DESCUENTO": 23
+    "PRECIO": 20,
+    "DESCUENTO": 15
   },
   {
     "CODIGO": "C20",
@@ -9258,12 +9216,6 @@
     "DESCUENTO": 24
   },
   {
-    "CODIGO": "7501463331203",
-    "PRODUCTO": "Ducha Vaginal P/Viaje c/1 Pza.",
-    "PRECIO": 115,
-    "DESCUENTO": 87
-  },
-  {
     "CODIGO": "7503009088459",
     "PRODUCTO": "Enjuague Bucal 350ml.",
     "PRECIO": 33,
@@ -9310,18 +9262,6 @@
     "PRODUCTO": "Formula Lactea Etapa 3 400gr. INFACARE",
     "PRECIO": 119,
     "DESCUENTO": 90
-  },
-  {
-    "CODIGO": "7501565610008",
-    "PRODUCTO": "Gasa D (Pie Diabetico) c/10 Sob.",
-    "PRECIO": 25,
-    "DESCUENTO": 19
-  },
-  {
-    "CODIGO": "7501565610015",
-    "PRODUCTO": "Gasa H (Hemorroides) c/10 Sob.",
-    "PRECIO": 25,
-    "DESCUENTO": 19
   },
   {
     "CODIGO": "G10",
@@ -9424,18 +9364,6 @@
     "PRODUCTO": "Jabon Azufre 100gr.",
     "PRECIO": 71,
     "DESCUENTO": 54
-  },
-  {
-    "CODIGO": "7501022151112",
-    "PRODUCTO": "Jabon Bambu 125gr.",
-    "PRECIO": 15,
-    "DESCUENTO": 12
-  },
-  {
-    "CODIGO": "7506022800916",
-    "PRODUCTO": "Jabon Concha Nacar 100gr.",
-    "PRECIO": 15,
-    "DESCUENTO": 12
   },
   {
     "CODIGO": "7501022150818",
@@ -9596,8 +9524,8 @@
   {
     "CODIGO": "7501463315043",
     "PRODUCTO": "Kit P/Prueba de Papanicolau c/4 Pzas.",
-    "PRECIO": 30,
-    "DESCUENTO": 23
+    "PRECIO": 36,
+    "DESCUENTO": 27
   },
   {
     "CODIGO": "7501072601421",
@@ -9648,14 +9576,14 @@
     "DESCUENTO": 20
   },
   {
-    "CODIGO": "7509546069661",
-    "PRODUCTO": "Lima Metal P/Uñas Cuticula c/1 Pza.",
-    "PRECIO": 22,
-    "DESCUENTO": 17
-  },
-  {
     "CODIGO": "7502214983153",
     "PRODUCTO": "Lubricante Corporal Grosella Gel 75ml.",
+    "PRECIO": 115,
+    "DESCUENTO": 87
+  },
+  {
+    "CODIGO": "7502214980367",
+    "PRODUCTO": "Lubricante Corporal Mango Gel 75ml.",
     "PRECIO": 115,
     "DESCUENTO": 87
   },
@@ -10122,12 +10050,6 @@
     "DESCUENTO": 75
   },
   {
-    "CODIGO": "7500463088186",
-    "PRODUCTO": "Quitaesmalte 100ml. MAXINOVA",
-    "PRECIO": 25,
-    "DESCUENTO": 19
-  },
-  {
     "CODIGO": "R1",
     "PRODUCTO": "Rastrillo Doble Hoja c/1 Pza.",
     "PRECIO": 10,
@@ -10236,6 +10158,12 @@
     "DESCUENTO": 143
   },
   {
+    "CODIGO": "7501052712161",
+    "PRODUCTO": "Solucion Envase Fisiologica 9% 250ml.",
+    "PRECIO": 25,
+    "DESCUENTO": 19
+  },
+  {
     "CODIGO": "7501052712178",
     "PRODUCTO": "Solucion Envase Fisiologica 9% 500ml.",
     "PRECIO": 40,
@@ -10244,12 +10172,6 @@
   {
     "CODIGO": "7501052712185",
     "PRODUCTO": "Solucion Envase Fisiologica 9% 1.000ml.",
-    "PRECIO": 55,
-    "DESCUENTO": 42
-  },
-  {
-    "CODIGO": "7501052712130",
-    "PRODUCTO": "Solucion Envase Glucosada 5% 1.000ml.",
     "PRECIO": 55,
     "DESCUENTO": 42
   },
@@ -10332,12 +10254,6 @@
     "DESCUENTO": 60
   },
   {
-    "CODIGO": "SPRAY",
-    "PRODUCTO": "Spray P/Cabello",
-    "PRECIO": 44,
-    "DESCUENTO": 33
-  },
-  {
     "CODIGO": "7501361111501",
     "PRODUCTO": "Talco Desod. O-Dolex Amarillo 150gr.",
     "PRECIO": 30,
@@ -10402,6 +10318,12 @@
     "PRODUCTO": "Termometro Oral c/1 Pza.",
     "PRECIO": 70,
     "DESCUENTO": 53
+  },
+  {
+    "CODIGO": "TIJ",
+    "PRODUCTO": "Tijeras P/Nariz Bigotera c/1 Pza.",
+    "PRECIO": 30,
+    "DESCUENTO": 23
   },
   {
     "CODIGO": "759684317170",
@@ -10544,20 +10466,20 @@
   {
     "CODIGO": "7506376000260",
     "PRODUCTO": "Vitacilina Facial Aclaradora Tarro 100gr.",
-    "PRECIO": 125,
-    "DESCUENTO": 94
+    "PRECIO": 133,
+    "DESCUENTO": 100
   },
   {
     "CODIGO": "7506376000253",
     "PRODUCTO": "Vitacilina Facial Antiarrugas Tarro 100gr.",
-    "PRECIO": 125,
-    "DESCUENTO": 94
+    "PRECIO": 133,
+    "DESCUENTO": 100
   },
   {
     "CODIGO": "7506376000277",
     "PRODUCTO": "Vitacilina Facial Humectante Tarro 100gr.",
-    "PRECIO": 125,
-    "DESCUENTO": 94
+    "PRECIO": 133,
+    "DESCUENTO": 100
   },
   {
     "CODIGO": "YODA",
@@ -10606,6 +10528,12 @@
     "PRODUCTO": "Combo Cargador Tipo C Negro",
     "PRECIO": 140,
     "DESCUENTO": 105
+  },
+  {
+    "CODIGO": "7503027768524",
+    "PRODUCTO": "Soporte Magnetico P/Celular Negro",
+    "PRECIO": 45,
+    "DESCUENTO": 34
   },
   {
     "CODIGO": "7503028490981",
