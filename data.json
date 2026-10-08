@@ -264,12 +264,6 @@
     "DESCUENTO": 28
   },
   {
-    "CODIGO": "780083140588",
-    "PRODUCTO": "Plus Gel c/50 Tab.",
-    "PRECIO": 63,
-    "DESCUENTO": 48
-  },
-  {
     "CODIGO": "7502001165298",
     "PRODUCTO": "Exhantil Susp. 320ml.",
     "PRECIO": 53,
@@ -526,12 +520,6 @@
     "PRODUCTO": "Vandix 500mg. c/15 Cap.",
     "PRECIO": 43,
     "DESCUENTO": 33
-  },
-  {
-    "CODIGO": "7503001007076",
-    "PRODUCTO": "Vandix 500mg. Susp. 75ml.",
-    "PRECIO": 38,
-    "DESCUENTO": 29
   },
   {
     "CODIGO": "7501349021839",
@@ -792,12 +780,6 @@
     "DESCUENTO": 27
   },
   {
-    "CODIGO": "ANF00",
-    "PRODUCTO": "Anfebutamona 150mg. c/15 Tab. TEMPUS",
-    "PRECIO": 460,
-    "DESCUENTO": 345
-  },
-  {
     "CODIGO": "7506513600957",
     "PRODUCTO": "Apixaban 2.5mg. c/20 Tab. AVIVIA",
     "PRECIO": 299,
@@ -1056,12 +1038,6 @@
     "DESCUENTO": 90
   },
   {
-    "CODIGO": "7502001166592",
-    "PRODUCTO": "Sonblefam´s 0.1% Cra. 40gr.",
-    "PRECIO": 75,
-    "DESCUENTO": 57
-  },
-  {
     "CODIGO": "7501537102982",
     "PRODUCTO": "Celesbitan 8mg./2ml. c/1 Amp.c/Jga.",
     "PRECIO": 36,
@@ -1316,12 +1292,6 @@
   {
     "CODIGO": "7502216792579",
     "PRODUCTO": "Captopril 25mg. c/30 Tab. ULTRA",
-    "PRECIO": 20,
-    "DESCUENTO": 15
-  },
-  {
-    "CODIGO": "7501384541187",
-    "PRODUCTO": "Captopril 25mg. c/30 Tab. PSICOFARMA",
     "PRECIO": 20,
     "DESCUENTO": 15
   },
@@ -1584,12 +1554,6 @@
     "DESCUENTO": 184
   },
   {
-    "CODIGO": "7501547522138",
-    "PRODUCTO": "Trociletas 1.45gr. Cereza c/12 Tab.",
-    "PRECIO": 50,
-    "DESCUENTO": 38
-  },
-  {
     "CODIGO": "7501547522145",
     "PRODUCTO": "Trociletas B 1.45gr. Limon c/12 Tab.",
     "PRECIO": 50,
@@ -1848,12 +1812,6 @@
     "DESCUENTO": 34
   },
   {
-    "CODIGO": "7502009741487",
-    "PRODUCTO": "Doltrix 250mg./10mg. c/10 Tab.",
-    "PRECIO": 75,
-    "DESCUENTO": 57
-  },
-  {
     "CODIGO": "7502009742392",
     "PRODUCTO": "Doltrix 125mg./10mg. c/20 Tab.",
     "PRECIO": 98,
@@ -1863,13 +1821,13 @@
     "CODIGO": "7502003389401",
     "PRODUCTO": "Clonixinato Lisina/Diclofenaco 250mg./50mg",
     "PRECIO": 329,
-    "DESCUENTO": 247
+    "DESCUENTO": 329
   },
   {
     "CODIGO": "7502003389418",
     "PRODUCTO": "Clonixinato Lisina/Tramadol 125mg./25mg. c",
     "PRECIO": 300,
-    "DESCUENTO": 225
+    "DESCUENTO": 300
   },
   {
     "CODIGO": "7501075719260",
@@ -2110,12 +2068,6 @@
     "PRODUCTO": "Desvenlafaxina 100mg. c/14 Tab. L.P. ULTR",
     "PRECIO": 299,
     "DESCUENTO": 225
-  },
-  {
-    "CODIGO": "7502216790834",
-    "PRODUCTO": "Desvenlafaxina 50mg. c/14 Tab. L.P. ULTR",
-    "PRECIO": 349,
-    "DESCUENTO": 262
   },
   {
     "CODIGO": "7503049078120",
@@ -2376,12 +2328,6 @@
     "DESCUENTO": 73
   },
   {
-    "CODIGO": "7502003381610",
-    "PRODUCTO": "Diclofenaco/Carisoprodol c/20 Tab. RAYER",
-    "PRECIO": 125,
-    "DESCUENTO": 94
-  },
-  {
     "CODIGO": "7501258205085",
     "PRODUCTO": "Fortical Forte c/30 Grag.",
     "PRECIO": 65,
@@ -2636,12 +2582,6 @@
   {
     "CODIGO": "ECO",
     "PRODUCTO": "Electrolitos  O. Coco c/1 Sob. VOLDRATOL",
-    "PRECIO": 10,
-    "DESCUENTO": 8
-  },
-  {
-    "CODIGO": "EDU",
-    "PRODUCTO": "Electrolitos  O. Durazno c/1 Sob. VOLDRAT",
     "PRECIO": 10,
     "DESCUENTO": 8
   },
@@ -2904,12 +2844,6 @@
     "DESCUENTO": 255
   },
   {
-    "CODIGO": "7502009746499",
-    "PRODUCTO": "Exicort 120mg. c/7 Cpr.",
-    "PRECIO": 99,
-    "DESCUENTO": 75
-  },
-  {
     "CODIGO": "7501349027930",
     "PRODUCTO": "Etoricoxib 120mg. c/7 Cpr. AMSA",
     "PRECIO": 99,
@@ -3166,12 +3100,6 @@
     "PRODUCTO": "Fluoxetina 20mg. c/14 Cap. AMSA",
     "PRECIO": 28,
     "DESCUENTO": 21
-  },
-  {
-    "CODIGO": "7503003738732",
-    "PRODUCTO": "Zatin 20mg. c/30 Cap.",
-    "PRECIO": 60,
-    "DESCUENTO": 45
   },
   {
     "CODIGO": "FLU00",
@@ -3432,12 +3360,6 @@
     "DESCUENTO": 87
   },
   {
-    "CODIGO": "7501537102272",
-    "PRODUCTO": "Flebonadrol 500mg. Sol. Iny. c/1 Amp.",
-    "PRECIO": 65,
-    "DESCUENTO": 49
-  },
-  {
     "CODIGO": "7501349029095",
     "PRODUCTO": "Hidrocortisona/Cloranfenicol/Benzocaina Gt",
     "PRECIO": 42,
@@ -3696,12 +3618,6 @@
     "DESCUENTO": 135
   },
   {
-    "CODIGO": "7502213042745",
-    "PRODUCTO": "Protaisol 20mcg. Susp. Aer. c/200 Dosis",
-    "PRECIO": 150,
-    "DESCUENTO": 113
-  },
-  {
     "CODIGO": "7501349029330",
     "PRODUCTO": "Ipratropio/Salbutamol 0.5mg./2.5mg.  c/10 A",
     "PRECIO": 150,
@@ -3956,12 +3872,6 @@
   {
     "CODIGO": "7501563381726",
     "PRODUCTO": "Bionokaltran 500mg. c/12 Cpr. Eferv.",
-    "PRECIO": 55,
-    "DESCUENTO": 42
-  },
-  {
-    "CODIGO": "7501384504939",
-    "PRODUCTO": "Lactato Gluc. de Calcio 500mg. c/12 Cpr. Ef",
     "PRECIO": 55,
     "DESCUENTO": 42
   },
@@ -4224,12 +4134,6 @@
     "DESCUENTO": 9
   },
   {
-    "CODIGO": "7502009740312",
-    "PRODUCTO": "Laritol 100mg. Gts. Ped. 30ml.",
-    "PRECIO": 20,
-    "DESCUENTO": 15
-  },
-  {
     "CODIGO": "7502001163553",
     "PRODUCTO": "Aludix 100mg. Sol. 60ml.",
     "PRECIO": 34,
@@ -4484,12 +4388,6 @@
   {
     "CODIGO": "785120754087",
     "PRODUCTO": "Mavicam 15mg. c/10 Tab.",
-    "PRECIO": 30,
-    "DESCUENTO": 23
-  },
-  {
-    "CODIGO": "7502009740459",
-    "PRODUCTO": "Flexiver 15mg. c/10 Tab.",
     "PRECIO": 30,
     "DESCUENTO": 23
   },
@@ -4752,12 +4650,6 @@
     "DESCUENTO": 98
   },
   {
-    "CODIGO": "7506429600829",
-    "PRODUCTO": "Metotrexato Sodico 2.5mg. c/50 Tab. ULSA",
-    "PRECIO": 320,
-    "DESCUENTO": 240
-  },
-  {
     "CODIGO": "7501349023468",
     "PRODUCTO": "Metotrexato Sodico 2.5mg. c/50 Tab. AMSA",
     "PRECIO": 320,
@@ -5014,12 +4906,6 @@
     "PRODUCTO": "Bixen 550mg. c/12 Tab.",
     "PRECIO": 38,
     "DESCUENTO": 29
-  },
-  {
-    "CODIGO": "7501836003140",
-    "PRODUCTO": "Contraxen 250mg./200mg. c/30 Cap.",
-    "PRECIO": 98,
-    "DESCUENTO": 74
   },
   {
     "CODIGO": "785120754483",
@@ -5280,12 +5166,6 @@
     "DESCUENTO": 127
   },
   {
-    "CODIGO": "7506442704214",
-    "PRODUCTO": "Olmesartan/Amlodipino/Hidrocl. c/28 Tab. C",
-    "PRECIO": 629,
-    "DESCUENTO": 472
-  },
-  {
     "CODIGO": "7506442700810",
     "PRODUCTO": "Olmesartan/Hidrocl. 40mg./12.5mg. c/14 Ta",
     "PRECIO": 189,
@@ -5542,12 +5422,6 @@
     "PRODUCTO": "Temperal 100mg. Gts. 15ml.",
     "PRECIO": 13,
     "DESCUENTO": 10
-  },
-  {
-    "CODIGO": "7502209810297",
-    "PRODUCTO": "Temperal 100mg. Gts. 30ml.",
-    "PRECIO": 23,
-    "DESCUENTO": 18
   },
   {
     "CODIGO": "7503001007663",
@@ -5808,12 +5682,6 @@
     "DESCUENTO": 30
   },
   {
-    "CODIGO": "75049805",
-    "PRODUCTO": "Polimixina B/Neomicina/Gramicidina Sol. Oft",
-    "PRECIO": 53,
-    "DESCUENTO": 40
-  },
-  {
     "CODIGO": "7501349024021",
     "PRODUCTO": "Pramipexol 0.5mg. c/30 Tab. AMSA",
     "PRECIO": 139,
@@ -6070,12 +5938,6 @@
     "PRODUCTO": "Risperidona 2mg. c/40 Tab. PSICOFARMA",
     "PRECIO": 120,
     "DESCUENTO": 90
-  },
-  {
-    "CODIGO": "7502009749254",
-    "PRODUCTO": "Rivaroxoban 10mg. c/30 Cpr. MAVER",
-    "PRECIO": 379,
-    "DESCUENTO": 285
   },
   {
     "CODIGO": "7502009749247",
@@ -6336,12 +6198,6 @@
     "DESCUENTO": 25
   },
   {
-    "CODIGO": "7502216808638",
-    "PRODUCTO": "Chrisale 20mg. c/4 Tab.",
-    "PRECIO": 85,
-    "DESCUENTO": 64
-  },
-  {
     "CODIGO": "7506476200171",
     "PRODUCTO": "Delaphil 20mg. c/4 Tab.",
     "PRECIO": 85,
@@ -6598,12 +6454,6 @@
     "PRODUCTO": "Tramadol 100mg. c/5 Amp. AMSA",
     "PRECIO": 120,
     "DESCUENTO": 120
-  },
-  {
-    "CODIGO": "7501842901010",
-    "PRODUCTO": "Gencatrol 50mg. c/10 Cap.",
-    "PRECIO": 65,
-    "DESCUENTO": 65
   },
   {
     "CODIGO": "7501109753888",
@@ -6864,12 +6714,6 @@
     "DESCUENTO": 315
   },
   {
-    "CODIGO": "7501165006171",
-    "PRODUCTO": "Allegra Susp. Ped. 60ml.",
-    "PRECIO": 235,
-    "DESCUENTO": 177
-  },
-  {
     "CODIGO": "4607009581187",
     "PRODUCTO": "Anaferon Ad. c/20 Tab.",
     "PRECIO": 275,
@@ -7124,12 +6968,6 @@
   {
     "CODIGO": "7501125187179",
     "PRODUCTO": "Electrolit Guayaba Sol. 625ml.",
-    "PRECIO": 33,
-    "DESCUENTO": 25
-  },
-  {
-    "CODIGO": "7501125187131",
-    "PRODUCTO": "Electrolit Horchata Sol. 625ml.",
     "PRECIO": 33,
     "DESCUENTO": 25
   },
@@ -7392,12 +7230,6 @@
     "DESCUENTO": 67
   },
   {
-    "CODIGO": "PEPTOT",
-    "PRODUCTO": "Pepto-Bismol c/4 Tab. Mast.",
-    "PRECIO": 23,
-    "DESCUENTO": 18
-  },
-  {
     "CODIGO": "7501043162074",
     "PRODUCTO": "Perioxidin Enjuague Bucal 200ml.",
     "PRECIO": 359,
@@ -7654,12 +7486,6 @@
     "PRODUCTO": "Iverkram c/30 Cap.",
     "PRECIO": 110,
     "DESCUENTO": 83
-  },
-  {
-    "CODIGO": "7503045798107",
-    "PRODUCTO": "Prebioticos+Probioticos Kids c/30 Gomitas",
-    "PRECIO": 80,
-    "DESCUENTO": 60
   },
   {
     "CODIGO": "7506021101243",
@@ -7920,12 +7746,6 @@
     "DESCUENTO": 87
   },
   {
-    "CODIGO": "7501590282829",
-    "PRODUCTO": "Dibenel Max c/30 Cap.",
-    "PRECIO": 105,
-    "DESCUENTO": 79
-  },
-  {
     "CODIGO": "7506452400038",
     "PRODUCTO": "Ajolotius S/Azucar Menta/Eucapilto c/10 Pas",
     "PRECIO": 40,
@@ -8184,12 +8004,6 @@
     "DESCUENTO": 72
   },
   {
-    "CODIGO": "781584367481",
-    "PRODUCTO": "Bio-Relax Spray 120ml.",
-    "PRECIO": 110,
-    "DESCUENTO": 83
-  },
-  {
     "CODIGO": "7502259892250",
     "PRODUCTO": "Animalin Nite c/30 Gomitas",
     "PRECIO": 75,
@@ -8444,12 +8258,6 @@
   {
     "CODIGO": "714908100051",
     "PRODUCTO": "Eucalin Jbe. 240ml.",
-    "PRECIO": 125,
-    "DESCUENTO": 94
-  },
-  {
-    "CODIGO": "714908101485",
-    "PRODUCTO": "Eucalin Infantil Jbe. 240ml.",
     "PRECIO": 125,
     "DESCUENTO": 94
   },
@@ -8712,12 +8520,6 @@
     "DESCUENTO": 15
   },
   {
-    "CODIGO": "A240",
-    "PRODUCTO": "Alcohol Desnaturalizado 240ml.",
-    "PRECIO": 35,
-    "DESCUENTO": 27
-  },
-  {
     "CODIGO": "A250",
     "PRODUCTO": "Alcohol Desnaturalizado 250ml.",
     "PRECIO": 35,
@@ -8974,12 +8776,6 @@
     "PRODUCTO": "Cepillo Dental El Chavo c/1 Pza.",
     "PRECIO": 20,
     "DESCUENTO": 15
-  },
-  {
-    "CODIGO": "7501061812111",
-    "PRODUCTO": "Cepillo Dental El Chavo c/Estuche c/1 Pza.",
-    "PRECIO": 30,
-    "DESCUENTO": 23
   },
   {
     "CODIGO": "7501072629029",
@@ -9240,12 +9036,6 @@
     "DESCUENTO": 19
   },
   {
-    "CODIGO": "7502009748929",
-    "PRODUCTO": "Flausiver Gel 100gr.",
-    "PRECIO": 70,
-    "DESCUENTO": 53
-  },
-  {
     "CODIGO": "INFA1",
     "PRODUCTO": "Formula Lactea Etapa 1 400gr. INFACARE",
     "PRECIO": 129,
@@ -9502,12 +9292,6 @@
     "PRODUCTO": "Jeringa Pera Hule N°3 c/1 Pza.",
     "PRECIO": 49,
     "DESCUENTO": 37
-  },
-  {
-    "CODIGO": "7502283560323",
-    "PRODUCTO": "Ki-Tapiox P/Piojos Shampoo 120ml.",
-    "PRECIO": 89,
-    "DESCUENTO": 67
   },
   {
     "CODIGO": "7501493867475",
@@ -9768,12 +9552,6 @@
     "DESCUENTO": 8
   },
   {
-    "CODIGO": "CREST",
-    "PRODUCTO": "Pasta Dental CREST",
-    "PRECIO": 36,
-    "DESCUENTO": 27
-  },
-  {
     "CODIGO": "KIDS",
     "PRODUCTO": "Pasta Dental ORAL-B KID´S 50gr.",
     "PRECIO": 44,
@@ -10032,12 +9810,6 @@
     "DESCUENTO": 21
   },
   {
-    "CODIGO": "7502223110038",
-    "PRODUCTO": "Quimoderm Aceite Almendras Cra. 225ml.",
-    "PRECIO": 100,
-    "DESCUENTO": 75
-  },
-  {
     "CODIGO": "7502223110144",
     "PRODUCTO": "Quimoderm Baby Cra. 225ml.",
     "PRECIO": 100,
@@ -10294,12 +10066,6 @@
     "PRODUCTO": "Talco Para Bebe Rosa 150gr.",
     "PRECIO": 30,
     "DESCUENTO": 23
-  },
-  {
-    "CODIGO": "T1",
-    "PRODUCTO": "Tela Adhesiva 1.25cm. x 5m. c/1 Pza.",
-    "PRECIO": 20,
-    "DESCUENTO": 15
   },
   {
     "CODIGO": "T2",
